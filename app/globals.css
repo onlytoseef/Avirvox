@@ -1,0 +1,246 @@
+@import "tailwindcss";
+@source "../components/sections/about-page.tsx";
+@source "../components/sections/about-resources.tsx";
+@source "../components/sections/about-contact-form.tsx";
+@source "../components/sections/ecosystem-page.tsx";
+@source "../components/sections/avx-page.tsx";
+@source "../components/charts";
+@source "../components/cards";
+
+@theme {
+  --color-ink: #090411;
+  --color-panel: #110b1d;
+  --color-line: #392b49;
+  --color-muted: #afa2b7;
+  --color-violet: #a128ea;
+  --color-rose: #ee4a9f;
+  --color-amber: #ff9e22;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: clip;
+  }
+
+  body {
+    background: var(--color-ink);
+    color: #f6edf8;
+    overflow-x: clip;
+  }
+
+  button,
+  a {
+    cursor: pointer;
+  }
+}
+
+@layer utilities {
+  .hero-title {
+    font-size: clamp(2.65rem, 6.7vw, 97px);
+  }
+
+  .section-title {
+    font-size: clamp(2.5rem, 4.25vw, 4.6rem);
+  }
+
+  .section-title.section-title--ecosystem {
+    font-size: clamp(2rem, 4.5vw, 3.5rem);
+  }
+
+  .ecosystem-feature-title {
+    font-size: clamp(1.55rem, 2.9vw, 2rem);
+  }
+
+  @media (min-width: 640px) {
+    #ecosystem .section-title + p {
+      margin-top: 2.25rem;
+      line-height: 1.35;
+    }
+  }
+
+  .final-card-title {
+    font-size: clamp(2.8rem, 4.2vw, 4rem);
+  }
+}
+
+.ecosystem-page-arc {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: min(810px, 82vw);
+  height: 495px;
+  transform: translateX(-50%);
+  border: 2px solid transparent;
+  border-bottom: 0;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  background: linear-gradient(#090411, #090411) padding-box,
+    linear-gradient(125deg, #fc8b24, #9d26ef 42%, #de3dc7 70%, #f18b22) border-box;
+  pointer-events: none;
+}
+
+.ecosystem-page-arc::after {
+  background: linear-gradient(180deg, #ff9a22, #b52ae7);
+  border: 6px solid #571092;
+  border-radius: 50%;
+  box-shadow: 0 0 18px #ad2cd866;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  transform: translateX(-50%);
+  content: "";
+}
+
+.ecosystem-page-participant-feature {
+  background-image: radial-gradient(ellipse at 50% 100%, #ed657366, transparent 55%),
+    repeating-linear-gradient(
+      90deg,
+      #18081e 0,
+      #35132c 18px,
+      #963b72 29px,
+      #19091e 40px,
+      #0c0614 50px,
+      #511e4e 65px,
+      #bc4a8d 74px,
+      #17081f 88px
+    );
+}
+
+@media (max-width: 767px) {
+  .ecosystem-page-arc {
+    width: min(540px, 95vw);
+    height: 350px;
+  }
+}
+
+.avx-page-compact-title {
+  margin-top: 12px;
+  font-size: clamp(36px, 5vw, 60px);
+}
+
+.avx-page-compact-underline {
+  width: 112px;
+  height: 2px;
+  margin: 12px auto 0;
+  background: #e446a8;
+}
+
+.avx-page-overview-card {
+  padding: 24px 16px;
+}
+
+.avx-page-overview-grid {
+  display: grid;
+  gap: 28px;
+  align-items: center;
+  margin-top: 0;
+}
+
+.avx-page-overview-details {
+  padding-right: 20px;
+}
+
+.avx-page-overview-row {
+  display: flex;
+  min-height: 62px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding-block: 12px;
+  border-bottom: 1px solid rgb(255 255 255 / 40%);
+  color: #f7eef8;
+  font-size: clamp(14px, 1.5vw, 24px);
+  line-height: 1.15;
+}
+
+.avx-page-supply-donut {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 1;
+  margin-inline: auto;
+}
+
+.avx-page-donut-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 51%;
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: #080511;
+  pointer-events: none;
+}
+
+.avx-page-donut-value {
+  color: #fff;
+  font-size: clamp(34px, 4vw, 60px);
+  font-weight: 600;
+  line-height: 1;
+}
+
+.avx-page-donut-label {
+  margin-top: 4px;
+  color: #fff;
+  font-size: clamp(10px, 1vw, 15px);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+@media (min-width: 640px) {
+  .avx-page-overview-card {
+    padding-bottom: 0;
+  }
+
+  .avx-page-overview-grid {
+    grid-template-columns: minmax(0, 0.84fr) minmax(0, 1.16fr);
+    gap: 24px;
+  }
+
+  .avx-page-supply-donut {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .avx-page-overview-card {
+    min-height: 720px;
+    padding: 48px 56px;
+  }
+
+  .avx-page-overview-grid {
+    gap: 40px;
+  }
+
+  .avx-page-overview-details {
+    padding-right: 0;
+  }
+
+  .avx-page-overview-row {
+    min-height: 88px;
+    padding-block: 16px;
+  }
+}
+
+.about-page-resource-track {
+  scrollbar-width: none;
+}
+
+.about-page-resource-track::-webkit-scrollbar {
+  display: none;
+}
+
+.about-page-team-card {
+  background-image: linear-gradient(
+    180deg,
+    #080511 0%,
+    #080511 57%,
+    #0c0716 70%,
+    #07040d 100%
+  );
+}
+
+

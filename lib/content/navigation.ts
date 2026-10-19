@@ -1,0 +1,49 @@
+export const headerAction = {
+  label: "View Eligibility",
+  href: "/how-to-participate#verify",
+};
+
+export const headerLinks = [
+  ["Ecosystem", "/ecosystem"],
+  ["AVX", "/avx"],
+  ["Roadmap", "/roadmap"],
+  ["How to Participate", "/how-to-participate"],
+  ["Resources", "/about#resources"],
+  ["About", "/about"],
+];
+
+export const footerNavigation = [
+  { label: "Home", href: "/#home" },
+  { label: "Ecosystem", href: "/ecosystem" },
+  { label: "AVX", href: "/avx" },
+  { label: "Roadmap", href: "/roadmap" },
+  { label: "How To Participate", href: "/how-to-participate" },
+  { label: "About / Resources", href: "/about" },
+];
+
+export const footerDocuments = [
+  { label: "Whitepaper", href: "/about#resources" },
+  { label: "Contract & Audit", href: "/about#contract-audit" },
+  { label: "Token Sale Terms", href: "/about#resources" },
+  { label: "Eligibility", href: "/how-to-participate#verify" },
+  { label: "KYC / AML", href: "/about#resources" },
+  { label: "Terms Of Use", href: "/about#resources" },
+  { label: "Privacy & Cookie Policy", href: "/about#resources" },
+  { label: "Accessibility", href: "/about#resources" },
+];
+
+export const footerContent = {
+  address: [
+    "Avirox Labs FZE LLC",
+    "Business Centre, Sharjah",
+    "Publishing City Free Zone,",
+    "Sharjah, United Arab Emirates",
+  ],
+  navigationTitle: "Navigate",
+  documentsTitle: "Documents & Legal",
+  contactTitle: "Contact Us",
+  email: "Coin@Avirox.io",
+  disclaimer:
+    "AVX Is A Utility Token For The Avirox Labs Ecosystem. Digital Asset Participation Involves Risk. Returns, Liquidity, Utility, Activation And Exchange Listing Are Not Guaranteed. Eligibility, KYC/AML And Token Sale Terms Apply.",
+  copyright: "Avirox Labs FZE LLC © 2026 Avirox Labs. All Rights Reserved.",
+};

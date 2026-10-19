@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 145" fill="none">
+  <defs>
+    <linearGradient id="left" x1="14" y1="129" x2="89" y2="9" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00deed"/>
+      <stop offset=".55" stop-color="#00b2dc"/>
+      <stop offset="1" stop-color="#68f8ef"/>
+    </linearGradient>
+    <linearGradient id="right" x1="80" y1="11" x2="148" y2="132" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00d6ec"/>
+      <stop offset=".55" stop-color="#1367db"/>
+      <stop offset="1" stop-color="#1735b5"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="39" y1="103" x2="132" y2="131" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1ee7e5"/>
+      <stop offset=".52" stop-color="#108bd7"/>
+      <stop offset="1" stop-color="#2943c6"/>
+    </linearGradient>
+  </defs>
+  <path d="M80 4 10 136l43-17 27-69V4Z" fill="url(#left)"/>
+  <path d="M80 4 150 136l-43-17-27-69V4Z" fill="url(#right)"/>
+  <path d="m39 105 41-16 41 16 29 31-70-23-70 23 29-31Z" fill="url(#bar)"/>
+  <path d="M80 50 57 103l23-10 23 10-23-53Z" fill="#081021"/>
+  <path d="M80 4 53 119m27-69 27 69M10 136l70-23 70 23M39 105l41 8 41-8M80 4v46" stroke="#9bf9f6" stroke-opacity=".34" stroke-width="1.5"/>
+</svg>

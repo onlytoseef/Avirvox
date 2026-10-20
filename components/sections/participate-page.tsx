@@ -12,6 +12,7 @@ import {
 import { FadeIn } from "@/components/motion/fade-in";
 import { ScaleIn } from "@/components/motion/scale-in";
 import { TiltCard } from "@/components/motion/tilt-card";
+import { PageParticles } from "@/components/sections/page-particles";
 
 type ParticipationStep = (typeof participationSteps)[number];
 
@@ -123,7 +124,8 @@ function ParticipationStepRow({ step, last }: { step: ParticipationStep; last: b
 
 export function ParticipatePageContent() {
   return (
-    <main>
+    <main className="particle-page">
+      <PageParticles />
       <svg className="absolute size-0" aria-hidden="true">
         <defs>
           <linearGradient id="participation-step-gradient" x1="0" y1="0" x2="1" y2="1">

@@ -32,14 +32,14 @@ export function Hero() {
       />
       <div className="pointer-events-none absolute inset-x-0 top-0 h-[clamp(520px,57.8vw,832px)] bg-[url('/images/hero-bg.webp')] bg-cover bg-top" />
 
-      <div className="relative mx-auto grid max-w-[1440px] items-start gap-10 px-5 pt-[clamp(110px,11.1vw,160px)] lg:grid-cols-[692fr_615fr] lg:gap-[clamp(24px,4vw,57px)] lg:px-[34px]">
-        <div className="min-w-0 pt-6 lg:pt-[clamp(24px,4.4vw,63px)]">
-          <Eyebrow className="self-start px-[clamp(8px,0.9vw,13px)] py-[clamp(4px,0.5vw,7px)] text-[clamp(10px,1.25vw,18px)]">
+      <div className="relative z-10 mx-auto grid max-w-[1440px] items-start gap-10 px-5 pt-[clamp(100px,8vw,122px)] lg:grid-cols-[692fr_615fr] lg:gap-[clamp(24px,4vw,57px)] lg:px-[34px]">
+        <div className="min-w-0 pt-6 lg:pt-[clamp(12px,2vw,24px)]">
+          <Eyebrow className="self-start px-[clamp(8px,0.8vw,11px)] py-[clamp(4px,0.4vw,6px)] text-[clamp(10px,0.9vw,13px)]">
             {heroContent.eyebrow}
           </Eyebrow>
 
           <FadeIn>
-            <h1 className="mt-[clamp(8px,1vw,14px)] bg-gradient-to-b from-[#fffdfc] via-[#ded2e4] to-[#9dbced] bg-clip-text font-[family-name:var(--font-display)] text-[clamp(52px,7.92vw,114px)] font-normal leading-[0.94] tracking-[-0.026em] text-transparent">
+            <h1 className="mt-[clamp(8px,1vw,14px)] bg-gradient-to-b from-[#fffdfc] via-[#ded2e4] to-[#9dbced] bg-clip-text font-[family-name:var(--font-display)] text-[clamp(48px,6.2vw,88px)] font-normal leading-[0.94] tracking-[-0.026em] text-transparent">
               {heroContent.title[0]}
               <br />
               {heroContent.title[1]}
@@ -76,11 +76,11 @@ export function Hero() {
             </OutlineButton>
           </FadeIn>
 
-          <StaggerGroup className="mt-12 grid grid-cols-3 gap-x-[clamp(10px,1.8vw,26px)] gap-y-[clamp(10px,1.7vw,24px)] lg:mt-[clamp(40px,9.6vw,138px)]">
+          <StaggerGroup className="mt-8 grid grid-cols-3 gap-x-[clamp(10px,1.8vw,26px)] gap-y-[clamp(8px,1vw,14px)] lg:mt-[clamp(18px,1.8vw,26px)]">
             {heroMetrics.map(({ value, label }) => (
               <StaggerItem
                 key={value}
-                className="flex min-h-[clamp(96px,9.6vw,138px)] flex-col items-center justify-center rounded-[clamp(14px,1.5vw,22px)] border border-[#ac468e44] bg-[linear-gradient(180deg,#8d1b93_0%,#5a0f60_45%,#12061a_100%)] px-3 text-center shadow-[inset_0_1px_#ffffff40]"
+                className="flex min-h-[clamp(72px,6.1vw,88px)] flex-col items-center justify-center rounded-[clamp(14px,1.5vw,22px)] border border-[#ac468e44] bg-[linear-gradient(180deg,#8d1b93_0%,#5a0f60_45%,#12061a_100%)] px-3 text-center shadow-[inset_0_1px_#ffffff40]"
               >
                 <strong className="text-[clamp(16px,1.95vw,28px)] font-semibold leading-[1.1] text-white">
                   <MetricValue value={value} />
@@ -93,12 +93,12 @@ export function Hero() {
           </StaggerGroup>
         </div>
 
-        <FadeIn direction="right" delay={0.15} className="w-full lg:max-w-[615px] lg:justify-self-end">
+        <FadeIn direction="right" delay={0.15} className="w-full lg:max-w-[min(615px,calc(77dvh-92px))] lg:justify-self-end">
           <SaleCard />
         </FadeIn>
       </div>
 
-      <AudienceStrip className="relative mt-[clamp(48px,9.2vw,133px)]" />
+      <AudienceStrip className="relative z-10 mt-[clamp(48px,9.2vw,133px)]" />
     </section>
   );
 }

@@ -18,6 +18,7 @@ import { FadeIn } from "@/components/motion/fade-in";
 import { ScaleIn } from "@/components/motion/scale-in";
 import { TiltCard } from "@/components/motion/tilt-card";
 import { StaggerGroup, StaggerItem } from "@/components/motion/stagger";
+import { PageParticles } from "@/components/sections/page-particles";
 
 function SectionHeading({
   eyebrow,
@@ -271,7 +272,7 @@ function OfficialChannels() {
       </FadeIn>
       <StaggerGroup className="mt-12 grid gap-5 sm:grid-cols-2">
         {officialChannels.map((channel) => (
-          <StaggerItem key={channel}>
+          <StaggerItem key={channel.label}>
             <TiltCard className="group rounded-[23px]">
               <ChannelCard channel={channel} />
             </TiltCard>
@@ -284,7 +285,8 @@ function OfficialChannels() {
 
 export function AboutPageContent() {
   return (
-    <main>
+    <main className="particle-page">
+      <PageParticles />
       <AboutHero />
       <div className="px-4 sm:px-6 lg:px-10">
         <ClearBoundaries />

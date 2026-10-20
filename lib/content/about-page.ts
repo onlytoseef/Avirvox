@@ -63,19 +63,37 @@ export const resourceCards = [
     title: "Token Sale Terms",
     description: "Review the terms governing AVX sale participation.",
     action: "View Terms",
-    href: "mailto:Coin@Avirox.io?subject=Token%20sale%20terms%20request",
+    href: "/token-sale-terms",
   },
   {
     title: "Eligibility",
     description: "Understand jurisdictional restrictions and participation requirements.",
     action: "View Eligibility",
-    href: "/how-to-participate#verify",
+    href: "/eligibility-restricted-jurisdictions",
   },
   {
     title: "KYC / AML",
     description: "Review identity verification, compliance and participation requirements.",
     action: "View KYC / AML",
-    href: "mailto:Coin@Avirox.io?subject=KYC%20and%20AML%20information",
+    href: "/kyc-aml-notice",
+  },
+  {
+    title: "Privacy & Cookie Policy",
+    description: "See how personal information, cookies and website data are handled.",
+    action: "Read Policy",
+    href: "/privacy-cookie-policy",
+  },
+  {
+    title: "Terms of Use",
+    description: "Review the terms for using the Avirvox Labs website and online services.",
+    action: "Read Terms",
+    href: "/terms-of-use",
+  },
+  {
+    title: "Accessibility Statement",
+    description: "Read our approach to digital accessibility and support.",
+    action: "Read Statement",
+    href: "/accessibility-statement",
   },
 ] as const;
 
@@ -166,4 +184,4 @@ export const aboutQuestions = [
   },
 ] as const;
 
-export const officialChannels = ["LinkedIn", "X", "Telegram", "Instagram"] as const;
+export { socialLinks as officialChannels } from "./social-links";

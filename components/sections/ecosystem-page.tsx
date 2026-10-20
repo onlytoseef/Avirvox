@@ -10,9 +10,9 @@ import {
   participationBenefits,
 } from "@/lib/content/ecosystem-page";
 import { FadeIn } from "@/components/motion/fade-in";
-import { ScaleIn } from "@/components/motion/scale-in";
 import { TiltCard } from "@/components/motion/tilt-card";
 import { StaggerGroup, StaggerItem } from "@/components/motion/stagger";
+import { PageParticles } from "@/components/sections/page-particles";
 
 function SectionHeading({ eyebrow, title }: { eyebrow: string; title: string }) {
   return (
@@ -210,7 +210,8 @@ function OperatingPrinciples() {
 
 export function EcosystemPageContent() {
   return (
-    <main>
+    <main className="particle-page">
+      <PageParticles />
       <EcosystemHero />
       <EcosystemArchitecture />
       <ParticipationBenefits />

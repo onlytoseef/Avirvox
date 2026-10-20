@@ -24,12 +24,12 @@ export const footerNavigation = [
 export const footerDocuments = [
   { label: "Whitepaper", href: "/about#resources" },
   { label: "Contract & Audit", href: "/about#contract-audit" },
-  { label: "Token Sale Terms", href: "/about#resources" },
-  { label: "Eligibility", href: "/how-to-participate#verify" },
-  { label: "KYC / AML", href: "/about#resources" },
-  { label: "Terms Of Use", href: "/about#resources" },
-  { label: "Privacy & Cookie Policy", href: "/about#resources" },
-  { label: "Accessibility", href: "/about#resources" },
+  { label: "Token Sale Terms", href: "/token-sale-terms" },
+  { label: "Eligibility", href: "/eligibility-restricted-jurisdictions" },
+  { label: "KYC / AML", href: "/kyc-aml-notice" },
+  { label: "Terms Of Use", href: "/terms-of-use" },
+  { label: "Privacy & Cookie Policy", href: "/privacy-cookie-policy" },
+  { label: "Accessibility", href: "/accessibility-statement" },
 ];
 
 export const footerContent = {

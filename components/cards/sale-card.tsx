@@ -8,10 +8,15 @@ import {
   saleCountdown,
 } from "@/lib/content/sale-card";
 
-const q = (n: number) => `${((n / 613) * 100).toFixed(3)}cqw`;
+// Keep the sale panel legible while limiting its height on shorter screens.
+const q = (n: number) => {
+  const fluid = `${((n / 800) * 100).toFixed(3)}cqw`;
+  const minimum = `${(n * 0.63).toFixed(2)}px`;
+  return n < 0 ? `min(${fluid}, ${minimum})` : `max(${fluid}, ${minimum})`;
+};
 
 const fs = (n: number): CSSProperties => ({
-  fontSize: `max(${q(n)}, ${(n * 0.78).toFixed(1)}px)`,
+  fontSize: `max(${q(n)}, ${n >= 20 ? `${(n * 0.7).toFixed(1)}px` : "11px"})`,
 });
 
 function Chevron({ size = 12 }: { size?: number }) {

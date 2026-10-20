@@ -7,7 +7,14 @@ import {
   footerDocuments,
   footerNavigation,
 } from "@/lib/content/navigation";
-import styles from "./site-footer.module.css";
+import { socialLinks } from "@/lib/content/social-links";
+
+const socialIcons = {
+  X: FaXTwitter,
+  LinkedIn: FaLinkedinIn,
+  Instagram: FaInstagram,
+  Telegram: FaTelegram,
+};
 
 type FooterLinkGroupProps = {
   title: string;
@@ -17,8 +24,8 @@ type FooterLinkGroupProps = {
 function FooterLinkGroup({ title, links }: FooterLinkGroupProps) {
   return (
     <div>
-      <h2 className={styles.heading}>{title}</h2>
-      <ul className={styles.links}>
+      <h2 className="site-footer-heading">{title}</h2>
+      <ul className="site-footer-links">
         {links.map(({ label, href }) => (
           <li key={label}>
             <Link href={href}>{label}</Link>
@@ -31,35 +38,34 @@ function FooterLinkGroup({ title, links }: FooterLinkGroupProps) {
 
 function SocialIcons() {
   return (
-    <div className={styles.socials}>
-      <a
-        href={`mailto:${footerContent.email}`}
-        aria-label="Email Avirox Labs"
-        className={styles.socialIcon}
-      >
-        <FaTelegram className="size-4" aria-hidden="true" />
-      </a>
-      <span aria-label="LinkedIn" role="img" className={styles.socialIcon}>
-        <FaLinkedinIn className="size-4" aria-hidden="true" />
-      </span>
-      <span aria-label="X" role="img" className={styles.socialIcon}>
-        <FaXTwitter className="size-4" aria-hidden="true" />
-      </span>
-      <span aria-label="Instagram" role="img" className={styles.socialIcon}>
-        <FaInstagram className="size-4" aria-hidden="true" />
-      </span>
+    <div className="site-footer-socials">
+      {socialLinks.map(({ label, href }) => {
+        const Icon = socialIcons[label];
+        return (
+          <a
+            key={label}
+            href={href}
+            aria-label={`Avirvox Labs on ${label}`}
+            className="site-footer-social-icon"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon className="size-4" aria-hidden="true" />
+          </a>
+        );
+      })}
     </div>
   );
 }
 
 export function SiteFooter() {
   return (
-    <footer className={styles.footer}>
-      <div className={styles.content}>
-        <div className={styles.columns}>
+    <footer className="site-footer">
+      <div className="site-footer-content">
+        <div className="site-footer-columns">
           <div>
             <Brand large />
-            <address className={styles.address}>
+            <address className="site-footer-address">
               {footerContent.address.map((line, index) => (
                 <span key={line}>
                   {index > 0 && <br />}
@@ -73,10 +79,10 @@ export function SiteFooter() {
           <FooterLinkGroup title={footerContent.documentsTitle} links={footerDocuments} />
 
           <div>
-            <h2 className={styles.heading}>{footerContent.contactTitle}</h2>
+            <h2 className="site-footer-heading">{footerContent.contactTitle}</h2>
             <SocialIcons />
             <a
-              className={styles.email}
+              className="site-footer-email"
               href={`mailto:${footerContent.email}`}
             >
               {footerContent.email}
@@ -84,11 +90,11 @@ export function SiteFooter() {
           </div>
         </div>
 
-        <p className={styles.disclaimer}>
+        <p className="site-footer-disclaimer">
           {footerContent.disclaimer}
         </p>
-        <div className={styles.divider} />
-        <p className={styles.copyright}>
+        <div className="site-footer-divider" />
+        <p className="site-footer-copyright">
           {footerContent.copyright}
         </p>
       </div>

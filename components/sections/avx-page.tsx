@@ -12,6 +12,7 @@ import {
 import { FadeIn } from "@/components/motion/fade-in";
 import { TiltCard } from "@/components/motion/tilt-card";
 import { ScaleIn } from "@/components/motion/scale-in";
+import { PageParticles } from "@/components/sections/page-particles";
 import { CountUp } from "@/components/motion/count-up";
 import { StaggerGroup, StaggerItem } from "@/components/motion/stagger";
 
@@ -227,7 +228,8 @@ function EnterpriseBoundary() {
 
 export function AvxPageContent() {
   return (
-    <main>
+    <main className="particle-page">
+      <PageParticles />
       <AvxHero />
       <div className="px-4 sm:px-6 lg:px-10">
         <TokenOverview />

@@ -8,6 +8,7 @@ import { RoadmapPhaseCard } from "@/components/cards/roadmap-phase-card";
 import { FadeIn } from "@/components/motion/fade-in";
 import { ScaleIn } from "@/components/motion/scale-in";
 import { TiltCard } from "@/components/motion/tilt-card";
+import { PageParticles } from "@/components/sections/page-particles";
 
 function RoadmapHero() {
   return (
@@ -90,7 +91,8 @@ function RoadmapClosing() {
 
 export function RoadmapPageContent() {
   return (
-    <main>
+    <main className="particle-page">
+      <PageParticles />
       <RoadmapHero />
 
       <div className="mx-auto grid max-w-[1440px] grid-cols-[minmax(0,1fr)] gap-12 px-4 sm:px-6 lg:px-10">

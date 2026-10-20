@@ -243,4 +243,294 @@
   );
 }
 
+.document-section-index {
+  scrollbar-color: #ee4a9f #24162f;
+  scrollbar-width: thin;
+}
+
+.document-section-index::-webkit-scrollbar {
+  width: 7px;
+}
+
+.document-section-index::-webkit-scrollbar-track {
+  border-radius: 999px;
+  background: #24162f;
+}
+
+.document-section-index::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: #ee4a9f;
+}
+
+.document-section-index::-webkit-scrollbar-thumb:hover {
+  background: #ff78bb;
+}
+
+.particle-page {
+  position: relative;
+  isolation: isolate;
+}
+
+.page-particles {
+  position: absolute;
+  z-index: 3;
+  inset: 0;
+  min-height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle, rgba(232, 205, 242, 0.38) 1px, transparent 2px),
+    radial-gradient(circle, rgba(239, 168, 113, 0.25) 1px, transparent 2px);
+  background-size: 300px 330px, 430px 460px;
+  background-position: 67px 83px, 213px 179px;
+}
+
+.home-star-track,
+.home-bubble-track,
+.home-granule,
+.home-bubble {
+  position: absolute;
+}
+
+.home-granule,
+.home-bubble {
+  border-radius: 50%;
+}
+
+.home-star-track-0 { transform: translate3d(0, var(--star-shift-slow, 0px), 0); }
+.home-star-track-1 { transform: translate3d(0, var(--star-shift-medium, 0px), 0); }
+.home-star-track-2 { transform: translate3d(0, var(--star-shift-fast, 0px), 0); }
+.home-bubble-track { transform: translate3d(0, var(--bubble-scroll-shift, 0px), 0); }
+
+.home-granule {
+  background: #e8dce8;
+  box-shadow: 0 0 8px 2px rgba(225, 191, 237, 0.45);
+  animation: home-granule-drift 7s linear infinite;
+}
+
+.home-granule-amber {
+  background: #f5bd83;
+  box-shadow: 0 0 10px 3px rgba(236, 134, 74, 0.48);
+}
+
+.home-granule-rose {
+  background: #f2a0d0;
+  box-shadow: 0 0 9px 2px rgba(238, 74, 159, 0.42);
+}
+
+.home-bubble {
+  animation: home-bubble-float 10s linear infinite;
+}
+
+.home-bubble-amber {
+  background: #edaa6c;
+  box-shadow: 0 0 15px 5px rgba(236, 101, 58, 0.3);
+}
+
+.home-bubble-rose {
+  background: #ee74b8;
+  box-shadow: 0 0 16px 6px rgba(238, 74, 159, 0.3);
+}
+
+.home-bubble-violet {
+  background: #bb84de;
+  box-shadow: 0 0 16px 6px rgba(165, 29, 177, 0.32);
+}
+
+.home-orbit {
+  position: absolute;
+  aspect-ratio: 1;
+  border: 1px solid rgba(213, 137, 221, 0.16);
+  border-radius: 50%;
+  animation: home-orbit-turn 42s linear infinite;
+}
+
+.home-orbit-amber {
+  border-color: rgba(236, 157, 80, 0.15);
+  animation-direction: reverse;
+}
+
+.home-orbit::after {
+  position: absolute;
+  top: 14%;
+  left: 14%;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #f4a6db;
+  box-shadow: 0 0 13px 4px rgba(238, 74, 159, 0.48);
+  content: "";
+}
+
+.home-orbit-amber::after {
+  background: #ffbd5a;
+  box-shadow: 0 0 13px 4px rgba(255, 158, 34, 0.43);
+}
+
+@keyframes home-granule-drift {
+  0% { opacity: 0; transform: translate3d(-5px, 28px, 0); }
+  20%, 75% { opacity: 0.85; }
+  100% { opacity: 0; transform: translate3d(11px, -95px, 0); }
+}
+
+@keyframes home-bubble-float {
+  0% { opacity: 0; transform: translate3d(-8px, 30px, 0) scale(0.8); }
+  20%, 75% { opacity: 0.68; }
+  100% { opacity: 0; transform: translate3d(16px, -105px, 0) scale(1.12); }
+}
+
+@keyframes home-orbit-turn {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@media (max-width: 640px) {
+  .home-star-track:nth-of-type(2n),
+  .home-bubble-track:nth-of-type(2n) {
+    display: none;
+  }
+
+  .home-orbit {
+    max-width: 680px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-granule,
+  .home-bubble,
+  .home-orbit {
+    animation: none;
+  }
+
+  .home-granule { opacity: 0.65; }
+  .home-bubble { opacity: 0.5; }
+}
+
+.site-footer {
+  margin-top: 5rem;
+  overflow: hidden;
+  border-radius: 0 0 18px 18px;
+  background-color: #08040f;
+  background-image:
+    radial-gradient(ellipse at 35% 112%, rgba(236, 101, 58, 0.62), transparent 52%),
+    radial-gradient(ellipse at 77% 112%, rgba(165, 29, 177, 0.66), transparent 52%);
+  color: #fff;
+}
+
+.site-footer-content {
+  width: min(100%, 1440px);
+  margin-inline: auto;
+  padding: 70px clamp(20px, 2.2vw, 32px) 0;
+}
+
+.site-footer-columns {
+  display: grid;
+  grid-template-columns: 1.45fr 1fr 1.45fr 0.8fr;
+  column-gap: 40px;
+  row-gap: 48px;
+}
+
+.site-footer-address {
+  margin-top: 35px;
+  font-size: 13px;
+  font-style: normal;
+  line-height: 1.35;
+}
+
+.site-footer-heading {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.site-footer-links {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-footer-links a {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.site-footer-links a:hover,
+.site-footer-email:hover {
+  color: #ee4a9f;
+}
+
+.site-footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.site-footer-social-icon {
+  display: flex;
+  width: clamp(28px, 2.8vw, 40px);
+  aspect-ratio: 1;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 50%;
+  color: #fff;
+}
+
+a.site-footer-social-icon:hover {
+  border-color: #ee4a9f;
+  color: #ee4a9f;
+}
+
+.site-footer-email {
+  display: inline-block;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 13px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.site-footer-disclaimer {
+  max-width: 850px;
+  margin-inline: auto;
+  padding: 36px 0 28px;
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 12px;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.site-footer-divider {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+.site-footer-copyright {
+  padding: 20px 0;
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 899px) {
+  .site-footer-columns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 599px) {
+  .site-footer-content {
+    padding-top: 56px;
+  }
+
+  .site-footer-columns {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+}
 

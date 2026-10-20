@@ -1,6 +1,8 @@
 import { BrandMark } from "@/components/ui/brand";
 import { Eyebrow } from "@/components/ui/elements";
 import { roadmapContent, roadmapPhases } from "@/lib/content/roadmap";
+import { FadeIn } from "@/components/motion/fade-in";
+import { StaggerGroup, StaggerItem } from "@/components/motion/stagger";
 
 export function Roadmap() {
   return (
@@ -9,7 +11,7 @@ export function Roadmap() {
       className="mx-auto w-full max-w-[1344px] overflow-x-clip px-5 py-[clamp(64px,8vw,120px)] lg:px-8"
     >
       {/* ───────── Header ───────── */}
-      <div className="flex flex-col items-center text-center">
+      <FadeIn className="flex flex-col items-center text-center">
         <Eyebrow>{roadmapContent.eyebrow}</Eyebrow>
 
         {/* 62px @ 1440 (same as Execution heading) */}
@@ -22,10 +24,10 @@ export function Roadmap() {
         <p className="mt-[clamp(12px,1.3vw,18px)] max-w-[700px] text-[clamp(14px,1.25vw,18px)] leading-[1.5] text-[#d9cfe0]">
           {roadmapContent.description}
         </p>
-      </div>
+      </FadeIn>
 
       {/* ───────── Desktop diagram (lg+) ───────── */}
-      <div className="relative mx-auto mt-[clamp(16px,2vw,28px)] hidden aspect-[699/400] w-full max-w-[1270px] lg:block">
+      <FadeIn delay={0.15} distance={32} className="relative mx-auto mt-[clamp(16px,2vw,28px)] hidden aspect-[699/400] w-full max-w-[1270px] lg:block">
         {/* Background glow */}
         <div
           className="pointer-events-none absolute -inset-x-[8%] -inset-y-[6%]"
@@ -86,12 +88,12 @@ export function Roadmap() {
             </div>
           </div>
         ))}
-      </div>
+      </FadeIn>
 
       {/* ───────── Mobile / tablet list ───────── */}
-      <div className="mt-10 grid gap-3 lg:hidden">
+      <StaggerGroup className="mt-10 grid gap-3 lg:hidden">
         {roadmapPhases.map((phase) => (
-          <div
+          <StaggerItem
             key={phase.number}
             className="flex gap-5 rounded-2xl border border-[#5b4a68] bg-[#0b0612] p-5"
           >
@@ -106,9 +108,9 @@ export function Roadmap() {
                 {phase.description}
               </p>
             </div>
-          </div>
+          </StaggerItem>
         ))}
-      </div>
+      </StaggerGroup>
     </section>
   );
 }

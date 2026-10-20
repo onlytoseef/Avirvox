@@ -14,6 +14,10 @@ import {
 } from "@/lib/content/about-page";
 import { AboutContactForm } from "./about-contact-form";
 import { AboutResources } from "./about-resources";
+import { FadeIn } from "@/components/motion/fade-in";
+import { ScaleIn } from "@/components/motion/scale-in";
+import { TiltCard } from "@/components/motion/tilt-card";
+import { StaggerGroup, StaggerItem } from "@/components/motion/stagger";
 
 function SectionHeading({
   eyebrow,
@@ -46,7 +50,7 @@ function AboutHero() {
   return (
     <section className="relative isolate -mt-[97px] overflow-hidden text-center">
       <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[570px] bg-[radial-gradient(ellipse_at_50%_0%,#a43c7977,transparent_60%),radial-gradient(ellipse_at_20%_0%,#c7603c44,transparent_39%)]" />
-      <div className="mx-auto max-w-[1440px] px-5 pt-[calc(clamp(100px,13vw,190px)+97px)]">
+      <FadeIn className="mx-auto max-w-[1440px] px-5 pt-[calc(clamp(100px,13vw,190px)+97px)]">
         <Eyebrow>{hero.eyebrow}</Eyebrow>
         <h1 className="mt-5 font-[family-name:var(--font-display)] text-[clamp(2.4rem,7.2vw,7.2rem)] leading-[0.93] tracking-[-0.045em] uppercase">
           <span className="block text-[#f5eaf4]">Building The Participation</span>
@@ -63,7 +67,7 @@ function AboutHero() {
         <p className="mx-auto mt-8 max-w-[920px] text-sm leading-[1.5] text-[#d4c8d7] sm:text-lg">
           {hero.description}
         </p>
-      </div>
+      </FadeIn>
       <AudienceStrip
         size="large"
         className="mx-auto mt-[clamp(90px,10.5vw,155px)] max-w-[1500px] px-4 pb-[clamp(70px,7vw,100px)]"
@@ -76,7 +80,7 @@ function ClearBoundaries() {
   const { boundaries } = aboutPageContent;
 
   return (
-    <section
+    <ScaleIn
       className="mx-auto flex min-h-[470px] max-w-[1360px] flex-col items-center justify-center rounded-[30px] border border-[#56445d] px-6 py-14 text-center"
       style={{
         backgroundImage:
@@ -97,7 +101,7 @@ function ClearBoundaries() {
       <p className="mt-7 bg-gradient-to-r from-[#ee6480] to-[#ba2edb] bg-clip-text font-[family-name:var(--font-display)] text-[clamp(1.7rem,3vw,2.8rem)] leading-[1.1] italic text-transparent">
         {boundaries.closing}
       </p>
-    </section>
+    </ScaleIn>
   );
 }
 
@@ -106,10 +110,14 @@ function ResourcesSection() {
 
   return (
     <section id="resources" className="mx-auto mt-36 max-w-[1440px] px-5 sm:px-10">
-      <SectionHeading eyebrow={resources.eyebrow}>
-        {resources.title[0]}<br />{resources.title[1]}
-      </SectionHeading>
-      <AboutResources />
+      <FadeIn>
+        <SectionHeading eyebrow={resources.eyebrow}>
+          {resources.title[0]}<br />{resources.title[1]}
+        </SectionHeading>
+      </FadeIn>
+      <FadeIn delay={0.1}>
+        <AboutResources />
+      </FadeIn>
     </section>
   );
 }
@@ -123,7 +131,7 @@ function ContractAudit() {
       className="mx-auto mt-32 grid max-w-[1360px] gap-14 overflow-hidden rounded-[30px] border border-[#56445d] bg-[#080510] px-6 py-12 sm:px-10 lg:grid-cols-[1fr_0.92fr] lg:px-12 lg:py-14"
       style={{ backgroundImage: "radial-gradient(ellipse at 100% 100%, rgba(215,82,65,.75), transparent 40%)" }}
     >
-      <div className="rounded-[23px] bg-[#1d2028] px-7 py-8 sm:px-9">
+      <FadeIn direction="left" className="rounded-[23px] bg-[#1d2028] px-7 py-8 sm:px-9">
         <Eyebrow>{contract.eyebrow}</Eyebrow>
         <h2 className="mt-6 font-[family-name:var(--font-display)] text-[clamp(2.5rem,4vw,4rem)] leading-[0.98] tracking-[-0.045em]">
           {contract.title}
@@ -137,8 +145,8 @@ function ContractAudit() {
             </div>
           ))}
         </dl>
-      </div>
-      <div className="flex flex-col justify-center">
+      </FadeIn>
+      <FadeIn direction="right" className="flex flex-col justify-center">
         <p className="text-sm font-semibold uppercase text-[#f0e9f0]">{contract.addressLabel}</p>
         <div className="mt-2 flex min-h-14 items-center gap-4 rounded-full border border-[#7e6a85] px-5 text-xs text-[#d7cadb] sm:text-sm">
           <FiCopy className="shrink-0 text-[#d94ab5]" aria-hidden="true" />
@@ -178,7 +186,7 @@ function ContractAudit() {
             className="size-28 rounded-xl"
           />
         </div>
-      </div>
+      </FadeIn>
     </section>
   );
 }
@@ -188,14 +196,20 @@ function LeadershipSection() {
 
   return (
     <section id="team" className="mx-auto mt-36 max-w-[1360px] px-5 sm:px-10">
-      <SectionHeading eyebrow={team.eyebrow} description={team.description}>
-        {team.title}
-      </SectionHeading>
-      <div className="mt-14 grid gap-5 md:grid-cols-2">
+      <FadeIn>
+        <SectionHeading eyebrow={team.eyebrow} description={team.description}>
+          {team.title}
+        </SectionHeading>
+      </FadeIn>
+      <StaggerGroup className="mt-14 grid gap-5 md:grid-cols-2">
         {leadershipTeam.map((person) => (
-          <LeadershipCard key={person.name} person={person} />
+          <StaggerItem key={person.name}>
+            <TiltCard className="group rounded-[23px]">
+              <LeadershipCard person={person} />
+            </TiltCard>
+          </StaggerItem>
         ))}
-      </div>
+      </StaggerGroup>
     </section>
   );
 }
@@ -205,21 +219,25 @@ function QuestionsSection() {
 
   return (
     <section id="faq" className="mx-auto mt-36 max-w-[1020px] px-5 sm:px-10">
-      <SectionHeading eyebrow={faq.eyebrow}>{faq.title}</SectionHeading>
-      <div className="mt-14 space-y-4">
+      <FadeIn>
+        <SectionHeading eyebrow={faq.eyebrow}>{faq.title}</SectionHeading>
+      </FadeIn>
+      <StaggerGroup className="mt-14 space-y-4">
         {aboutQuestions.map(({ question, answer }, index) => (
-          <details key={question} open={index === 0} className="group rounded-[23px] border border-[#57475f] bg-[#090511] px-7 py-6">
-            <summary className="flex cursor-pointer list-none items-center justify-between gap-5 text-base text-[#f2e8f3] marker:hidden sm:text-xl">
-              <span>{question}</span>
-              <span className="text-3xl leading-none text-[#e246aa] group-open:hidden" aria-hidden="true">+</span>
-              <span className="hidden text-3xl leading-none text-[#e246aa] group-open:block" aria-hidden="true">−</span>
-            </summary>
-            <p className="mt-5 max-w-[820px] text-sm leading-[1.5] text-[#bfb2c4] sm:text-base">
-              {answer}
-            </p>
-          </details>
+          <StaggerItem key={question}>
+            <details open={index === 0} className="group rounded-[23px] border border-[#57475f] bg-[#090511] px-7 py-6">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-5 text-base text-[#f2e8f3] marker:hidden sm:text-xl">
+                <span>{question}</span>
+                <span className="text-3xl leading-none text-[#e246aa] group-open:hidden" aria-hidden="true">+</span>
+                <span className="hidden text-3xl leading-none text-[#e246aa] group-open:block" aria-hidden="true">−</span>
+              </summary>
+              <p className="mt-5 max-w-[820px] text-sm leading-[1.5] text-[#bfb2c4] sm:text-base">
+                {answer}
+              </p>
+            </details>
+          </StaggerItem>
         ))}
-      </div>
+      </StaggerGroup>
     </section>
   );
 }
@@ -229,10 +247,14 @@ function ContactSection() {
 
   return (
     <section id="contact" className="mx-auto mt-36 max-w-[1360px] px-5 sm:px-10">
-      <SectionHeading eyebrow={contact.eyebrow} description={contact.description}>
-        {contact.title[0]}<br />{contact.title[1]}
-      </SectionHeading>
-      <AboutContactForm />
+      <FadeIn>
+        <SectionHeading eyebrow={contact.eyebrow} description={contact.description}>
+          {contact.title[0]}<br />{contact.title[1]}
+        </SectionHeading>
+      </FadeIn>
+      <FadeIn delay={0.1}>
+        <AboutContactForm />
+      </FadeIn>
     </section>
   );
 }
@@ -242,14 +264,20 @@ function OfficialChannels() {
 
   return (
     <section id="official-channels" className="mx-auto mt-36 max-w-[1160px] px-5 pb-28 sm:px-10">
-      <SectionHeading eyebrow={channels.eyebrow} description={channels.description}>
-        {channels.title[0]}<br />{channels.title[1]}
-      </SectionHeading>
-      <div className="mt-12 grid gap-5 sm:grid-cols-2">
+      <FadeIn>
+        <SectionHeading eyebrow={channels.eyebrow} description={channels.description}>
+          {channels.title[0]}<br />{channels.title[1]}
+        </SectionHeading>
+      </FadeIn>
+      <StaggerGroup className="mt-12 grid gap-5 sm:grid-cols-2">
         {officialChannels.map((channel) => (
-          <ChannelCard key={channel} channel={channel} />
+          <StaggerItem key={channel}>
+            <TiltCard className="group rounded-[23px]">
+              <ChannelCard channel={channel} />
+            </TiltCard>
+          </StaggerItem>
         ))}
-      </div>
+      </StaggerGroup>
     </section>
   );
 }

@@ -6,6 +6,7 @@ import {
   avxPills,
   avxSegments,
 } from "@/lib/content/avx";
+import { FadeIn } from "@/components/motion/fade-in";
 
 export function Avx() {
   return (
@@ -14,7 +15,7 @@ export function Avx() {
       className="mx-auto w-full max-w-[1390px] overflow-x-clip px-5 py-[clamp(64px,8vw,120px)] lg:px-8"
     >
       {/* ───────── Header ───────── */}
-      <div className="flex flex-col items-center text-center">
+      <FadeIn className="flex flex-col items-center text-center">
         <Eyebrow>{avxContent.eyebrow}</Eyebrow>
 
         {/* 62px @ 1440 */}
@@ -29,10 +30,10 @@ export function Avx() {
         <p className="mt-[clamp(12px,1.3vw,18px)] max-w-[790px] text-[clamp(14px,1.25vw,18px)] leading-[1.5] text-[#d9cfe0]">
           {avxContent.description}
         </p>
-      </div>
+      </FadeIn>
 
       {/* ───────── Desktop diagram (lg+) ───────── */}
-      <div className="relative mx-auto mt-[clamp(16px,2vw,29px)] hidden aspect-[643/265] w-full max-w-[1326px] lg:block">
+      <FadeIn delay={0.15} direction="up" distance={32} className="relative mx-auto mt-[clamp(16px,2vw,29px)] hidden aspect-[643/265] w-full max-w-[1326px] lg:block">
         {/* Background glow */}
         <div
           className="pointer-events-none absolute -inset-x-[6%] -inset-y-[10%]"
@@ -81,10 +82,10 @@ export function Avx() {
             {text}
           </div>
         ))}
-      </div>
+      </FadeIn>
 
       {/* ───────── Mobile / tablet ───────── */}
-      <div className="mt-10 lg:hidden">
+      <FadeIn delay={0.15} className="mt-10 lg:hidden">
         <div className="relative mx-auto aspect-square w-full max-w-[360px] drop-shadow-[0_0_50px_rgba(160,33,145,0.4)]">
           <DonutChart className="size-full" />
         </div>
@@ -104,7 +105,7 @@ export function Avx() {
               </li>
             ))}
         </ul>
-      </div>
+      </FadeIn>
     </section>
   );
 }

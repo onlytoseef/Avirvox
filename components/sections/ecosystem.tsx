@@ -5,6 +5,9 @@ import {
   ecosystemContent,
   ecosystemRelationships,
 } from "@/lib/content/ecosystem";
+import { FadeIn } from "@/components/motion/fade-in";
+import { HoverLift } from "@/components/motion/hover-lift";
+import { StaggerGroup, StaggerItem } from "@/components/motion/stagger";
 
 function ArchitectureIcon({ name }: { name: (typeof architectureLabels)[number]["icon"] }) {
   if (name === "relationship") {
@@ -55,9 +58,9 @@ export function Ecosystem() {
         {" "}{ecosystemContent.title[1]}
       </Heading>
 
-      <div className="relative z-10 mx-auto mt-8 grid max-w-[730px] grid-cols-1 gap-2.5 sm:grid-cols-3 sm:gap-3 text-xs">
+      <StaggerGroup className="relative z-10 mx-auto mt-8 grid max-w-[730px] grid-cols-1 gap-2.5 sm:grid-cols-3 sm:gap-3 text-xs">
         {architectureLabels.map(({ label, icon, active }) => (
-          <div
+          <StaggerItem
             key={label}
             className={`flex min-h-[52px] items-center gap-2 rounded-[18px] border px-4 py-2.5 font-medium sm:px-4 ${
               active
@@ -75,11 +78,14 @@ export function Ecosystem() {
               <ArchitectureIcon name={icon} />
             </span>
             <span className="leading-tight">{label}</span>
-          </div>
+          </StaggerItem>
         ))}
-      </div>
+      </StaggerGroup>
 
-      <div className="relative mx-auto mt-0 grid max-w-[830px] items-center gap-8 rounded-[24px] border border-[#49364e] bg-[radial-gradient(ellipse_at_80%_45%,#49104b55,transparent_42%),#080610] px-6 pt-10 pb-8 sm:mt-[-25px] sm:grid-cols-[1.5fr_0.8fr] sm:gap-10 sm:px-12 sm:pt-[58px] sm:pb-9 md:min-h-[339px]">
+      <FadeIn
+        delay={0.1}
+        className="relative mx-auto mt-0 grid max-w-[830px] items-center gap-8 rounded-[24px] border border-[#49364e] bg-[radial-gradient(ellipse_at_80%_45%,#49104b55,transparent_42%),#080610] px-6 pt-10 pb-8 sm:mt-[-25px] sm:grid-cols-[1.5fr_0.8fr] sm:gap-10 sm:px-12 sm:pt-[58px] sm:pb-9 md:min-h-[339px]"
+      >
         <div>
           <div className="flex items-center gap-2 text-[12px] font-medium uppercase tracking-[0.08em] text-[#d8cbdc]">
             <span className="grid size-[30px] shrink-0 place-items-center rounded-[9px] bg-gradient-to-b from-[#f28b20] via-[#d847a0] to-[#8c20e8] text-white">
@@ -108,19 +114,18 @@ export function Ecosystem() {
           height={313}
           className="mx-auto h-auto w-full max-w-[224px] rounded-[24px] border border-[#65536b]"
         />
-      </div>
+      </FadeIn>
 
-      <div className="mx-auto mt-5 grid max-w-[830px] gap-2.5 text-center text-xs sm:grid-cols-3 sm:gap-5">
+      <StaggerGroup className="mx-auto mt-5 grid max-w-[830px] gap-2.5 text-center text-xs sm:grid-cols-3 sm:gap-5">
         {ecosystemRelationships.map(([title, description]) => (
-          <div
-            key={title}
-            className="flex min-h-[56px] flex-col justify-center rounded-[22px] border border-line bg-[#080610] px-3 py-2"
-          >
-            <b className="font-medium">{title}</b>
-            <span className="text-[11px] leading-tight text-muted">{description}</span>
-          </div>
+          <StaggerItem key={title}>
+            <HoverLift className="flex min-h-[56px] flex-col justify-center rounded-[22px] border border-line bg-[#080610] px-3 py-2">
+              <b className="font-medium">{title}</b>
+              <span className="text-[11px] leading-tight text-muted">{description}</span>
+            </HoverLift>
+          </StaggerItem>
         ))}
-      </div>
+      </StaggerGroup>
     </section>
   );
 }

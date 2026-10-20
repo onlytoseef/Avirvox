@@ -5,12 +5,15 @@ import {
   roadmapPagePhases,
 } from "@/lib/content/roadmap-page";
 import { RoadmapPhaseCard } from "@/components/cards/roadmap-phase-card";
+import { FadeIn } from "@/components/motion/fade-in";
+import { ScaleIn } from "@/components/motion/scale-in";
+import { TiltCard } from "@/components/motion/tilt-card";
 
 function RoadmapHero() {
   return (
     <section className="relative isolate -mt-[97px] overflow-hidden text-center">
       <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[560px] bg-[radial-gradient(ellipse_at_52%_0%,#79255488,transparent_61%),radial-gradient(ellipse_at_18%_0%,#db633b44,transparent_37%)]" />
-      <div className="mx-auto min-w-0 max-w-[1440px] px-5 pt-[calc(clamp(100px,13vw,190px)+97px)]">
+      <FadeIn className="mx-auto min-w-0 max-w-[1440px] px-5 pt-[calc(clamp(100px,13vw,190px)+97px)]">
         <Eyebrow>{roadmapPageContent.eyebrow}</Eyebrow>
         <h1 className="mt-5 max-w-full font-[family-name:var(--font-display)] text-[clamp(2.2rem,8.1vw,8rem)] leading-[0.93] font-normal tracking-[-0.045em] uppercase">
           <span className="block text-[#f9edf5]">{roadmapPageContent.title[0]}</span>
@@ -21,7 +24,7 @@ function RoadmapHero() {
         <p className="mx-auto mt-8 max-w-[760px] text-sm leading-[1.5] text-[#d4c8d7] sm:text-base">
           {roadmapPageContent.intro}
         </p>
-      </div>
+      </FadeIn>
       <AudienceStrip size="large" className="mx-auto mt-[clamp(90px,10.5vw,155px)] max-w-[1500px] px-4 pb-[clamp(80px,7.3vw,105px)]" />
     </section>
   );
@@ -31,7 +34,7 @@ function TgeMilestone() {
   const { milestone } = roadmapPageContent;
 
   return (
-    <section
+    <ScaleIn
       className="relative isolate flex min-h-[315px] flex-col items-center justify-center overflow-hidden rounded-[25px] border border-[#6a3a64] px-6 py-14 text-center"
       style={{
         backgroundImage:
@@ -49,7 +52,7 @@ function TgeMilestone() {
       <p className="mx-auto mt-5 max-w-[800px] text-xs leading-[1.5] text-white/85 sm:text-sm">
         {milestone.description}
       </p>
-    </section>
+    </ScaleIn>
   );
 }
 
@@ -57,7 +60,7 @@ function RoadmapClosing() {
   const { closing } = roadmapPageContent;
 
   return (
-    <section
+    <FadeIn
       className="mx-auto mt-40 flex min-h-[425px] max-w-[1344px] flex-col items-center justify-center rounded-[25px] border border-[#514157] px-6 py-16 text-center"
       style={{
         backgroundImage:
@@ -81,7 +84,7 @@ function RoadmapClosing() {
           {closing.secondaryLabel}
         </OutlineButton>
       </div>
-    </section>
+    </FadeIn>
   );
 }
 
@@ -92,19 +95,27 @@ export function RoadmapPageContent() {
 
       <div className="mx-auto grid max-w-[1440px] grid-cols-[minmax(0,1fr)] gap-12 px-4 sm:px-6 lg:px-10">
         {roadmapPagePhases.slice(0, 2).map((phase) => (
-          <RoadmapPhaseCard key={phase.number} phase={phase} />
+          <ScaleIn key={phase.number}>
+            <TiltCard strength={4} className="group rounded-[25px]">
+              <RoadmapPhaseCard phase={phase} />
+            </TiltCard>
+          </ScaleIn>
         ))}
 
         <TgeMilestone />
 
         {roadmapPagePhases.slice(2).map((phase) => (
-          <RoadmapPhaseCard key={phase.number} phase={phase} />
+          <ScaleIn key={phase.number}>
+            <TiltCard strength={4} className="group rounded-[25px]">
+              <RoadmapPhaseCard phase={phase} />
+            </TiltCard>
+          </ScaleIn>
         ))}
       </div>
 
-      <p className="mx-auto mt-28 max-w-[720px] px-5 text-center text-sm leading-[1.5] text-[#cec1d3]">
-        {roadmapPageContent.disclaimer}
-      </p>
+      <FadeIn className="mx-auto mt-28 max-w-[720px] px-5 text-center text-sm leading-[1.5] text-[#cec1d3]">
+        <p>{roadmapPageContent.disclaimer}</p>
+      </FadeIn>
 
       <div className="px-4 sm:px-6 lg:px-8">
         <RoadmapClosing />

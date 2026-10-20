@@ -4,11 +4,12 @@ import {
   OutlineButton,
 } from "@/components/ui/elements";
 import { aboutContent } from "@/lib/content/about";
+import { FadeIn } from "@/components/motion/fade-in";
 
 export function About() {
   return (
     <section id="about" className="mx-auto max-w-[1440px] px-5 py-20 lg:px-10">
-      <div
+      <FadeIn
         className="rounded-[28px] border border-[#4d2e56] px-6 py-14 text-center"
         style={{
           backgroundImage:
@@ -27,7 +28,7 @@ export function About() {
           <GradientButton href="#participate">{aboutContent.eligibilityLabel}</GradientButton>
           <OutlineButton href="#resources">{aboutContent.whitepaperLabel}</OutlineButton>
         </div>
-      </div>
+      </FadeIn>
     </section>
   );
 }

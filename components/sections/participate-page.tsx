@@ -9,6 +9,9 @@ import {
   participatePageContent,
   participationSteps,
 } from "@/lib/content/participate-page";
+import { FadeIn } from "@/components/motion/fade-in";
+import { ScaleIn } from "@/components/motion/scale-in";
+import { TiltCard } from "@/components/motion/tilt-card";
 
 type ParticipationStep = (typeof participationSteps)[number];
 
@@ -25,7 +28,7 @@ function ParticipationHero() {
   return (
     <section className="relative isolate -mt-[97px] overflow-hidden text-center">
       <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[570px] bg-[radial-gradient(ellipse_at_50%_0%,#a13a6999,transparent_58%),radial-gradient(ellipse_at_18%_0%,#c4513244,transparent_38%)]" />
-      <div className="mx-auto max-w-[1440px] px-5 pt-[calc(clamp(100px,13vw,190px)+97px)]">
+      <FadeIn className="mx-auto max-w-[1440px] px-5 pt-[calc(clamp(100px,13vw,190px)+97px)]">
         <Eyebrow>{participatePageContent.eyebrow}</Eyebrow>
         <h1 className="mt-5 font-[family-name:var(--font-display)] text-[clamp(2.5rem,8.1vw,8rem)] leading-[0.93] font-normal tracking-[-0.045em] uppercase">
           <span className="block text-[#f9edf5]">{participatePageContent.title[0]}</span>
@@ -36,7 +39,7 @@ function ParticipationHero() {
         <p className="mx-auto mt-8 max-w-[760px] text-sm leading-[1.5] text-[#d4c8d7] sm:text-base">
           {participatePageContent.introduction}
         </p>
-      </div>
+      </FadeIn>
       <AudienceStrip
         size="large"
         className="mx-auto mt-[clamp(90px,10.5vw,155px)] max-w-[1500px] px-4 pb-[clamp(65px,6vw,90px)]"
@@ -49,10 +52,11 @@ function StepIllustration({ step }: { step: ParticipationStep }) {
   const Icon = stepIcons[step.number];
 
   return (
-    <div
+    <TiltCard
+      strength={12}
       aria-label={`${step.title} icon`}
       role="img"
-      className="relative flex size-32 shrink-0 items-center justify-center overflow-hidden rounded-[30px] border border-[#5b2377] bg-[#0d0516] shadow-[inset_0_0_0_5px_#220c35,0_0_25px_#70128022] lg:size-36"
+      className="group relative flex size-32 shrink-0 items-center justify-center overflow-hidden rounded-[30px] border border-[#5b2377] bg-[#0d0516] shadow-[inset_0_0_0_5px_#220c35,0_0_25px_#70128022] lg:size-36"
     >
       <Icon
         aria-hidden="true"
@@ -63,13 +67,13 @@ function StepIllustration({ step }: { step: ParticipationStep }) {
             : { stroke: "url(#participation-step-gradient)" }
         }
       />
-    </div>
+    </TiltCard>
   );
 }
 
 function ParticipationStepRow({ step, last }: { step: ParticipationStep; last: boolean }) {
   return (
-    <article className="grid min-h-[440px] gap-8 sm:grid-cols-[170px_minmax(0,1fr)] lg:min-h-[505px] lg:grid-cols-[280px_minmax(0,1fr)_200px] lg:gap-10">
+    <FadeIn className="grid min-h-[440px] gap-8 sm:grid-cols-[170px_minmax(0,1fr)] lg:min-h-[505px] lg:grid-cols-[280px_minmax(0,1fr)_200px] lg:gap-10">
       <div className="relative flex gap-4 sm:gap-5">
         <div className="relative flex w-3 shrink-0 justify-center pt-2">
           <span className="z-10 size-3 rounded-full bg-gradient-to-br from-[#ff9a22] via-[#e84aa9] to-[#962be5] shadow-[0_0_0_5px_#3a0c4d,0_0_13px_#df32df]" />
@@ -113,7 +117,7 @@ function ParticipationStepRow({ step, last }: { step: ParticipationStep; last: b
       <div className="hidden lg:flex lg:justify-end">
         <StepIllustration step={step} />
       </div>
-    </article>
+    </FadeIn>
   );
 }
 
@@ -134,7 +138,9 @@ export function ParticipatePageContent() {
         {participationSteps.map((step, index) => (
           <ParticipationStepRow key={step.number} step={step} last={index === participationSteps.length - 1} />
         ))}
-        <SecurityCard />
+        <ScaleIn>
+          <SecurityCard />
+        </ScaleIn>
       </div>
     </main>
   );

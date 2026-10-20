@@ -1,0 +1,957 @@
+[
+  {
+    "number": "1",
+    "title": "Introduction And Issuing Entity",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "These AVX Token Sale Terms (\"Terms\") govern participation in the private, strategic and public sale rounds of the AVX token conducted by Avirvox Labs FZE LLC (\"Avirvox Labs\", \"Company\", \"we\", \"our\" or \"us\") through its official token sale platform."
+      },
+      {
+        "type": "paragraph",
+        "text": "Legal Entity: Avirvox Labs FZE LLC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Formation Number: 4424076"
+      },
+      {
+        "type": "paragraph",
+        "text": "Registered Address: Business Centre, Sharjah Publishing City Free Zone, Sharjah, United Arab Emirates."
+      },
+      {
+        "type": "paragraph",
+        "text": "Participation in the AVX token sale is subject to these Terms, applicable eligibility requirements, KYC / AML procedures, risk disclosures and applicable laws."
+      },
+      {
+        "type": "paragraph",
+        "text": "By submitting a purchase transaction through the official token sale platform after having reasonable access to these Terms, a participant agrees to be bound by them to the extent permitted by applicable law."
+      },
+      {
+        "type": "paragraph",
+        "text": "Participants are responsible for reviewing the applicable Terms before participating."
+      }
+    ]
+  },
+  {
+    "number": "2",
+    "title": "AVX Token Information",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Token Name: Avirvox"
+      },
+      {
+        "type": "paragraph",
+        "text": "Token Symbol: AVX"
+      },
+      {
+        "type": "paragraph",
+        "text": "Blockchain Network: BNB Smart Chain"
+      },
+      {
+        "type": "paragraph",
+        "text": "Token Standard: BEP-20"
+      },
+      {
+        "type": "paragraph",
+        "text": "Total Supply: 1,000,000,000 AVX"
+      },
+      {
+        "type": "paragraph",
+        "text": "Maximum Private and Public Sale Allocation: 300,000,000 AVX, representing 30% of the total supply."
+      },
+      {
+        "type": "paragraph",
+        "text": "Official AVX Contract Address: 0x4727d9A390Aa7bc001C52E4b1E9c9D990F12E99b"
+      },
+      {
+        "type": "paragraph",
+        "text": "AVX is intended to function as a utility token within the Avirvox Labs ecosystem, supporting eligible participation, services and other ecosystem activities as they become operationally and legally available."
+      },
+      {
+        "type": "paragraph",
+        "text": "AVX does not confer equity, ownership, dividends, profit-sharing rights or claims over assets, revenues or intellectual property of Avirvox Labs FZE LLC or Avirvox Inc."
+      },
+      {
+        "type": "paragraph",
+        "text": "AVX is not required for the procurement or use of Avirvox Inc. enterprise products or services."
+      },
+      {
+        "type": "paragraph",
+        "text": "The intended utility designation does not override any classification or requirements imposed under applicable law."
+      },
+      {
+        "type": "paragraph",
+        "text": "The AVX token has a fixed total supply, with no future discretionary minting contemplated under the approved token framework."
+      }
+    ]
+  },
+  {
+    "number": "3",
+    "title": "Token Sale Rounds",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "The AVX token sale is structured as follows:"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Sale Round",
+            "Token Allocation",
+            "Price / AVX",
+            "Scheduled Period"
+          ],
+          [
+            "Private / Strategic",
+            "50,000,000 AVX",
+            "US$0.015",
+            "15 Nov 2026 to 30 Nov 2026"
+          ],
+          [
+            "Public Round 1",
+            "150,000,000 AVX",
+            "US$0.020",
+            "1 Dec 2026 to 15 Jan 2027"
+          ],
+          [
+            "Public Round 2",
+            "100,000,000 AVX",
+            "US$0.030",
+            "16 Jan 2027 to 15 Feb 2027"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The aggregate maximum sale allocation is 300,000,000 AVX. The theoretical maximum gross sale proceeds are US$6,750,000, assuming all allocated sale tokens are purchased. Actual proceeds may be lower."
+      },
+      {
+        "type": "paragraph",
+        "text": "The scheduled dates are indicative and subject to legal, technical, security and operational readiness."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may reasonably postpone, extend, pause, shorten or close any sale round where necessary for compliance, security, technical, market-integrity or operational reasons."
+      },
+      {
+        "type": "paragraph",
+        "text": "Any material changes affecting confirmed purchases will be handled in accordance with these Terms and applicable law."
+      },
+      {
+        "type": "paragraph",
+        "text": "Unsold tokens will remain under controlled allocation and will not automatically enter unrestricted circulation or automatically transfer to another sale round. Any subsequent treatment will be subject to applicable governance, treasury and legal requirements."
+      }
+    ]
+  },
+  {
+    "number": "4",
+    "title": "Eligibility And Restricted Jurisdictions",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Participation is available only to individuals or legal entities legally eligible to acquire AVX."
+      },
+      {
+        "type": "paragraph",
+        "text": "By participating, you represent that:"
+      },
+      {
+        "type": "listItem",
+        "text": "You are at least 18 years old, or the applicable legal age of majority, whichever is higher, and possess the legal capacity to participate."
+      },
+      {
+        "type": "listItem",
+        "text": "Your participation does not violate laws or regulatory restrictions applicable to you."
+      },
+      {
+        "type": "listItem",
+        "text": "You are not subject to applicable sanctions or other prohibitions."
+      },
+      {
+        "type": "listItem",
+        "text": "You are not participating on behalf of an undisclosed or prohibited third party."
+      },
+      {
+        "type": "listItem",
+        "text": "Information provided during participation or verification is accurate and complete."
+      },
+      {
+        "type": "paragraph",
+        "text": "AVX may not be offered or made available to persons in jurisdictions where its sale or distribution is prohibited, requires an authorization that has not been obtained, or would otherwise violate applicable law."
+      },
+      {
+        "type": "paragraph",
+        "text": "Participation from certain jurisdictions, including the United States, Canada, the United Kingdom, the European Economic Area and other regulated markets, may be restricted or subject to additional eligibility, qualification or compliance conditions depending on applicable legal requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "The availability of the Avirvox Labs website in any jurisdiction does not constitute an offer or invitation to participate in that jurisdiction."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs reserves the right to restrict access, decline participation, apply jurisdiction-specific requirements or discontinue eligibility where reasonably necessary to comply with applicable laws and regulatory obligations."
+      },
+      {
+        "type": "paragraph",
+        "text": "The separate Eligibility and Restricted Jurisdictions Policy, as published on the official website, forms part of the applicable participant eligibility framework."
+      },
+      {
+        "type": "paragraph",
+        "text": "No provision in these Terms authorizes participation where doing so would be unlawful."
+      }
+    ]
+  },
+  {
+    "number": "5",
+    "title": "KYC, AML And Verification",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may implement identity verification, anti-money laundering, counter-terrorist financing, sanctions screening and enhanced due diligence procedures as required by applicable law or its compliance policies."
+      },
+      {
+        "type": "paragraph",
+        "text": "Participants may be required to provide identity documents, proof of address, beneficial ownership information, source- of-funds information or other relevant supporting documentation."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company may delay, reject, suspend or cancel participation where:"
+      },
+      {
+        "type": "listItem",
+        "text": "Required verification remains incomplete or unsuccessful."
+      },
+      {
+        "type": "listItem",
+        "text": "Information provided is false, misleading or materially incomplete."
+      },
+      {
+        "type": "listItem",
+        "text": "Transactions raise reasonable fraud, sanctions or compliance concerns."
+      },
+      {
+        "type": "listItem",
+        "text": "Participation could expose the Company to a violation of applicable law."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where legally required, funds may be retained, restricted or handled in accordance with competent authority instructions."
+      },
+      {
+        "type": "paragraph",
+        "text": "Personal information will be processed in accordance with the Company's Privacy and Cookie Policy and applicable data-protection requirements."
+      }
+    ]
+  },
+  {
+    "number": "6",
+    "title": "Accepted Payment Methods",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "The following digital assets are intended to be supported through the official token sale interface:"
+      },
+      {
+        "type": "listItem",
+        "text": "BNB"
+      },
+      {
+        "type": "listItem",
+        "text": "USDT"
+      },
+      {
+        "type": "listItem",
+        "text": "USDC"
+      },
+      {
+        "type": "paragraph",
+        "text": "All transactions must use the supported blockchain network and payment instructions displayed through the official participation platform."
+      },
+      {
+        "type": "paragraph",
+        "text": "Participants are responsible for confirming wallet compatibility, payment asset, destination address, blockchain network, contribution amount and sufficient funds for network fees."
+      },
+      {
+        "type": "paragraph",
+        "text": "Token pricing is denominated in United States dollars. Where payment is made using digital assets, the applicable USD- equivalent amount will be determined using the conversion rate displayed or applied by the official participation system at the time of transaction processing."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company may apply reasonable pricing, rounding and transaction-validation procedures to address blockchain price movements, network fees and payment discrepancies."
+      },
+      {
+        "type": "paragraph",
+        "text": "Transactions made through unsupported networks, assets or addresses may be unrecoverable."
+      },
+      {
+        "type": "paragraph",
+        "text": "To the maximum extent permitted by applicable law, Avirvox Labs is not responsible for losses resulting from participant error, unsupported transactions, compromised personal wallets or third-party blockchain failures outside its reasonable control."
+      }
+    ]
+  },
+  {
+    "number": "7",
+    "title": "Purchase Confirmation And Token Allocation",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Submission of a blockchain transaction does not automatically constitute a completed or accepted AVX purchase."
+      },
+      {
+        "type": "paragraph",
+        "text": "Participation becomes confirmed only after successful payment receipt, transaction verification, applicable eligibility checks and reconciliation within the official Avirvox Labs sale system."
+      },
+      {
+        "type": "paragraph",
+        "text": "Confirmed purchases and token allocations will be reflected in the participant dashboard or other official confirmation records."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may correct demonstrable technical, administrative, calculation or reconciliation errors affecting transaction or allocation records, while preserving participants' applicable legal rights."
+      },
+      {
+        "type": "paragraph",
+        "text": "Any applicable minimum or maximum contribution requirements will be communicated through the official sale process."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company may reject duplicate, incomplete, invalid, non-compliant or otherwise unacceptable transactions."
+      }
+    ]
+  },
+  {
+    "number": "8",
+    "title": "Vesting, Staking And Token Delivery",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "AVX tokens purchased during the approved sale rounds are subject to the following release schedules."
+      },
+      {
+        "type": "heading",
+        "text": "Private / Strategic Round"
+      },
+      {
+        "type": "listItem",
+        "text": "10% of the purchased AVX allocation is scheduled for release at Token Generation Event (\"TGE\")."
+      },
+      {
+        "type": "listItem",
+        "text": "A three-month cliff applies to the remaining allocation."
+      },
+      {
+        "type": "listItem",
+        "text": "Following the cliff, the remaining 90% is scheduled to vest over 12 months."
+      },
+      {
+        "type": "heading",
+        "text": "Public Round 1"
+      },
+      {
+        "type": "listItem",
+        "text": "20% of the purchased AVX allocation is scheduled for release at TGE."
+      },
+      {
+        "type": "listItem",
+        "text": "The remaining 80% is scheduled to vest over six months."
+      },
+      {
+        "type": "heading",
+        "text": "Public Round 2"
+      },
+      {
+        "type": "listItem",
+        "text": "25% of the purchased AVX allocation is scheduled for release at TGE."
+      },
+      {
+        "type": "listItem",
+        "text": "The remaining 75% is scheduled to vest over three months."
+      },
+      {
+        "type": "paragraph",
+        "text": "The currently scheduled TGE is 15 March 2027, subject to legal, technical, security and operational readiness."
+      },
+      {
+        "type": "paragraph",
+        "text": "For purposes of these Terms, TGE means the commencement of the approved token-release process, as officially announced by Avirvox Labs."
+      },
+      {
+        "type": "paragraph",
+        "text": "Unless a different schedule is expressly disclosed for an applicable round before purchase, post-cliff and post-TGE vesting shall occur in periodic monthly installments over the stated vesting period."
+      },
+      {
+        "type": "paragraph",
+        "text": "Vesting schedules may be administered through smart contracts, secure allocation systems, controlled treasury arrangements or documented administrative processes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where supported and expressly disclosed through the official participation interface, unreleased AVX allocations may be subject to an automatic staking or lock-up arrangement during the applicable vesting period."
+      },
+      {
+        "type": "paragraph",
+        "text": "Such arrangements do not guarantee staking rewards, interest, yield, profits or additional token distributions unless separately and expressly established under applicable program terms."
+      },
+      {
+        "type": "paragraph",
+        "text": "Tokens will become claimable or transferable according to the applicable release schedule, platform capabilities, security controls and legal requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "Participants may be required to connect a compatible wallet or complete reasonable verification procedures to claim available tokens."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may temporarily suspend claims or transfers where reasonably necessary for security, compliance, blockchain integrity or technical reasons."
+      },
+      {
+        "type": "paragraph",
+        "text": "Any postponement of TGE will be communicated through official channels. Corresponding vesting and release dates may be adjusted to reflect the actual TGE, subject to applicable law and any remedies expressly provided under these Terms."
+      }
+    ]
+  },
+  {
+    "number": "9",
+    "title": "Refunds, Cancellations And Oversubscription",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "9.1 General Policy"
+      },
+      {
+        "type": "paragraph",
+        "text": "Confirmed AVX purchases are generally final, subject to applicable law, the cancellation events specified in these Terms and any mandatory refund rights."
+      },
+      {
+        "type": "paragraph",
+        "text": "Blockchain payments may be irreversible, and participants should carefully review all transaction information before confirming payment."
+      },
+      {
+        "type": "heading",
+        "text": "9.2 Failed or Unconfirmed Transactions"
+      },
+      {
+        "type": "paragraph",
+        "text": "Where a payment has not been successfully received or verified, no corresponding AVX allocation is guaranteed."
+      },
+      {
+        "type": "paragraph",
+        "text": "If funds are demonstrably received by the Company but a purchase cannot be completed because of a verified technical or processing failure, the Company may complete the allocation or issue a refund, as appropriate."
+      },
+      {
+        "type": "heading",
+        "text": "9.3 Duplicate or Excess Payments"
+      },
+      {
+        "type": "paragraph",
+        "text": "Verified duplicate payments, overpayments or incorrectly processed contributions may be reconciled, applied to an eligible allocation where permitted, or refunded as applicable."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company may request reasonable supporting documentation before processing any adjustment."
+      },
+      {
+        "type": "heading",
+        "text": "9.4 Rejected KYC or Ineligible Participation"
+      },
+      {
+        "type": "paragraph",
+        "text": "Where a participant fails applicable verification or eligibility requirements after funds have been received, the Company may cancel the allocation and arrange a refund where legally permitted."
+      },
+      {
+        "type": "paragraph",
+        "text": "Refunds may be delayed or restricted where required by sanctions, anti-money laundering, fraud-prevention or other legal obligations."
+      },
+      {
+        "type": "heading",
+        "text": "9.5 Oversubscription"
+      },
+      {
+        "type": "paragraph",
+        "text": "Where an approved sale-round allocation is exceeded, the Company may reject excess contributions, allocate tokens within the approved available supply or process applicable refunds."
+      },
+      {
+        "type": "paragraph",
+        "text": "Allocation decisions will be made using reasonable, consistent procedures, subject to applicable law and the terms disclosed for the relevant sale round."
+      },
+      {
+        "type": "heading",
+        "text": "9.6 Cancellation Before TGE"
+      },
+      {
+        "type": "paragraph",
+        "text": "If Avirvox Labs permanently cancels the AVX token sale before TGE and cannot deliver confirmed token allocations, affected participants will be entitled to an appropriate refund of their accepted contributions, except where a different treatment is legally required."
+      },
+      {
+        "type": "paragraph",
+        "text": "A temporary postponement, extension or suspension does not, by itself, constitute permanent cancellation."
+      },
+      {
+        "type": "heading",
+        "text": "9.7 Extended TGE Delay"
+      },
+      {
+        "type": "paragraph",
+        "text": "If TGE is delayed, Avirvox Labs may revise the expected launch schedule where reasonably necessary for technical, security, legal or operational reasons."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company will communicate material delays through its official channels."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where TGE has not occurred within 180 calendar days following the originally scheduled date, the Company will undertake a formal review of the delay and communicate the revised plan and any applicable cancellation or refund options."
+      },
+      {
+        "type": "paragraph",
+        "text": "This review does not automatically constitute cancellation or create an unconditional right to withdraw an otherwise valid purchase, except where required by applicable law."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where delivery becomes permanently impossible or the Company elects to terminate the relevant sale obligations, refunds will be handled under the cancellation provisions of these Terms."
+      },
+      {
+        "type": "heading",
+        "text": "9.8 Refund Denomination"
+      },
+      {
+        "type": "paragraph",
+        "text": "Where a refund is approved or legally required, the refund amount will generally be calculated using the original USD- equivalent value of the eligible contribution recorded and accepted by the official token sale system."
+      },
+      {
+        "type": "paragraph",
+        "text": "Refunds may be made in USDT, USDC or another legally available payment method selected by the Company, provided the refunded amount reflects the applicable USD-equivalent obligation."
+      },
+      {
+        "type": "paragraph",
+        "text": "The number of digital-asset units refunded may differ from the number originally contributed due to exchange-rate movements."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs does not guarantee recovery of any subsequent increase in value of the original payment asset."
+      },
+      {
+        "type": "heading",
+        "text": "9.9 Fees and Processing Timelines"
+      },
+      {
+        "type": "paragraph",
+        "text": "Participants are generally responsible for ordinary blockchain network fees incurred in making contributions or receiving refunds."
+      },
+      {
+        "type": "paragraph",
+        "text": "Reasonable non-recoverable third-party transaction fees may be deducted only where disclosed and legally permitted."
+      },
+      {
+        "type": "paragraph",
+        "text": "No arbitrary cancellation or processing penalty will be imposed on a refund required because the Company has permanently cancelled the sale."
+      },
+      {
+        "type": "paragraph",
+        "text": "Eligible refunds will ordinarily be processed within 30 calendar days following final verification and approval of the refund, unless delayed by legal restrictions, additional verification, blockchain disruptions or circumstances outside the Company's reasonable control."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where mandatory law imposes a shorter deadline, that deadline shall apply."
+      }
+    ]
+  },
+  {
+    "number": "10",
+    "title": "No Equity, Ownership Or Guaranteed Investment Returns",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "AVX is intended to provide eligible utility and participation functionality within the Avirvox Labs ecosystem."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ownership of AVX does not grant:"
+      },
+      {
+        "type": "listItem",
+        "text": "Shares or equity in Avirvox Labs or Avirvox Inc."
+      },
+      {
+        "type": "listItem",
+        "text": "Dividends or profit-sharing rights."
+      },
+      {
+        "type": "listItem",
+        "text": "Ownership or security interests in company assets."
+      },
+      {
+        "type": "listItem",
+        "text": "Rights to enterprise revenue or customer contracts."
+      },
+      {
+        "type": "listItem",
+        "text": "Rights over intellectual property or customer data."
+      },
+      {
+        "type": "listItem",
+        "text": "Guaranteed voting, management or corporate governance rights."
+      },
+      {
+        "type": "listItem",
+        "text": "Guaranteed financial returns, appreciation or redemption."
+      },
+      {
+        "type": "paragraph",
+        "text": "Any optional ecosystem participation or governance features may be made available only under separately applicable program conditions."
+      },
+      {
+        "type": "paragraph",
+        "text": "The AVX token sale does not constitute an offer of equity in either corporate entity."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nothing in these Terms constitutes personalized investment, legal, financial or tax advice."
+      },
+      {
+        "type": "paragraph",
+        "text": "These contractual descriptions do not limit the application of any mandatory legal or regulatory classification."
+      }
+    ]
+  },
+  {
+    "number": "11",
+    "title": "Risks And Participant Acknowledgement",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Participation in digital assets involves significant risk, including possible loss of the entire amount contributed."
+      },
+      {
+        "type": "paragraph",
+        "text": "Material risks include:"
+      },
+      {
+        "type": "listItem",
+        "text": "Legal, regulatory and jurisdictional changes."
+      },
+      {
+        "type": "listItem",
+        "text": "Market volatility and token-price fluctuations."
+      },
+      {
+        "type": "listItem",
+        "text": "Absence of liquidity or exchange listings."
+      },
+      {
+        "type": "listItem",
+        "text": "Blockchain congestion, failure or network disruptions."
+      },
+      {
+        "type": "listItem",
+        "text": "Smart-contract vulnerabilities and technical errors."
+      },
+      {
+        "type": "listItem",
+        "text": "Cybersecurity attacks, fraud and wallet compromise."
+      },
+      {
+        "type": "listItem",
+        "text": "Treasury, custody and operational risks."
+      },
+      {
+        "type": "listItem",
+        "text": "Development delays and execution challenges."
+      },
+      {
+        "type": "listItem",
+        "text": "Changes to planned ecosystem functionality."
+      },
+      {
+        "type": "listItem",
+        "text": "Delayed, limited or unsuccessful utility activation."
+      },
+      {
+        "type": "listItem",
+        "text": "Limited demand, adoption or secondary-market activity."
+      },
+      {
+        "type": "listItem",
+        "text": "Staking, locking and token-release restrictions."
+      },
+      {
+        "type": "listItem",
+        "text": "Third-party infrastructure or service-provider failures."
+      },
+      {
+        "type": "paragraph",
+        "text": "Any security review, audit or testing process reduces neither all technical risks nor the possibility of losses."
+      },
+      {
+        "type": "paragraph",
+        "text": "AVX utility may be introduced in phases and depends on actual platform development, ecosystem adoption and applicable readiness requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "No token-price appreciation, exchange listing, market liquidity, utility launch, staking reward or future economic benefit is guaranteed."
+      },
+      {
+        "type": "paragraph",
+        "text": "Participants are responsible for independently evaluating these risks and seeking qualified professional advice where appropriate."
+      }
+    ]
+  },
+  {
+    "number": "12",
+    "title": "Security And Official Communications",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Participants should interact only with the verified Avirvox Labs website, official token sale interface and authorized communication channels."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs will never request a participant's wallet seed phrase, private key or wallet recovery credentials."
+      },
+      {
+        "type": "paragraph",
+        "text": "Participants should independently verify the official contract address, supported network and payment instructions."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company is not responsible, to the extent permitted by law, for losses arising from unofficial websites, impersonation, phishing, fraudulent third parties or transactions conducted outside its authorized systems where such losses are not attributable to its legally actionable conduct."
+      },
+      {
+        "type": "paragraph",
+        "text": "Material sale announcements, security notifications and changes to relevant participation procedures will be communicated through official channels where reasonably practicable."
+      }
+    ]
+  },
+  {
+    "number": "13",
+    "title": "Changes, Suspension And Force Majeure",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may modify, suspend, postpone or terminate sale operations where reasonably necessary because of:"
+      },
+      {
+        "type": "listItem",
+        "text": "Applicable legal or regulatory requirements."
+      },
+      {
+        "type": "listItem",
+        "text": "Security incidents or suspected fraud."
+      },
+      {
+        "type": "listItem",
+        "text": "Blockchain or smart-contract failures."
+      },
+      {
+        "type": "listItem",
+        "text": "Infrastructure, payment-processing or custody disruptions."
+      },
+      {
+        "type": "listItem",
+        "text": "Extraordinary market or operational circumstances."
+      },
+      {
+        "type": "listItem",
+        "text": "Events outside the Company's reasonable control."
+      },
+      {
+        "type": "listItem",
+        "text": "Other legitimate circumstances materially affecting the lawful or secure operation of the sale."
+      },
+      {
+        "type": "paragraph",
+        "text": "Material changes to the economic rights attached to already-confirmed purchases will be handled in accordance with applicable contractual obligations and law."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company will not be liable for delays or failures directly caused by events beyond its reasonable control, except to the extent liability cannot lawfully be excluded."
+      },
+      {
+        "type": "paragraph",
+        "text": "If such events permanently prevent performance, applicable cancellation, refund and legal-remedy provisions shall govern."
+      }
+    ]
+  },
+  {
+    "number": "14",
+    "title": "Taxes And Participant Responsibilities",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Participants are responsible for determining and satisfying applicable tax-reporting and payment obligations associated with purchasing, receiving, holding, transferring, staking or using AVX."
+      },
+      {
+        "type": "paragraph",
+        "text": "Tax treatment may vary depending on the participant's residence, legal status and applicable jurisdiction."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs does not provide personal tax advice."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company may request information, make disclosures or apply withholding where required by law."
+      }
+    ]
+  },
+  {
+    "number": "15",
+    "title": "Limitation Of Liability",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "To the maximum extent permitted by applicable law, Avirvox Labs and its directors, officers, employees and authorized representatives shall not be liable for indirect, incidental, consequential or speculative losses, including loss of anticipated profits, token-price appreciation or prospective market opportunities, arising from participation in the AVX token sale."
+      },
+      {
+        "type": "paragraph",
+        "text": "Subject to applicable law, the Company's aggregate contractual liability arising from a participant's confirmed AVX purchase shall not exceed the original USD-equivalent contribution actually received and accepted by the Company in connection with the affected purchase."
+      },
+      {
+        "type": "paragraph",
+        "text": "This limitation does not eliminate obligations to deliver tokens or process refunds where legally required or expressly owed under these Terms."
+      },
+      {
+        "type": "paragraph",
+        "text": "The limitations in this section do not exclude liability for fraud, willful misconduct or any other liability that cannot lawfully be excluded or limited."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nothing in these Terms limits mandatory rights or remedies available under applicable law."
+      }
+    ]
+  },
+  {
+    "number": "16",
+    "title": "Governing Law And Dispute Resolution",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "These Terms shall be governed by and interpreted in accordance with the applicable laws of the United Arab Emirates and the Emirate of Sharjah."
+      },
+      {
+        "type": "paragraph",
+        "text": "Participants and Avirvox Labs agree to first attempt to resolve disputes arising from the token sale through good-faith communication."
+      },
+      {
+        "type": "paragraph",
+        "text": "A participant may submit a written complaint to the Company's official contact email, providing relevant transaction details and supporting information."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company will use reasonable efforts to review complaints and communicate an initial response within 30 calendar days."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where a dispute cannot be resolved amicably, the competent courts of Sharjah, United Arab Emirates shall have jurisdiction, except where mandatory applicable law requires otherwise."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nothing in this section excludes any jurisdiction, consumer protection or statutory remedy that cannot lawfully be excluded."
+      }
+    ]
+  },
+  {
+    "number": "17",
+    "title": "Priority Of Terms And Document Hierarchy",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "These Terms constitute the principal contractual terms governing AVX token sale participation, together with any applicable accepted sale-specific or subscription documentation."
+      },
+      {
+        "type": "paragraph",
+        "text": "The official Whitepaper and Pitch Deck provide supporting information about the Company's strategy, anticipated utility, tokenomics and future development plans."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where there is a conflict between general marketing material, informal community communications or non-binding promotional statements and these Terms, the applicable binding Token Sale Terms shall prevail, subject to mandatory law."
+      },
+      {
+        "type": "paragraph",
+        "text": "A separately executed private or strategic subscription agreement may take precedence where expressly provided in that agreement."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company's Eligibility and Restricted Jurisdictions Policy, KYC / AML Notice and Privacy and Cookie Policy apply to their respective subject matters."
+      },
+      {
+        "type": "paragraph",
+        "text": "No informal communication, social-media announcement or third-party representation shall amend a confirmed purchase agreement unless expressly authorized by the Company and legally effective."
+      }
+    ]
+  },
+  {
+    "number": "18",
+    "title": "Amendments And Severability",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may update these Terms to reflect legal, regulatory, technical or operational developments."
+      },
+      {
+        "type": "paragraph",
+        "text": "Updated Terms will be made available through the official website with an appropriate effective date."
+      },
+      {
+        "type": "paragraph",
+        "text": "Material changes to existing contractual rights will not apply retrospectively where prohibited by law or without any consent legally required."
+      },
+      {
+        "type": "paragraph",
+        "text": "If any provision of these Terms is found invalid, unlawful or unenforceable, the remaining provisions shall remain effective to the extent permitted by applicable law."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company's failure to enforce a particular provision on one occasion does not automatically constitute a waiver of that provision in future circumstances."
+      }
+    ]
+  },
+  {
+    "number": "19",
+    "title": "Contact Information",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs FZE LLC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Business Centre, Sharjah Publishing City Free Zone"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sharjah, United Arab Emirates"
+      },
+      {
+        "type": "paragraph",
+        "text": "Email: coin@avirvox.io"
+      },
+      {
+        "type": "paragraph",
+        "text": "Official Website: https://www.avirvox.io"
+      },
+      {
+        "type": "heading",
+        "text": "IMPORTANT PARTICIPANT NOTICE"
+      },
+      {
+        "type": "paragraph",
+        "text": "AVX is a digital asset with significant legal, operational, technological and market risks."
+      },
+      {
+        "type": "paragraph",
+        "text": "The purchase of AVX does not guarantee financial returns, liquidity, exchange admission, future utility or any ownership interest in Avirvox Labs or Avirvox Inc."
+      },
+      {
+        "type": "paragraph",
+        "text": "Participation is permitted only where lawful and subject to applicable eligibility requirements, verification procedures, these Token Sale Terms and relevant risk disclosures."
+      },
+      {
+        "type": "paragraph",
+        "text": "Participants should independently assess their circumstances before purchasing AVX."
+      }
+    ]
+  }
+]

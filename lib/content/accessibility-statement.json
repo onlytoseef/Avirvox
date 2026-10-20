@@ -1,0 +1,124 @@
+[
+  {
+    "number": "1",
+    "title": "Our Commitment",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs FZE LLC (\"Avirvox Labs\", \"Company\", \"we\", \"us\" or \"our\") aims to make its official website and related online services accessible and usable for a broad range of visitors, including individuals with disabilities and users of assistive technologies. We recognize the importance of digital accessibility and seek to incorporate appropriate accessibility considerations into the design, development and ongoing maintenance of our website. Accessibility improvements are approached in a reasonable and practical manner, taking into account applicable legal requirements, technical feasibility, available resources and the functionality of the relevant services."
+      }
+    ]
+  },
+  {
+    "number": "2",
+    "title": "Accessibility Design Approach",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Where relevant and reasonably practicable, Avirvox Labs seeks to consider recognized accessibility practices, including:"
+      },
+      {
+        "type": "listItem",
+        "text": "Logical page structure and clear headings."
+      },
+      {
+        "type": "listItem",
+        "text": "Readable text and appropriate color contrast."
+      },
+      {
+        "type": "listItem",
+        "text": "Keyboard navigation and visible focus indicators."
+      },
+      {
+        "type": "listItem",
+        "text": "Meaningful labels for forms and interactive elements."
+      },
+      {
+        "type": "listItem",
+        "text": "Alternative text for relevant non-decorative images."
+      },
+      {
+        "type": "listItem",
+        "text": "Clear instructions, notifications and error messages."
+      },
+      {
+        "type": "listItem",
+        "text": "Responsive layouts across supported devices."
+      },
+      {
+        "type": "listItem",
+        "text": "Compatibility considerations for commonly used assistive technologies."
+      },
+      {
+        "type": "listItem",
+        "text": "Reduced-motion preferences where supported and appropriate."
+      },
+      {
+        "type": "paragraph",
+        "text": "These represent design and development objectives and do not constitute a representation that every website feature currently satisfies each measure. Avirvox Labs may review and improve accessibility as its website and related online services evolve."
+      }
+    ]
+  },
+  {
+    "number": "3",
+    "title": "Accessibility Standards",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs uses internationally recognized accessibility guidance, including the Web Content Accessibility Guidelines (WCAG), as a reference for its accessibility objectives. The Company aims to progressively align relevant website functionality with WCAG Level AA principles, taking into account the version applicable to the relevant service and legal requirements. This Statement does not constitute a formal certification or claim of full WCAG conformance. Where specific accessibility requirements are legally applicable, Avirvox Labs will address those obligations in accordance with the relevant law."
+      }
+    ]
+  },
+  {
+    "number": "4",
+    "title": "Third-Party Content And Services",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Certain website functions may involve independent third-party services, including wallet applications, blockchain tools, external platforms, verification services or other integrated technologies. The accessibility of independently operated third-party platforms may depend on their respective providers. Avirvox Labs does not guarantee the accessibility or compatibility of third-party services outside its direct control. Where the Company has applicable legal responsibilities concerning its own integration or use of such services, those responsibilities remain unaffected."
+      }
+    ]
+  },
+  {
+    "number": "5",
+    "title": "Accessibility Limitations And Improvements",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Digital accessibility may be affected by differences in devices, browsers, assistive technologies, third-party integrations and evolving website functionality. As a result, certain content or features may not provide an identical experience for every user."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where an accessibility issue affecting functionality under our control is identified, Avirvox Labs may evaluate appropriate improvements, alternative arrangements or other reasonable measures, taking into account applicable legal obligations and relevant operational circumstances. The Company does not guarantee uninterrupted accessibility across all technologies or configurations. Nothing in this Statement excludes accessibility obligations or individual rights that cannot lawfully be limited."
+      }
+    ]
+  },
+  {
+    "number": "6",
+    "title": "Accessibility Support And Contact",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Users experiencing difficulty accessing website content or functionality may contact Avirvox Labs through its official communication channels. Where reasonably practicable and legally required, the Company will consider appropriate assistance or alternative means of accessing relevant information. To help us evaluate a reported issue, users are encouraged to identify the affected page or feature and describe the difficulty experienced. Avirvox Labs FZE LLC Formation Number: 4424076 Business Centre, Sharjah Publishing City Free Zone, Sharjah, United Arab Emirates Email: coin@avirvox.io Official Website: https://www.avirvox.io Accessibility-related information submitted through official channels will be handled in accordance with the Avirvox Labs Privacy & Cookie Policy and applicable data-protection requirements."
+      }
+    ]
+  },
+  {
+    "number": "7",
+    "title": "Statement Updates",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may revise this Accessibility Statement to reflect changes in website functionality, technology, accessibility practices or applicable legal requirements. The latest version will be published through the official website with its applicable effective date."
+      },
+      {
+        "type": "heading",
+        "text": "IMPORTANT NOTICE"
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs is committed to considering accessibility as part of its website development and improvement activities. This Statement describes the Company’s approach and does not represent certification of universal accessibility or compatibility with every assistive technology. Applicable legal accessibility requirements remain effective regardless of the general qualifications described above."
+      }
+    ]
+  }
+]

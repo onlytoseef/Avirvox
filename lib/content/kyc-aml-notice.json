@@ -1,0 +1,766 @@
+[
+  {
+    "number": "1",
+    "title": "Purpose, Scope And Compliance Framework",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "This KYC / AML Notice (\"Notice\") describes the identity verification, anti-money-laundering, counter-terrorist financing, sanctions screening and related compliance procedures applicable to participation in the AVX token sale conducted by Avirvox Labs FZE LLC (\"Avirvox Labs\", \"Company\", \"we\", \"us\" or \"our\")."
+      },
+      {
+        "type": "paragraph",
+        "text": "Legal Entity: Avirvox Labs FZE LLC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Formation Number: 4424076"
+      },
+      {
+        "type": "paragraph",
+        "text": "Registered Address: Business Centre, Sharjah Publishing City Free Zone, Sharjah, United Arab Emirates."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs applies compliance procedures in accordance with applicable laws and its risk-based compliance framework."
+      },
+      {
+        "type": "paragraph",
+        "text": "These procedures are intended to verify eligible participants, identify applicable legal restrictions, prevent financial crime, reduce fraud and support the lawful operation of the AVX token sale."
+      },
+      {
+        "type": "paragraph",
+        "text": "The scope and timing of verification may vary according to the participant's circumstances, transaction characteristics, jurisdiction and applicable legal requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where verification is legally required before accepting a transaction, the required checks must be completed before participation proceeds."
+      },
+      {
+        "type": "paragraph",
+        "text": "Final AVX allocation or delivery may be withheld pending successful completion of applicable verification requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "This Notice should be read together with the AVX Token Sale Terms and Eligibility & Restricted Jurisdictions Policy."
+      }
+    ]
+  },
+  {
+    "number": "2",
+    "title": "Individual Identity Verification",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Individual participants may be required to provide information or documentation necessary to establish identity and eligibility, including:"
+      },
+      {
+        "type": "listItem",
+        "text": "Full legal name."
+      },
+      {
+        "type": "listItem",
+        "text": "Date of birth."
+      },
+      {
+        "type": "listItem",
+        "text": "Residential address and country of residence."
+      },
+      {
+        "type": "listItem",
+        "text": "Nationality or citizenship where legally relevant."
+      },
+      {
+        "type": "listItem",
+        "text": "Email address and contact information."
+      },
+      {
+        "type": "listItem",
+        "text": "Government-issued identification."
+      },
+      {
+        "type": "listItem",
+        "text": "Proof of residential address."
+      },
+      {
+        "type": "listItem",
+        "text": "Wallet address associated with participation."
+      },
+      {
+        "type": "listItem",
+        "text": "Source-of-funds information where required."
+      },
+      {
+        "type": "listItem",
+        "text": "Other relevant supporting documents reasonably necessary for verification."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may verify submitted information through appropriate documentary, administrative or legally available verification methods."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company does not currently require facial recognition, biometric identification, selfie verification or automated liveness checks as part of its standard participation process."
+      },
+      {
+        "type": "paragraph",
+        "text": "Additional verification measures may be introduced in the future only where operationally supported, legally appropriate and accompanied by any required participant notices."
+      },
+      {
+        "type": "paragraph",
+        "text": "Providing information does not guarantee approval or allocation."
+      }
+    ]
+  },
+  {
+    "number": "3",
+    "title": "Legal Entity Verification And Beneficial Ownership",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Companies, partnerships, funds, trusts and other legal entities may be required to complete Know Your Business (\"KYB\") and beneficial ownership verification."
+      },
+      {
+        "type": "paragraph",
+        "text": "Information requested may include:"
+      },
+      {
+        "type": "listItem",
+        "text": "Full legal entity name."
+      },
+      {
+        "type": "listItem",
+        "text": "Country of incorporation or establishment."
+      },
+      {
+        "type": "listItem",
+        "text": "Registration or incorporation number."
+      },
+      {
+        "type": "listItem",
+        "text": "Registered business address."
+      },
+      {
+        "type": "listItem",
+        "text": "Certificate of incorporation or equivalent formation documents."
+      },
+      {
+        "type": "listItem",
+        "text": "Details of directors and controlling persons."
+      },
+      {
+        "type": "listItem",
+        "text": "Authorized signatory information."
+      },
+      {
+        "type": "listItem",
+        "text": "Evidence of authority to participate."
+      },
+      {
+        "type": "listItem",
+        "text": "Ultimate beneficial ownership information."
+      },
+      {
+        "type": "listItem",
+        "text": "Identity documents for relevant beneficial owners or controllers."
+      },
+      {
+        "type": "listItem",
+        "text": "Source-of-funds information where required."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may request additional documentation where an entity's ownership structure, transaction characteristics or compliance risk reasonably requires further examination."
+      },
+      {
+        "type": "paragraph",
+        "text": "Participation through a legal entity must not be used to conceal prohibited beneficial ownership or circumvent applicable legal restrictions."
+      }
+    ]
+  },
+  {
+    "number": "4",
+    "title": "Sanctions, Politically Exposed Persons And Prohibited Participants",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Participants may be subject to screening against sanctions lists, regulatory restrictions and relevant compliance information as required by applicable law and the Company's procedures."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs will not knowingly accept transactions prohibited by legally applicable sanctions or other binding restrictions."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company may also assess politically exposed persons (\"PEPs\"), their relevant family members and close associates where appropriate."
+      },
+      {
+        "type": "paragraph",
+        "text": "PEP status does not automatically prohibit participation but may require additional verification or enhanced due diligence."
+      },
+      {
+        "type": "paragraph",
+        "text": "A possible screening match does not necessarily establish a legal prohibition. Such matches may be reviewed and clarified before a final determination is made."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may delay, restrict, reject or cancel participation where legally required or reasonably necessary to address substantiated sanctions, beneficial ownership or financial-crime concerns."
+      },
+      {
+        "type": "paragraph",
+        "text": "Funds subject to legally mandated restrictions or freezing requirements will be handled in accordance with applicable law and competent authority instructions."
+      }
+    ]
+  },
+  {
+    "number": "5",
+    "title": "Source Of Funds And Enhanced Due Diligence",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may request additional information to establish the legitimate origin and ownership of funds or digital assets used for AVX participation."
+      },
+      {
+        "type": "paragraph",
+        "text": "Enhanced due diligence may apply where relevant risk indicators arise, including:"
+      },
+      {
+        "type": "listItem",
+        "text": "Higher-value transactions."
+      },
+      {
+        "type": "listItem",
+        "text": "Complex ownership or control structures."
+      },
+      {
+        "type": "listItem",
+        "text": "Higher-risk jurisdictions."
+      },
+      {
+        "type": "listItem",
+        "text": "PEP exposure."
+      },
+      {
+        "type": "listItem",
+        "text": "Unusual or inconsistent transaction patterns."
+      },
+      {
+        "type": "listItem",
+        "text": "Material discrepancies in submitted information."
+      },
+      {
+        "type": "listItem",
+        "text": "Source-of-funds concerns."
+      },
+      {
+        "type": "listItem",
+        "text": "Adverse compliance information."
+      },
+      {
+        "type": "listItem",
+        "text": "Potential sanctions, fraud or other financial-crime indicators."
+      },
+      {
+        "type": "paragraph",
+        "text": "Additional verification may include source-of-funds declarations, supporting financial records, source-of-wealth information, explanations of transaction activity and relevant ownership documentation."
+      },
+      {
+        "type": "paragraph",
+        "text": "There is no single universal transaction threshold under this Notice that automatically determines whether enhanced due diligence applies."
+      },
+      {
+        "type": "paragraph",
+        "text": "Any mandatory verification thresholds or procedures imposed by applicable law will take precedence."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may decline or delay participation where required information cannot be reasonably verified or where compliance concerns remain unresolved."
+      }
+    ]
+  },
+  {
+    "number": "6",
+    "title": "Wallet And Transaction Screening",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Participants must control, or be legally authorized to use, the wallet associated with their AVX participation."
+      },
+      {
+        "type": "paragraph",
+        "text": "Wallet addresses and transactions may be reviewed using available blockchain records, transaction information, compliance procedures or appropriately authorized external services."
+      },
+      {
+        "type": "paragraph",
+        "text": "The extent of screening will depend on applicable legal requirements, available capabilities and assessed transaction risk."
+      },
+      {
+        "type": "paragraph",
+        "text": "Participants must not knowingly use wallets or transaction arrangements connected to unlawful activity or intended to circumvent applicable requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "Relevant risk indicators may include:"
+      },
+      {
+        "type": "listItem",
+        "text": "Sanctions-related activity."
+      },
+      {
+        "type": "listItem",
+        "text": "Suspected stolen or compromised assets."
+      },
+      {
+        "type": "listItem",
+        "text": "Fraud or impersonation."
+      },
+      {
+        "type": "listItem",
+        "text": "Suspected money laundering or terrorist financing."
+      },
+      {
+        "type": "listItem",
+        "text": "Undisclosed third-party payment arrangements."
+      },
+      {
+        "type": "listItem",
+        "text": "Attempts to bypass applicable participation restrictions."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may request clarification, supporting documentation or additional verification where reasonable concerns arise."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company does not guarantee continuous blockchain monitoring, universal identification of prohibited wallets or detection of every potentially suspicious transaction."
+      }
+    ]
+  },
+  {
+    "number": "7",
+    "title": "Verification Outcomes And Re-Verification",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A verification assessment may result in:"
+      },
+      {
+        "type": "listItem",
+        "text": "Approval."
+      },
+      {
+        "type": "listItem",
+        "text": "Pending additional information."
+      },
+      {
+        "type": "listItem",
+        "text": "Enhanced compliance review."
+      },
+      {
+        "type": "listItem",
+        "text": "Rejection."
+      },
+      {
+        "type": "listItem",
+        "text": "Expiry or a requirement for renewed verification."
+      },
+      {
+        "type": "paragraph",
+        "text": "Verification approval confirms only that the applicable checks have been satisfactorily completed at the relevant time."
+      },
+      {
+        "type": "paragraph",
+        "text": "It does not guarantee AVX allocation, jurisdictional eligibility, transaction acceptance or future participation."
+      },
+      {
+        "type": "paragraph",
+        "text": "Additional or renewed verification may be required where:"
+      },
+      {
+        "type": "listItem",
+        "text": "Identification documents expire."
+      },
+      {
+        "type": "listItem",
+        "text": "Material personal or entity information changes."
+      },
+      {
+        "type": "listItem",
+        "text": "Residence or legally relevant jurisdiction changes."
+      },
+      {
+        "type": "listItem",
+        "text": "Beneficial ownership or control changes."
+      },
+      {
+        "type": "listItem",
+        "text": "Transaction characteristics materially change."
+      },
+      {
+        "type": "listItem",
+        "text": "New sanctions or compliance concerns arise."
+      },
+      {
+        "type": "listItem",
+        "text": "Applicable legal requirements change."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company may suspend participation or token delivery pending completion of required re-verification, subject to the AVX Token Sale Terms and applicable law."
+      }
+    ]
+  },
+  {
+    "number": "8",
+    "title": "Information Accuracy And Anti-Circumvention",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Participants must provide accurate, complete and current information when reasonably requested for compliance purposes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Participants must not attempt to circumvent verification or eligibility controls through:"
+      },
+      {
+        "type": "listItem",
+        "text": "False identities or fraudulent documents."
+      },
+      {
+        "type": "listItem",
+        "text": "Unauthorized use of another person's information."
+      },
+      {
+        "type": "listItem",
+        "text": "Undisclosed beneficial ownership."
+      },
+      {
+        "type": "listItem",
+        "text": "Unlawful third-party accounts or wallets."
+      },
+      {
+        "type": "listItem",
+        "text": "Multiple accounts or wallets intended to evade applicable controls."
+      },
+      {
+        "type": "listItem",
+        "text": "Intermediaries used to conceal prohibited participation."
+      },
+      {
+        "type": "listItem",
+        "text": "VPNs, proxies or other methods deliberately used to misrepresent relevant location information or evade legal restrictions."
+      },
+      {
+        "type": "paragraph",
+        "text": "Legitimate use of privacy-protection technologies or multiple wallets does not, by itself, constitute a violation."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may request additional verification, suspend participation or reject transactions where material inaccuracies, misrepresentations or prohibited circumvention are identified."
+      }
+    ]
+  },
+  {
+    "number": "9",
+    "title": "Rejected Participation And Refund Handling",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Submitting information, completing verification or initiating payment does not automatically guarantee acceptance into the AVX token sale."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where participation is rejected, suspended or cancelled following verification, any funds already received will be handled in accordance with Section 9 of the AVX Token Sale Terms and applicable law."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where an eligible refund is approved or legally required, the amount will generally be calculated using the original USD- equivalent value of the contribution received and accepted through the official AVX participation system."
+      },
+      {
+        "type": "paragraph",
+        "text": "Refunds may be processed in USDT, USDC or another legally available payment method in accordance with the Token Sale Terms."
+      },
+      {
+        "type": "paragraph",
+        "text": "Eligible refunds will ordinarily be processed within 30 calendar days following final verification and approval, subject to applicable legal requirements, mandatory restrictions and legitimate processing delays."
+      },
+      {
+        "type": "paragraph",
+        "text": "Funds subject to lawful freezing, investigation or regulatory restrictions may be held or otherwise handled as required by applicable law."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs will not retain participant funds merely because verification was unsuccessful where such retention would be unlawful."
+      }
+    ]
+  },
+  {
+    "number": "10",
+    "title": "Use Of Personal And Verification Data",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Information collected through the AVX participation and verification process may be used, as applicable, for:"
+      },
+      {
+        "type": "listItem",
+        "text": "Identity and entity verification."
+      },
+      {
+        "type": "listItem",
+        "text": "Jurisdictional eligibility assessments."
+      },
+      {
+        "type": "listItem",
+        "text": "Sanctions and PEP screening."
+      },
+      {
+        "type": "listItem",
+        "text": "Source-of-funds review."
+      },
+      {
+        "type": "listItem",
+        "text": "Fraud and financial-crime prevention."
+      },
+      {
+        "type": "listItem",
+        "text": "Payment and transaction reconciliation."
+      },
+      {
+        "type": "listItem",
+        "text": "Participant account administration."
+      },
+      {
+        "type": "listItem",
+        "text": "Security and compliance investigations."
+      },
+      {
+        "type": "listItem",
+        "text": "Legal and regulatory reporting obligations."
+      },
+      {
+        "type": "listItem",
+        "text": "Handling participation inquiries and disputes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs will process personal information for lawful, specified purposes and in accordance with applicable privacy and data-protection requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "Only information reasonably necessary for the relevant purpose should be requested and processed."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where processing requires specific notices, authorizations or other legal conditions, the Company will apply the requirements relevant to that processing."
+      },
+      {
+        "type": "paragraph",
+        "text": "Further information regarding personal-data handling, participant rights and applicable privacy arrangements is provided in the Avirvox Labs Privacy and Cookie Policy."
+      }
+    ]
+  },
+  {
+    "number": "11",
+    "title": "Third-Party Providers And Data Security",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may engage qualified external service providers for identity verification, sanctions screening, blockchain analysis, compliance administration or related services where operationally appropriate."
+      },
+      {
+        "type": "paragraph",
+        "text": "The use of any such provider is subject to applicable legal, contractual, confidentiality and data-protection requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where authorized service providers are engaged, relevant participant information may be shared with them to the extent reasonably necessary for the specified verification or compliance purpose."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company will apply reasonable organizational and technical safeguards appropriate to the nature of the information processed and applicable legal requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "Access to sensitive participant information will be limited to authorized personnel and service providers with a legitimate need."
+      },
+      {
+        "type": "paragraph",
+        "text": "No electronic platform or data-processing system can guarantee absolute security."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs does not require participants to provide wallet seed phrases, private keys or recovery credentials for identity verification or compliance purposes."
+      }
+    ]
+  },
+  {
+    "number": "12",
+    "title": "Data Retention, Reporting And Legal Cooperation",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Verification, transaction and compliance records may be retained for periods necessary to meet applicable legal, regulatory, contractual, security and legitimate recordkeeping requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where applicable law prescribes a minimum retention period, that requirement will be followed."
+      },
+      {
+        "type": "paragraph",
+        "text": "Records may be retained for longer periods where lawfully required or justified by ongoing investigations, disputes, regulatory proceedings or enforcement of legal rights."
+      },
+      {
+        "type": "paragraph",
+        "text": "Personal information will not be retained indefinitely without a lawful basis."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may, where required or authorized by applicable law:"
+      },
+      {
+        "type": "listItem",
+        "text": "Preserve relevant information and transaction records."
+      },
+      {
+        "type": "listItem",
+        "text": "Restrict or suspend transactions."
+      },
+      {
+        "type": "listItem",
+        "text": "Respond to lawful requests from competent authorities."
+      },
+      {
+        "type": "listItem",
+        "text": "Provide information pursuant to regulatory obligations or court orders."
+      },
+      {
+        "type": "listItem",
+        "text": "Make legally required reports or disclosures."
+      },
+      {
+        "type": "listItem",
+        "text": "Cooperate with authorized investigations."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where applicable law restricts notification to a participant, the Company may withhold information concerning relevant investigations, reports or compliance measures."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nothing in this Notice requires Avirvox Labs to disclose confidential reporting information where doing so would be unlawful."
+      }
+    ]
+  },
+  {
+    "number": "13",
+    "title": "Relationship With Other Policies And Updates",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "This Notice should be read together with:"
+      },
+      {
+        "type": "listItem",
+        "text": "AVX Token Sale Terms."
+      },
+      {
+        "type": "listItem",
+        "text": "Eligibility & Restricted Jurisdictions Policy."
+      },
+      {
+        "type": "listItem",
+        "text": "Privacy and Cookie Policy."
+      },
+      {
+        "type": "listItem",
+        "text": "Official Avirvox Labs Whitepaper."
+      },
+      {
+        "type": "listItem",
+        "text": "Applicable private or strategic subscription documentation."
+      },
+      {
+        "type": "paragraph",
+        "text": "The AVX Token Sale Terms govern purchase confirmation, token allocation, cancellation, applicable refunds and related contractual rights."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Eligibility & Restricted Jurisdictions Policy governs participant eligibility and jurisdictional assessment."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Privacy and Cookie Policy provides the applicable framework for processing personal information."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where a mandatory legal requirement imposes a stricter obligation than a published policy, the applicable legal requirement will prevail."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may update this Notice to reflect changes in applicable law, compliance procedures, operational capabilities or relevant risk controls."
+      },
+      {
+        "type": "paragraph",
+        "text": "Material changes affecting previously confirmed contractual rights will be handled in accordance with the Token Sale Terms and applicable law."
+      }
+    ]
+  },
+  {
+    "number": "14",
+    "title": "Official Channels And Contact",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Participants are responsible for providing accurate information, responding to legitimate verification requests, protecting wallet credentials and using only official Avirvox Labs communication and participation channels."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs will never request wallet seed phrases, private keys or wallet recovery credentials."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs FZE LLC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Business Centre, Sharjah Publishing City Free Zone"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sharjah, United Arab Emirates"
+      },
+      {
+        "type": "paragraph",
+        "text": "Email: coin@avirvox.io"
+      },
+      {
+        "type": "paragraph",
+        "text": "Official Website: https://www.avirvox.io"
+      },
+      {
+        "type": "paragraph",
+        "text": "For questions regarding verification, compliance requirements or AVX participation, participants should contact the Company through its official communication channels."
+      },
+      {
+        "type": "heading",
+        "text": "IMPORTANT NOTICE"
+      },
+      {
+        "type": "paragraph",
+        "text": "Participation in the AVX token sale remains subject to applicable laws, eligibility requirements, required compliance procedures and the binding AVX Token Sale Terms."
+      },
+      {
+        "type": "paragraph",
+        "text": "Completion of identity verification does not guarantee participation or token allocation."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may undertake additional verification, restrict participation or comply with legally required investigations and reporting obligations where appropriate."
+      },
+      {
+        "type": "paragraph",
+        "text": "Participants should provide accurate information and independently assess the legal requirements applicable to their participation."
+      }
+    ]
+  }
+]

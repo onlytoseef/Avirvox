@@ -1,0 +1,684 @@
+[
+  {
+    "number": "1",
+    "title": "Introduction, Scope And Acceptance",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "These Terms of Use (\"Terms\") govern access to and use of the official Avirvox Labs website, its publicly available content, participant interfaces and related online services (collectively, the \"Website\")."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Website is operated by:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs FZE LLC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Formation Number: 4424076"
+      },
+      {
+        "type": "paragraph",
+        "text": "Registered Address: Business Centre, Sharjah Publishing City Free Zone, Sharjah, United Arab Emirates."
+      },
+      {
+        "type": "paragraph",
+        "text": "References to \"Avirvox Labs\", \"Company\", \"we\", \"us\" and \"our\" mean Avirvox Labs FZE LLC."
+      },
+      {
+        "type": "paragraph",
+        "text": "By accessing or using the Website after being given reasonable notice of these Terms, you acknowledge and agree to comply with them to the extent permitted by applicable law. If you do not agree, you should discontinue use of the Website."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where additional express acceptance is legally required, the Company may implement an appropriate acceptance procedure."
+      },
+      {
+        "type": "paragraph",
+        "text": "These Terms govern general Website use. Participation in any AVX token sale is separately governed by the applicable AVX Token Sale Terms, Eligibility & Restricted Jurisdictions Policy, KYC / AML Notice and transaction-specific conditions."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where a conflict arises concerning a confirmed AVX purchase, allocation, vesting, cancellation or refund, the applicable binding Token Sale Terms or separately executed subscription agreement shall prevail, subject to mandatory law."
+      }
+    ]
+  },
+  {
+    "number": "2",
+    "title": "Informational Purpose And No Professional Advice",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Website content is provided for general informational, educational and business communication purposes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Unless expressly stated in legally effective offering documentation, Website content does not constitute an offer, solicitation, investment recommendation or invitation to participate in any transaction in a jurisdiction where such activity would be unlawful."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nothing on the Website constitutes personalized investment, financial, legal, accounting or tax advice."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs does not guarantee:"
+      },
+      {
+        "type": "listItem",
+        "text": "AVX token-price appreciation or financial returns."
+      },
+      {
+        "type": "listItem",
+        "text": "Secondary-market liquidity or exchange listing."
+      },
+      {
+        "type": "listItem",
+        "text": "The launch or availability of proposed AVX utility."
+      },
+      {
+        "type": "listItem",
+        "text": "Completion of projected development or ecosystem milestones."
+      },
+      {
+        "type": "listItem",
+        "text": "Any particular commercial, technological or financial outcome."
+      },
+      {
+        "type": "paragraph",
+        "text": "Users should independently evaluate relevant information and obtain professional advice where appropriate."
+      }
+    ]
+  },
+  {
+    "number": "3",
+    "title": "AVX Token And Digital-Asset Risks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "AVX is designed as a utility token intended to support eligible participation and services within the Avirvox Labs ecosystem as applicable functionality becomes available."
+      },
+      {
+        "type": "paragraph",
+        "text": "AVX does not, by its contractual terms, provide shares, equity, ownership, dividends, profit-sharing rights or claims over the assets or revenues of Avirvox Labs or Avirvox Inc."
+      },
+      {
+        "type": "paragraph",
+        "text": "The intended utility designation does not override any classification imposed by applicable law."
+      },
+      {
+        "type": "paragraph",
+        "text": "Digital assets involve significant legal, financial, market, technological, cybersecurity, custody, liquidity and execution risks."
+      },
+      {
+        "type": "paragraph",
+        "text": "AVX may lose some or all of its value."
+      },
+      {
+        "type": "paragraph",
+        "text": "Planned token functionality, ecosystem development, exchange access, staking programs and other future initiatives may be delayed, modified, restricted or discontinued as permitted by applicable law and governing agreements."
+      },
+      {
+        "type": "paragraph",
+        "text": "Website users and prospective participants should review the applicable Whitepaper, Token Sale Terms and risk disclosures before making decisions concerning AVX."
+      }
+    ]
+  },
+  {
+    "number": "4",
+    "title": "Permitted Use And Prohibited Conduct",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Users may access and use the Website for lawful personal, informational and legitimate business purposes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Users must not:"
+      },
+      {
+        "type": "listItem",
+        "text": "Attempt unauthorized access to accounts, administrative systems, wallets, servers, software or infrastructure."
+      },
+      {
+        "type": "listItem",
+        "text": "Interfere with Website security, integrity, performance or availability."
+      },
+      {
+        "type": "listItem",
+        "text": "Introduce malware, harmful software or malicious code."
+      },
+      {
+        "type": "listItem",
+        "text": "Engage in fraudulent, deceptive or unlawful activity."
+      },
+      {
+        "type": "listItem",
+        "text": "Use the Website for money laundering, terrorist financing, sanctions evasion or other prohibited conduct."
+      },
+      {
+        "type": "listItem",
+        "text": "Impersonate Avirvox Labs, its employees, partners or authorized representatives."
+      },
+      {
+        "type": "listItem",
+        "text": "Misrepresent identity, eligibility, ownership or legally relevant location information."
+      },
+      {
+        "type": "listItem",
+        "text": "Attempt to circumvent applicable KYC, AML, sanctions, jurisdictional or security requirements."
+      },
+      {
+        "type": "listItem",
+        "text": "Use automated tools to overload, disrupt, compromise or unlawfully extract protected Website data."
+      },
+      {
+        "type": "listItem",
+        "text": "Infringe intellectual property, confidentiality, privacy or other legally protected rights."
+      },
+      {
+        "type": "listItem",
+        "text": "Falsely represent an association, sponsorship or endorsement by Avirvox Labs."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ordinary browsing, legitimate research, reasonable sharing of publicly available information and lawful automated access that does not compromise Website integrity are not prohibited solely because they involve automated tools."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may reasonably restrict or suspend access where misuse, material security concerns or violations of these Terms are identified."
+      }
+    ]
+  },
+  {
+    "number": "5",
+    "title": "Accounts, Wallets And User Security",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Where Website functionality allows account creation, wallet connection or participation-related access, users are responsible for maintaining the confidentiality and security of their credentials, devices and wallets."
+      },
+      {
+        "type": "paragraph",
+        "text": "Users should verify the official Website, supported blockchain network, AVX contract address and transaction details before taking blockchain-related action."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs will never request:"
+      },
+      {
+        "type": "listItem",
+        "text": "Wallet seed phrases."
+      },
+      {
+        "type": "listItem",
+        "text": "Private keys."
+      },
+      {
+        "type": "listItem",
+        "text": "Wallet recovery credentials."
+      },
+      {
+        "type": "paragraph",
+        "text": "Users must promptly notify the Company through official channels if they become aware of suspected unauthorized account activity or a security incident affecting their participation."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may temporarily suspend accounts, wallet interactions or related Website functions where reasonably necessary to investigate unauthorized activity, security threats or compliance concerns."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company is not responsible, to the extent permitted by applicable law, for losses attributable to compromised personal devices, disclosed wallet credentials, user-initiated errors or unauthorized third-party activity outside its reasonable control."
+      },
+      {
+        "type": "paragraph",
+        "text": "Blockchain transactions may be irreversible. Specific payment, allocation and refund obligations remain governed by the applicable AVX Token Sale Terms."
+      }
+    ]
+  },
+  {
+    "number": "6",
+    "title": "Intellectual Property And Limited Use Licence",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Unless expressly stated otherwise, Website content, including text, graphics, logos, trademarks, visual designs, software interfaces, documents, audiovisual materials and related intellectual property, is owned by or lawfully licensed to Avirvox Labs or the relevant rights holder."
+      },
+      {
+        "type": "paragraph",
+        "text": "Subject to compliance with these Terms, users receive a limited, non-exclusive, non-transferable and revocable permission to access and use publicly available Website content for lawful personal, informational and legitimate business purposes."
+      },
+      {
+        "type": "paragraph",
+        "text": "This permission does not transfer intellectual-property ownership or grant rights beyond those expressly permitted."
+      },
+      {
+        "type": "paragraph",
+        "text": "Without prior authorization, users must not:"
+      },
+      {
+        "type": "listItem",
+        "text": "Commercially reproduce or redistribute substantial protected Website content."
+      },
+      {
+        "type": "listItem",
+        "text": "Misuse Avirvox Labs names, logos or trademarks."
+      },
+      {
+        "type": "listItem",
+        "text": "Create misleading or unauthorized modified versions of official materials."
+      },
+      {
+        "type": "listItem",
+        "text": "Claim affiliation, sponsorship, partnership or endorsement without authorization."
+      },
+      {
+        "type": "listItem",
+        "text": "Reverse-engineer, interfere with or unlawfully exploit protected Website software."
+      },
+      {
+        "type": "listItem",
+        "text": "Remove or alter copyright, trademark or proprietary notices."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nothing in these Terms restricts lawful use permitted by applicable intellectual-property exceptions or other mandatory rights."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs reserves all rights not expressly granted."
+      }
+    ]
+  },
+  {
+    "number": "7",
+    "title": "Third-Party Services And External Links",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "The Website may contain links to, integrations with or references to independent third-party products and services, including blockchain networks, wallets, explorers, verification providers, hosting services, analytics platforms and social-media channels."
+      },
+      {
+        "type": "paragraph",
+        "text": "Third-party services may operate under their own terms, privacy policies and security procedures."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs does not control independent third-party services and does not guarantee their availability, security, accuracy, performance or continued operation."
+      },
+      {
+        "type": "paragraph",
+        "text": "Use of such services may involve additional risks and obligations."
+      },
+      {
+        "type": "paragraph",
+        "text": "To the maximum extent permitted by applicable law, the Company is not responsible for losses arising solely from independent third-party services or conduct outside its reasonable control."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where Avirvox Labs has legal obligations concerning its selection, integration, oversight or use of a third-party provider, those obligations remain unaffected."
+      },
+      {
+        "type": "paragraph",
+        "text": "Links or references do not necessarily constitute endorsement or an ongoing commercial relationship."
+      }
+    ]
+  },
+  {
+    "number": "8",
+    "title": "Website Availability, Content Accuracy And Forward-Looking Information",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may maintain, improve, modify, restrict, suspend or discontinue Website functions where reasonably necessary for business, operational, technical, security or legal purposes."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company endeavors to maintain accurate and relevant Website information but does not guarantee that all general informational content will remain complete, current or error-free at all times."
+      },
+      {
+        "type": "paragraph",
+        "text": "Website content may include plans, forecasts, development roadmaps, projections and other forward-looking statements based on current expectations."
+      },
+      {
+        "type": "paragraph",
+        "text": "Such information is subject to uncertainty and may change materially."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may revise plans, timelines, product functionality, ecosystem initiatives and other prospective activities in response to legitimate commercial, technical, security, regulatory or operational circumstances."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nothing in these Terms permits knowingly false representations or removes disclosure obligations imposed by applicable law."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where material information affecting active AVX participation changes, the Company will address any applicable notification and contractual obligations under the relevant Token Sale Terms."
+      },
+      {
+        "type": "paragraph",
+        "text": "General Website information does not override binding transaction documents or confirmed contractual rights."
+      }
+    ]
+  },
+  {
+    "number": "9",
+    "title": "Disclaimer Of Warranties",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "To the maximum extent permitted by applicable law, the Website and its general informational content are provided on an \"as is\" and \"as available\" basis."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs makes no warranty that the Website will:"
+      },
+      {
+        "type": "listItem",
+        "text": "Operate continuously or without interruption."
+      },
+      {
+        "type": "listItem",
+        "text": "Be entirely free from software defects or security vulnerabilities."
+      },
+      {
+        "type": "listItem",
+        "text": "Remain accessible from every location or device."
+      },
+      {
+        "type": "listItem",
+        "text": "Meet every user's individual requirements."
+      },
+      {
+        "type": "listItem",
+        "text": "Operate without third-party service interruptions."
+      },
+      {
+        "type": "listItem",
+        "text": "Remain unaffected by internet, hosting or blockchain failures."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company may apply reasonable maintenance, security and operational measures without guaranteeing the elimination of all risks."
+      },
+      {
+        "type": "paragraph",
+        "text": "Any express obligations arising under separate binding agreements remain governed by those agreements."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nothing in this section excludes warranties, guarantees or statutory rights that cannot lawfully be excluded."
+      }
+    ]
+  },
+  {
+    "number": "10",
+    "title": "Limitation Of Liability",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "To the maximum extent permitted by applicable law, Avirvox Labs and its directors, officers, employees and authorized representatives shall not be liable for indirect, incidental, consequential, special or speculative losses arising from general Website access or use, including loss of anticipated profits, business opportunities or prospective token-market value."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company shall not be responsible for losses caused solely by circumstances outside its reasonable control, including:"
+      },
+      {
+        "type": "listItem",
+        "text": "User error or misuse."
+      },
+      {
+        "type": "listItem",
+        "text": "Compromised personal devices or credentials."
+      },
+      {
+        "type": "listItem",
+        "text": "Unauthorized disclosure of wallet private keys or recovery information."
+      },
+      {
+        "type": "listItem",
+        "text": "Transactions made to incorrect blockchain addresses."
+      },
+      {
+        "type": "listItem",
+        "text": "Unsupported digital assets or blockchain networks."
+      },
+      {
+        "type": "listItem",
+        "text": "Independent third-party failures."
+      },
+      {
+        "type": "listItem",
+        "text": "Blockchain outages or disruptions."
+      },
+      {
+        "type": "listItem",
+        "text": "Phishing or impersonation by unrelated third parties."
+      },
+      {
+        "type": "listItem",
+        "text": "Events of force majeure."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where liability arising solely from the provision of free general Website services may lawfully be limited, the Company's aggregate liability shall be limited to the maximum extent permitted by applicable law."
+      },
+      {
+        "type": "paragraph",
+        "text": "This section does not apply to determine liability for confirmed AVX purchases, token allocation, delivery, cancellation or refunds, which are governed by the applicable binding Token Sale Terms."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nothing in these Terms excludes or limits liability for fraud, willful misconduct, gross negligence where non-excludable, or any obligation or remedy that cannot legally be excluded or restricted."
+      }
+    ]
+  },
+  {
+    "number": "11",
+    "title": "Privacy, Cookies And Electronic Communications",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Personal information collected through the Website is processed in accordance with the Avirvox Labs Privacy and Cookie Policy and applicable data-protection requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "Cookies and similar technologies are managed in accordance with applicable law and relevant consent or preference mechanisms."
+      },
+      {
+        "type": "paragraph",
+        "text": "Identity verification and compliance-related information is additionally addressed by the KYC / AML Notice."
+      },
+      {
+        "type": "paragraph",
+        "text": "By using electronic Website services, users acknowledge that Avirvox Labs may communicate electronically through Website notices, account notifications or other authorized channels, where legally permitted."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where specific consent or a prescribed form of notice is legally required, the Company will comply with the applicable requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "Electronic records and communications may be retained as permitted or required by applicable law."
+      }
+    ]
+  },
+  {
+    "number": "12",
+    "title": "Suspension, Termination And Force Majeure",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may temporarily or permanently restrict, suspend or terminate access to Website services where reasonably necessary because of:"
+      },
+      {
+        "type": "listItem",
+        "text": "Material violations of these Terms."
+      },
+      {
+        "type": "listItem",
+        "text": "Fraud or suspected unlawful activity."
+      },
+      {
+        "type": "listItem",
+        "text": "Security threats or unauthorized access."
+      },
+      {
+        "type": "listItem",
+        "text": "Abuse of technical infrastructure."
+      },
+      {
+        "type": "listItem",
+        "text": "Compliance or regulatory requirements."
+      },
+      {
+        "type": "listItem",
+        "text": "Material operational or infrastructure concerns."
+      },
+      {
+        "type": "listItem",
+        "text": "Circumstances beyond the Company's reasonable control."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company may take proportionate protective measures without advance notice where immediate action is reasonably necessary for security, fraud prevention, legal compliance or system integrity."
+      },
+      {
+        "type": "paragraph",
+        "text": "To the maximum extent permitted by law, Avirvox Labs shall not be responsible for delays or non-performance directly attributable to events outside its reasonable control, including major infrastructure outages, natural disasters, government restrictions, cyber incidents or blockchain disruptions, except where the Company remains legally responsible."
+      },
+      {
+        "type": "paragraph",
+        "text": "Suspension or termination of general Website access does not automatically terminate previously confirmed purchase obligations or eliminate accrued contractual rights."
+      },
+      {
+        "type": "paragraph",
+        "text": "Any affected AVX transaction remains subject to its applicable binding Token Sale Terms."
+      }
+    ]
+  },
+  {
+    "number": "13",
+    "title": "Governing Law And Dispute Resolution",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "These Terms shall be governed by and interpreted in accordance with the applicable laws of the United Arab Emirates and the Emirate of Sharjah."
+      },
+      {
+        "type": "paragraph",
+        "text": "Users are encouraged to contact Avirvox Labs through its official communication channels to seek an amicable resolution of disputes relating to Website use."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where a dispute cannot be resolved through good-faith communication, the competent courts of Sharjah, United Arab Emirates shall have jurisdiction, except where mandatory applicable law requires otherwise."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nothing in this section excludes any jurisdiction, statutory protection or legal remedy that cannot lawfully be waived or restricted."
+      },
+      {
+        "type": "paragraph",
+        "text": "Disputes concerning AVX purchase transactions remain subject to the relevant dispute-resolution provisions of the binding Token Sale Terms or applicable subscription agreement."
+      }
+    ]
+  },
+  {
+    "number": "14",
+    "title": "Amendments And General Legal Provisions",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Amendments: Avirvox Labs may update these Terms to reflect changes in law, Website functionality, security requirements, operational practices or legitimate business needs."
+      },
+      {
+        "type": "paragraph",
+        "text": "Updated Terms will be published on the official Website with an applicable effective date. Continued use following reasonable notice may constitute acceptance to the extent enforceable under applicable law."
+      },
+      {
+        "type": "paragraph",
+        "text": "Material changes will not retroactively alter confirmed contractual rights where prohibited by law."
+      },
+      {
+        "type": "paragraph",
+        "text": "Severability: If any provision is held invalid or unenforceable, the remaining provisions shall continue to apply to the extent legally permitted."
+      },
+      {
+        "type": "paragraph",
+        "text": "No Waiver: Failure to enforce a provision does not automatically constitute waiver of that provision or any other right."
+      },
+      {
+        "type": "paragraph",
+        "text": "No Agency or Partnership: Use of the Website does not, by itself, establish an employment, agency, partnership, joint venture or fiduciary relationship between the user and Avirvox Labs."
+      },
+      {
+        "type": "paragraph",
+        "text": "Assignment: Avirvox Labs may assign or transfer its rights and obligations concerning Website operations in connection with a lawful restructuring, business transfer or similar transaction, subject to applicable law and any required protection of existing contractual rights."
+      },
+      {
+        "type": "paragraph",
+        "text": "Users may not assign rights or obligations under these Terms without the Company's prior written consent, except where applicable law provides otherwise."
+      },
+      {
+        "type": "paragraph",
+        "text": "Entire Agreement: These Terms govern general Website use. Separate binding agreements, including AVX Token Sale Terms and private subscription agreements, continue to govern their respective subject matters."
+      },
+      {
+        "type": "paragraph",
+        "text": "No unauthorized statement, third-party representation or informal communication may modify these Terms or create additional obligations for Avirvox Labs unless legally effective and approved by an authorized representative."
+      }
+    ]
+  },
+  {
+    "number": "15",
+    "title": "Contact Information",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs FZE LLC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Business Centre, Sharjah Publishing City Free Zone"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sharjah, United Arab Emirates"
+      },
+      {
+        "type": "paragraph",
+        "text": "Email: coin@avirvox.io"
+      },
+      {
+        "type": "paragraph",
+        "text": "Official Website: https://www.avirvox.io"
+      },
+      {
+        "type": "paragraph",
+        "text": "Users should rely only on verified Avirvox Labs communication channels for Website-related information, security notifications and AVX participation guidance."
+      },
+      {
+        "type": "heading",
+        "text": "IMPORTANT NOTICE"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Avirvox Labs Website provides information concerning the Company's activities, planned ecosystem and AVX token."
+      },
+      {
+        "type": "paragraph",
+        "text": "Website access does not guarantee eligibility to participate in any token sale or constitute an unrestricted offer of digital assets in every jurisdiction."
+      },
+      {
+        "type": "paragraph",
+        "text": "AVX participation involves material risks and remains subject to applicable laws, eligibility requirements, verification procedures and binding transaction documentation."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nothing in these Terms excludes obligations or rights that cannot lawfully be excluded under applicable law."
+      }
+    ]
+  }
+]

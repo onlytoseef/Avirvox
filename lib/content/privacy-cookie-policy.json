@@ -1,0 +1,854 @@
+[
+  {
+    "number": "1",
+    "title": "Introduction, Data Controller And Scope",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "This Privacy & Cookie Policy (\"Policy\") explains how Avirvox Labs FZE LLC (\"Avirvox Labs\", \"Company\", \"we\", \"us\" or \"our\") collects, processes, uses, discloses, stores and protects personal information in connection with its website, communications, AVX token participation processes and related online services."
+      },
+      {
+        "type": "paragraph",
+        "text": "Legal Entity: Avirvox Labs FZE LLC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Formation Number: 4424076"
+      },
+      {
+        "type": "paragraph",
+        "text": "Registered Address: Business Centre, Sharjah Publishing City Free Zone, Sharjah, United Arab Emirates."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs is responsible for personal information processed under its control, subject to applicable data-protection laws and the respective responsibilities of authorized service providers."
+      },
+      {
+        "type": "paragraph",
+        "text": "This Policy applies to individuals who access the official Avirvox Labs website, submit inquiries, communicate with the Company or participate in applicable AVX-related activities."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs and Avirvox Inc. perform distinct corporate and operational functions. Any sharing of personal information between these entities, where applicable, shall be subject to legitimate business purposes, appropriate arrangements and applicable data-protection requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "This Policy does not automatically govern separate products or services operated independently by Avirvox Inc."
+      }
+    ]
+  },
+  {
+    "number": "2",
+    "title": "Personal Information We May Collect",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Depending on the nature of a user's interaction with Avirvox Labs, the Company may collect or process relevant categories of information, including:"
+      },
+      {
+        "type": "heading",
+        "text": "Identification and Contact Information"
+      },
+      {
+        "type": "listItem",
+        "text": "Name and contact details."
+      },
+      {
+        "type": "listItem",
+        "text": "Email address."
+      },
+      {
+        "type": "listItem",
+        "text": "Country of residence or location information."
+      },
+      {
+        "type": "listItem",
+        "text": "Information voluntarily provided through inquiries or communications."
+      },
+      {
+        "type": "heading",
+        "text": "Technical and Website Information"
+      },
+      {
+        "type": "listItem",
+        "text": "IP address and browser information."
+      },
+      {
+        "type": "listItem",
+        "text": "Device and operating-system information."
+      },
+      {
+        "type": "listItem",
+        "text": "Website usage and security logs."
+      },
+      {
+        "type": "listItem",
+        "text": "Cookie or similar technical identifiers, where applicable."
+      },
+      {
+        "type": "listItem",
+        "text": "Referral, traffic and campaign information."
+      },
+      {
+        "type": "heading",
+        "text": "AVX Participation Information"
+      },
+      {
+        "type": "listItem",
+        "text": "Wallet addresses."
+      },
+      {
+        "type": "listItem",
+        "text": "Blockchain transaction details."
+      },
+      {
+        "type": "listItem",
+        "text": "Participation and allocation records."
+      },
+      {
+        "type": "listItem",
+        "text": "Transaction references and payment information."
+      },
+      {
+        "type": "listItem",
+        "text": "Eligibility and jurisdictional information."
+      },
+      {
+        "type": "heading",
+        "text": "Compliance Information"
+      },
+      {
+        "type": "listItem",
+        "text": "Identification and verification documents where required."
+      },
+      {
+        "type": "listItem",
+        "text": "Relevant KYC, KYB and AML information."
+      },
+      {
+        "type": "listItem",
+        "text": "Sanctions and compliance screening information."
+      },
+      {
+        "type": "listItem",
+        "text": "Beneficial ownership and authorized representative details."
+      },
+      {
+        "type": "listItem",
+        "text": "Source-of-funds information where applicable."
+      },
+      {
+        "type": "paragraph",
+        "text": "Information may be collected directly from users, generated through interactions with the Website, obtained from publicly accessible blockchain records or received from authorized service providers and other lawful sources."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company will collect and process information appropriate to the relevant purpose, subject to applicable legal requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs does not currently require facial recognition, biometric identification, selfie verification or automated liveness checks as part of its standard AVX participation process."
+      },
+      {
+        "type": "paragraph",
+        "text": "Additional verification technologies may be introduced where operationally supported and legally appropriate, subject to applicable privacy requirements."
+      }
+    ]
+  },
+  {
+    "number": "3",
+    "title": "Purposes And Legal Bases For Processing",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may process personal information for legitimate and lawful purposes associated with its business activities."
+      },
+      {
+        "type": "paragraph",
+        "text": "These purposes may include:"
+      },
+      {
+        "type": "listItem",
+        "text": "Operating, maintaining and securing the Website."
+      },
+      {
+        "type": "listItem",
+        "text": "Responding to inquiries and providing participant support."
+      },
+      {
+        "type": "listItem",
+        "text": "Assessing AVX participation eligibility."
+      },
+      {
+        "type": "listItem",
+        "text": "Conducting applicable identity, entity and compliance verification."
+      },
+      {
+        "type": "listItem",
+        "text": "Administering AVX participation and token allocations."
+      },
+      {
+        "type": "listItem",
+        "text": "Processing and reconciling blockchain transactions."
+      },
+      {
+        "type": "listItem",
+        "text": "Preventing fraud, misuse and security incidents."
+      },
+      {
+        "type": "listItem",
+        "text": "Complying with applicable legal and regulatory obligations."
+      },
+      {
+        "type": "listItem",
+        "text": "Maintaining transaction and compliance records."
+      },
+      {
+        "type": "listItem",
+        "text": "Managing business communications."
+      },
+      {
+        "type": "listItem",
+        "text": "Improving Website functionality and performance."
+      },
+      {
+        "type": "listItem",
+        "text": "Conducting permitted analytics and campaign measurement."
+      },
+      {
+        "type": "listItem",
+        "text": "Sending authorized marketing communications."
+      },
+      {
+        "type": "listItem",
+        "text": "Establishing, exercising or defending legal rights."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where required by applicable law, processing will rely on an appropriate legal basis, which may include:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Contractual Necessity: Processing reasonably necessary to administer a requested service, participation process or contractual relationship."
+      },
+      {
+        "type": "paragraph",
+        "text": "Legal Obligations: Processing required to comply with applicable laws, regulatory duties or lawful authority requests."
+      },
+      {
+        "type": "paragraph",
+        "text": "Legitimate Interests: Processing necessary for lawful business, operational, administrative, security or fraud- prevention interests where this legal basis is recognized and applicable balancing requirements are satisfied."
+      },
+      {
+        "type": "paragraph",
+        "text": "Consent: Processing based on valid consent where required, including certain marketing activities, cookies or other specified purposes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Other Lawful Grounds: Any additional legal basis expressly permitted by applicable data-protection law."
+      },
+      {
+        "type": "paragraph",
+        "text": "The applicable legal basis may differ according to the information involved, processing purpose and relevant jurisdiction."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs will not rely on consent where another legal basis is required or where consent would not be valid under applicable law."
+      }
+    ]
+  },
+  {
+    "number": "4",
+    "title": "AVX Participation, KYC And Blockchain Information",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Participation in AVX-related activities may involve processing information necessary for transaction administration, eligibility verification, financial-crime prevention and applicable compliance obligations."
+      },
+      {
+        "type": "paragraph",
+        "text": "KYC and compliance procedures may include identity checks, entity verification, sanctions screening, politically exposed person assessments, source-of-funds reviews and enhanced due diligence where appropriate."
+      },
+      {
+        "type": "paragraph",
+        "text": "The scope of these procedures will follow applicable law and the Company's risk-based compliance framework, as described in the KYC / AML Notice."
+      },
+      {
+        "type": "heading",
+        "text": "Public Blockchain Information"
+      },
+      {
+        "type": "paragraph",
+        "text": "Transactions conducted on public blockchain networks may be permanently recorded and publicly accessible."
+      },
+      {
+        "type": "paragraph",
+        "text": "Wallet addresses, transaction hashes, token transfers and associated blockchain information may remain visible through independent blockchain explorers."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where blockchain information can be linked to an identifiable individual, applicable privacy laws may govern the Company's processing of that information."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs does not control public blockchain networks and may be unable to modify, delete or reverse information recorded on an independent blockchain."
+      },
+      {
+        "type": "paragraph",
+        "text": "Applicable privacy requests relating to information held separately in the Company's own systems will be assessed according to relevant legal requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs will never request a participant's wallet seed phrase, private key or recovery credentials for standard participation or identity-verification purposes."
+      }
+    ]
+  },
+  {
+    "number": "5",
+    "title": "Information Sharing And Third-Party Providers",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may disclose or provide access to personal information where reasonably necessary for legitimate business operations, contractual administration, security, compliance or legal obligations."
+      },
+      {
+        "type": "paragraph",
+        "text": "Recipients may include, where applicable:"
+      },
+      {
+        "type": "listItem",
+        "text": "Website hosting and infrastructure providers."
+      },
+      {
+        "type": "listItem",
+        "text": "Identity and compliance verification providers."
+      },
+      {
+        "type": "listItem",
+        "text": "Blockchain and transaction-support services."
+      },
+      {
+        "type": "listItem",
+        "text": "Cybersecurity and fraud-prevention providers."
+      },
+      {
+        "type": "listItem",
+        "text": "Analytics and Website performance services."
+      },
+      {
+        "type": "listItem",
+        "text": "Email, communications and participant-support providers."
+      },
+      {
+        "type": "listItem",
+        "text": "Payment and transaction-administration services."
+      },
+      {
+        "type": "listItem",
+        "text": "Professional legal, accounting and compliance advisers."
+      },
+      {
+        "type": "listItem",
+        "text": "Relevant affiliated or associated entities where legally appropriate."
+      },
+      {
+        "type": "listItem",
+        "text": "Competent regulatory, judicial or governmental authorities where required or authorized by law."
+      },
+      {
+        "type": "paragraph",
+        "text": "Information shared with service providers will be limited to purposes appropriate to their function and subject to applicable contractual, confidentiality, security and data-protection requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "Certain independent third parties may act as separate data controllers under applicable law."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may disclose information in connection with a lawful corporate restructuring, merger, acquisition, financing, business transfer or similar transaction, subject to applicable legal protections."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company does not sell personal information to advertisers in exchange for monetary payment as part of its stated business practices."
+      },
+      {
+        "type": "paragraph",
+        "text": "However, certain analytics, advertising or attribution technologies, if used, may involve sharing technical identifiers with third parties. Such processing will be subject to applicable disclosure, consent and other legal requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nothing in this Policy authorizes personal-data disclosures that would be prohibited by applicable law."
+      }
+    ]
+  },
+  {
+    "number": "6",
+    "title": "International Data Transfers",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs operates from the United Arab Emirates and may engage service providers or business partners located in other jurisdictions."
+      },
+      {
+        "type": "paragraph",
+        "text": "As a result, personal information may be accessed, stored or processed outside the country in which an individual resides."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where cross-border transfers are subject to legal restrictions or additional safeguards, the Company will apply an appropriate lawful transfer mechanism or other legally permitted arrangement."
+      },
+      {
+        "type": "paragraph",
+        "text": "Depending on the applicable law, safeguards may include contractual protections, recognized adequacy arrangements, permitted exemptions or other legally accepted measures."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company does not guarantee that all personal information will remain within a single country unless specifically required by applicable law or a binding agreement."
+      },
+      {
+        "type": "paragraph",
+        "text": "International processing will remain subject to relevant confidentiality, security and data-protection obligations."
+      }
+    ]
+  },
+  {
+    "number": "7",
+    "title": "Data Retention And Security",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs retains personal information for periods reasonably necessary to fulfill legitimate processing purposes and applicable legal or contractual obligations."
+      },
+      {
+        "type": "paragraph",
+        "text": "Relevant considerations may include:"
+      },
+      {
+        "type": "listItem",
+        "text": "The nature and purpose of the information."
+      },
+      {
+        "type": "listItem",
+        "text": "AVX participation and transaction administration."
+      },
+      {
+        "type": "listItem",
+        "text": "KYC, AML and sanctions compliance requirements."
+      },
+      {
+        "type": "listItem",
+        "text": "Accounting and business recordkeeping obligations."
+      },
+      {
+        "type": "listItem",
+        "text": "Fraud prevention and security investigations."
+      },
+      {
+        "type": "listItem",
+        "text": "Dispute resolution and legal proceedings."
+      },
+      {
+        "type": "listItem",
+        "text": "Applicable minimum retention periods."
+      },
+      {
+        "type": "listItem",
+        "text": "Other legally justified operational requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "Information may be retained for longer periods where required or permitted by applicable law."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where information is no longer required and no lawful basis for continued retention exists, the Company will take appropriate steps to delete, anonymize or otherwise handle it in accordance with applicable requirements."
+      },
+      {
+        "type": "heading",
+        "text": "Data Security"
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs applies reasonable technical and organizational measures appropriate to the nature of information processed and the risks involved."
+      },
+      {
+        "type": "paragraph",
+        "text": "Such measures may include access restrictions, administrative safeguards, service-provider oversight and other security controls as operationally appropriate."
+      },
+      {
+        "type": "paragraph",
+        "text": "Access to sensitive personal and compliance information will be restricted to authorized persons and service providers with a legitimate need."
+      },
+      {
+        "type": "paragraph",
+        "text": "No electronic system, blockchain network or method of data transmission can guarantee absolute security."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where a personal-data incident triggers legal notification or response requirements, Avirvox Labs will take actions required by applicable law."
+      }
+    ]
+  },
+  {
+    "number": "8",
+    "title": "Privacy Rights And Requests",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Depending on the laws applicable to the individual and the relevant processing activity, individuals may have rights to:"
+      },
+      {
+        "type": "listItem",
+        "text": "Request access to personal information."
+      },
+      {
+        "type": "listItem",
+        "text": "Request correction of inaccurate or incomplete information."
+      },
+      {
+        "type": "listItem",
+        "text": "Request deletion where legally permitted."
+      },
+      {
+        "type": "listItem",
+        "text": "Request restriction of certain processing."
+      },
+      {
+        "type": "listItem",
+        "text": "Object to certain processing activities."
+      },
+      {
+        "type": "listItem",
+        "text": "Withdraw consent where processing is based on consent."
+      },
+      {
+        "type": "listItem",
+        "text": "Request portability of eligible information where applicable."
+      },
+      {
+        "type": "listItem",
+        "text": "Exercise other rights provided under relevant data-protection laws."
+      },
+      {
+        "type": "listItem",
+        "text": "Submit complaints to a competent data-protection authority where applicable."
+      },
+      {
+        "type": "paragraph",
+        "text": "These rights are not necessarily absolute."
+      },
+      {
+        "type": "paragraph",
+        "text": "Certain requests may be restricted or declined where permitted or required by applicable law, including where information must be retained for regulatory compliance, fraud prevention, lawful investigations, contractual administration or legal claims."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may request reasonable information to verify the identity or authority of a person submitting a privacy request before disclosing, modifying or deleting relevant information."
+      },
+      {
+        "type": "paragraph",
+        "text": "Requests will be evaluated and addressed within applicable legal timeframes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Withdrawal of consent does not invalidate processing previously conducted on a lawful basis and does not prevent continued processing where another lawful basis applies."
+      },
+      {
+        "type": "paragraph",
+        "text": "Privacy requests may be submitted through the official contact details in this Policy."
+      }
+    ]
+  },
+  {
+    "number": "9",
+    "title": "Cookies And Similar Technologies",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "The Avirvox Labs Website may use cookies, local storage, pixels or similar technologies to support functionality, security, performance measurement and other lawful purposes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Depending on the technologies actually implemented, these may include:"
+      },
+      {
+        "type": "heading",
+        "text": "Strictly Necessary Technologies"
+      },
+      {
+        "type": "paragraph",
+        "text": "Technologies essential to Website operation, security, authentication, session management or user-requested functionality."
+      },
+      {
+        "type": "heading",
+        "text": "Analytics Technologies"
+      },
+      {
+        "type": "paragraph",
+        "text": "Technologies used to understand Website traffic, performance, usage patterns and engagement."
+      },
+      {
+        "type": "heading",
+        "text": "Preference Technologies"
+      },
+      {
+        "type": "paragraph",
+        "text": "Technologies used to remember relevant user choices or interface preferences."
+      },
+      {
+        "type": "heading",
+        "text": "Marketing and Attribution Technologies"
+      },
+      {
+        "type": "paragraph",
+        "text": "Technologies used, where implemented and legally permitted, to measure marketing campaigns, referrals, advertising engagement or related performance."
+      },
+      {
+        "type": "paragraph",
+        "text": "The specific technologies, providers, information collected and retention periods may change as Website functionality develops."
+      },
+      {
+        "type": "paragraph",
+        "text": "Not every category listed above is necessarily active on the Website at all times."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs will provide information about technologies actually deployed as required by applicable law."
+      }
+    ]
+  },
+  {
+    "number": "10",
+    "title": "Cookie Consent And User Preferences",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Where applicable law requires prior consent for non-essential cookies or similar technologies, Avirvox Labs will seek the required consent before activating those technologies."
+      },
+      {
+        "type": "paragraph",
+        "text": "Strictly necessary technologies may operate without separate consent where an applicable legal exemption permits their use."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where required by law, users will be provided with an appropriate mechanism to make or change relevant cookie choices."
+      },
+      {
+        "type": "paragraph",
+        "text": "The form of the consent or preference mechanism may vary according to applicable legal requirements, Website functionality and the technologies deployed."
+      },
+      {
+        "type": "paragraph",
+        "text": "Users may also manage certain cookies through their browser or device settings, although disabling some technologies may affect Website functionality."
+      },
+      {
+        "type": "paragraph",
+        "text": "Continued browsing alone will not be treated as valid consent where applicable law requires an affirmative action."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where cookie consent controls are required, they must operate in accordance with the applicable legal requirements and reflect the actual technologies in use."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may update its cookie practices and related disclosures as its Website and services evolve."
+      }
+    ]
+  },
+  {
+    "number": "11",
+    "title": "Marketing And Communications",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may communicate with individuals who contact the Company, request information, participate in applicable services or otherwise establish a lawful communication relationship."
+      },
+      {
+        "type": "paragraph",
+        "text": "Communications may include:"
+      },
+      {
+        "type": "listItem",
+        "text": "Responses to inquiries."
+      },
+      {
+        "type": "listItem",
+        "text": "Account and participation information."
+      },
+      {
+        "type": "listItem",
+        "text": "Transaction and compliance communications."
+      },
+      {
+        "type": "listItem",
+        "text": "Security and operational notices."
+      },
+      {
+        "type": "listItem",
+        "text": "Legal or regulatory communications."
+      },
+      {
+        "type": "listItem",
+        "text": "Company news, product information and promotional communications where legally permitted."
+      },
+      {
+        "type": "paragraph",
+        "text": "Marketing communications will be sent using an appropriate lawful basis, including consent where required by applicable law."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where required, marketing communications will include an unsubscribe or equivalent opt-out mechanism."
+      },
+      {
+        "type": "paragraph",
+        "text": "Individuals may request that applicable direct marketing communications cease."
+      },
+      {
+        "type": "paragraph",
+        "text": "Opting out of marketing does not prevent the Company from issuing necessary transactional, legal, security or compliance communications."
+      }
+    ]
+  },
+  {
+    "number": "12",
+    "title": "Children's Privacy",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "AVX token-sale participation is intended only for individuals who satisfy the applicable minimum age and legal-capacity requirements, including being at least 18 years old or the legally required age of majority, whichever is higher."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs does not knowingly permit individuals below the applicable minimum age to participate in the AVX token sale."
+      },
+      {
+        "type": "paragraph",
+        "text": "The general Website is not specifically directed toward children."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where the Company becomes aware that personal information has been collected or processed in circumstances requiring additional protections for children, it will take appropriate action in accordance with applicable law."
+      },
+      {
+        "type": "paragraph",
+        "text": "This section does not create an unrestricted age requirement for passive viewing of publicly available Website information."
+      }
+    ]
+  },
+  {
+    "number": "13",
+    "title": "Policy Changes And Related Documents",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs may update this Policy to reflect changes in applicable law, business operations, Website functionality, compliance procedures, service providers, security practices or data-processing technologies."
+      },
+      {
+        "type": "paragraph",
+        "text": "The current version will be published through the official Website with an applicable effective date."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where a material change requires additional notice, consent or another legally prescribed procedure, Avirvox Labs will comply with the relevant requirement."
+      },
+      {
+        "type": "paragraph",
+        "text": "This Policy should be read together with:"
+      },
+      {
+        "type": "listItem",
+        "text": "AVX Token Sale Terms."
+      },
+      {
+        "type": "listItem",
+        "text": "Eligibility & Restricted Jurisdictions Policy."
+      },
+      {
+        "type": "listItem",
+        "text": "KYC / AML Notice."
+      },
+      {
+        "type": "listItem",
+        "text": "Terms of Use."
+      },
+      {
+        "type": "listItem",
+        "text": "Applicable AVX participation disclosures."
+      },
+      {
+        "type": "paragraph",
+        "text": "The AVX Token Sale Terms govern token purchases, allocations, vesting, cancellations and refunds."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Eligibility & Restricted Jurisdictions Policy governs participation eligibility and jurisdictional requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "The KYC / AML Notice provides further information concerning identity verification and financial-crime compliance procedures."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nothing in the other documents limits mandatory privacy rights or obligations imposed by applicable law."
+      }
+    ]
+  },
+  {
+    "number": "14",
+    "title": "Contact And Privacy Inquiries",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "For questions regarding this Policy, personal-data processing, privacy rights or cookie-related matters, individuals may contact:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs FZE LLC"
+      },
+      {
+        "type": "paragraph",
+        "text": "Business Centre, Sharjah Publishing City Free Zone"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sharjah, United Arab Emirates"
+      },
+      {
+        "type": "paragraph",
+        "text": "Email: coin@avirvox.io"
+      },
+      {
+        "type": "paragraph",
+        "text": "Official Website: https://www.avirvox.io"
+      },
+      {
+        "type": "paragraph",
+        "text": "Privacy inquiries and rights requests should be submitted through official Company communication channels."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Company may request reasonable verification information before responding to requests involving personal or sensitive information."
+      },
+      {
+        "type": "heading",
+        "text": "IMPORTANT PRIVACY NOTICE"
+      },
+      {
+        "type": "paragraph",
+        "text": "Avirvox Labs processes personal information for legitimate business, operational, security, participation and compliance purposes, subject to applicable data-protection requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "Certain AVX-related records may be subject to mandatory retention obligations."
+      },
+      {
+        "type": "paragraph",
+        "text": "Public blockchain records may remain permanently accessible and outside the Company's ability to alter or remove."
+      },
+      {
+        "type": "paragraph",
+        "text": "Privacy rights, cookie consent requirements and international data-transfer restrictions will be administered in accordance with the laws applicable to the relevant processing activities."
+      }
+    ]
+  }
+]

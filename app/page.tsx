@@ -5,10 +5,12 @@ import { Avx } from "@/components/sections/avx";
 import { Execution } from "@/components/sections/execution";
 import { Roadmap } from "@/components/sections/roadmap";
 import { FinalCards } from "@/components/sections/final-cards";
+import { PageParticles } from "@/components/sections/page-particles";
 
 export default function Home() {
   return (
-    <main>
+    <main className="particle-page">
+      <PageParticles />
       <Hero />
       <About />
       <Ecosystem />

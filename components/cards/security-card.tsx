@@ -13,11 +13,11 @@ export function SecurityCard() {
       <div className="grid gap-12 lg:grid-cols-[1.25fr_0.85fr] lg:gap-20">
         <div>
           <Eyebrow>{security.eyebrow}</Eyebrow>
-          <h2 className="mt-5 font-[family-name:var(--font-display)] text-[clamp(2.7rem,4.3vw,4.8rem)] leading-[0.96] tracking-[-0.04em]">
+          <h2 className="mt-5 font-[family-name:var(--font-display)] text-4xl leading-tight tracking-tight md:text-5xl xl:text-6xl">
             {security.title}
           </h2>
           <div className="mt-5 h-px w-36 bg-[#d13b95]" />
-          <p className="mt-5 max-w-[550px] text-sm leading-[1.5] text-[#c8bbcc] sm:text-base">
+          <p className="mt-5 max-w-[550px] text-sm leading-relaxed text-[#c8bbcc] sm:text-base">
             {security.description}
           </p>
           <p className="mt-12 text-xs font-semibold uppercase text-[#e8dce8]">{security.contractLabel}</p>

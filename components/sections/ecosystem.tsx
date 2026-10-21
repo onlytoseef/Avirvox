@@ -50,7 +50,7 @@ export function Ecosystem() {
       />
       <Heading
         eyebrow={ecosystemContent.eyebrow}
-        titleClassName="section-title--ecosystem !mt-3"
+        titleClassName="!mt-3"
         description={ecosystemContent.description}
       >
         {ecosystemContent.title[0]}
@@ -93,12 +93,12 @@ export function Ecosystem() {
             </span>
             {ecosystemContent.featureEyebrow}
           </div>
-          <h3 className="ecosystem-feature-title mt-4 max-w-xl leading-[1.08] font-semibold tracking-[-0.025em]">
+          <h3 className="mt-4 max-w-xl text-2xl leading-tight font-semibold tracking-tight md:text-3xl">
             {ecosystemContent.featureTitle[0]}
             <br className="hidden sm:block" />
             {" "}{ecosystemContent.featureTitle[1]}
           </h3>
-          <p className="mt-4 max-w-xl text-[13px] leading-[1.3] text-muted sm:text-sm">
+          <p className="mt-4 max-w-xl text-sm leading-relaxed text-muted">
             {ecosystemContent.featureDescription}
           </p>
           <div className="mt-3">

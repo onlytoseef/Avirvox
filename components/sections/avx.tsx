@@ -19,7 +19,7 @@ export function Avx() {
         <Eyebrow>{avxContent.eyebrow}</Eyebrow>
 
         {/* 62px @ 1440 */}
-        <h2 className="mt-[clamp(12px,1.4vw,20px)] font-[family-name:var(--font-display)] text-[clamp(32px,4.3vw,62px)] font-normal leading-[1.08] tracking-[-0.02em] text-[#f6eaf4]">
+        <h2 className="mt-[clamp(12px,1.4vw,20px)] font-[family-name:var(--font-display)] text-4xl leading-tight font-normal tracking-tight text-[#f6eaf4] md:text-5xl xl:text-6xl">
           {avxContent.title[0]}
           <br />
           {avxContent.title[1]}
@@ -27,7 +27,7 @@ export function Avx() {
 
         <div className="mt-3 h-[2px] w-[clamp(100px,13vw,190px)] bg-gradient-to-r from-[#ec468d] to-[#a026dd]" />
 
-        <p className="mt-[clamp(12px,1.3vw,18px)] max-w-[790px] text-[clamp(14px,1.25vw,18px)] leading-[1.5] text-[#d9cfe0]">
+        <p className="mt-[clamp(12px,1.3vw,18px)] max-w-[790px] text-sm leading-relaxed text-[#d9cfe0] sm:text-base">
           {avxContent.description}
         </p>
       </FadeIn>
@@ -61,9 +61,9 @@ export function Avx() {
           ))}
         </svg>
 
-        {/* Chart: diameter 203/643 = 31.6%, center (53%, 48.3%) */}
+        {/* Chart: diameter 25% of the diagram, center (53%, 48.3%) */}
         <DonutChart
-          className="absolute aspect-square w-[31.6%] -translate-x-1/2 -translate-y-1/2 drop-shadow-[0_0_60px_rgba(160,33,145,0.4)]"
+          className="absolute aspect-square w-[25%] -translate-x-1/2 -translate-y-1/2 drop-shadow-[0_0_50px_rgba(160,33,145,0.4)]"
           style={{ left: "53%", top: "48.3%" }}
         />
 
@@ -71,7 +71,7 @@ export function Avx() {
         {avxPills.map(({ text, x, y, w, h }) => (
           <div
             key={text}
-            className="absolute flex items-center justify-center whitespace-nowrap rounded-full border border-[#4d3c57] bg-[#0b0612] text-[clamp(11px,1.4vw,20px)] font-medium text-[#f4e8f2] shadow-[0_8px_24px_rgba(0,0,0,0.45)]"
+            className="absolute flex items-center justify-center whitespace-nowrap rounded-full border border-[#4d3c57] bg-[#0b0612] text-base font-medium text-[#f4e8f2] shadow-[0_8px_24px_rgba(0,0,0,0.45)]"
             style={{
               left: `${x}%`,
               top: `${y}%`,
@@ -86,7 +86,7 @@ export function Avx() {
 
       {/* ───────── Mobile / tablet ───────── */}
       <FadeIn delay={0.15} className="mt-10 lg:hidden">
-        <div className="relative mx-auto aspect-square w-full max-w-[360px] drop-shadow-[0_0_50px_rgba(160,33,145,0.4)]">
+        <div className="relative mx-auto aspect-square w-full max-w-[270px] drop-shadow-[0_0_40px_rgba(160,33,145,0.4)]">
           <DonutChart className="size-full" />
         </div>
         <ul className="mt-8 grid gap-3 sm:grid-cols-2">

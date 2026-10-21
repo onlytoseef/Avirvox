@@ -6,21 +6,21 @@ type Leader = (typeof leadershipTeam)[number];
 
 export function LeadershipCard({ person }: { person: Leader }) {
   return (
-    <article className="about-page-team-card relative flex aspect-square min-h-[390px] flex-col justify-end overflow-hidden rounded-[24px] border border-[#55445a] p-8 sm:p-9">
+    <article className="about-page-team-card relative flex aspect-[4/3] min-h-[320px] flex-col justify-end overflow-hidden rounded-[24px] border border-[#55445a] p-6 sm:p-8 md:aspect-square">
       <Image
         src={person.image}
         alt={person.name}
         fill
-        sizes="(max-width: 767px) 100vw, 50vw"
+        sizes="(max-width: 767px) 100vw, (max-width: 1279px) 50vw, 550px"
         className="object-cover"
       />
       <div className="relative z-10">
-        <Eyebrow className="max-w-full text-[10px]">{person.role}</Eyebrow>
-        <h3 className="mt-4 font-[family-name:var(--font-display)] text-[clamp(2.8rem,4.4vw,4.5rem)] leading-[0.98] tracking-[-0.045em]">
+        <Eyebrow className="max-w-full text-xs">{person.role}</Eyebrow>
+        <h3 className="mt-4 font-[family-name:var(--font-display)] text-3xl leading-tight tracking-tight sm:text-4xl xl:text-5xl">
           {person.name}
         </h3>
         <div className="mt-5 h-[2px] w-48 bg-[#e446a8]" />
-        <p className="mt-5 max-w-[560px] text-sm leading-[1.5] text-[#e0d4e2] sm:text-lg">
+        <p className="mt-5 max-w-[560px] text-sm leading-relaxed text-[#e0d4e2] sm:text-base">
           {person.description}
         </p>
       </div>

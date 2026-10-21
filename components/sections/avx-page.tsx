@@ -27,10 +27,10 @@ function SectionHeading({
 }) {
   return (
     <div className="text-center">
-      <Eyebrow className={compact ? "px-3 py-1 text-[10px]" : "px-4 py-1 text-[clamp(9px,0.95vw,14px)]"}>
+      <Eyebrow className={compact ? "px-3 py-1 text-xs" : "px-4 py-1 text-xs"}>
         {eyebrow}
       </Eyebrow>
-      <h2 className={`${compact ? "avx-page-compact-title" : "mt-5 text-[clamp(2.6rem,4.5vw,4.2rem)]"} font-[family-name:var(--font-display)] leading-[0.98] font-normal tracking-[-0.045em] text-[#f6edf5]`}>
+      <h2 className={`${compact ? "mt-3 text-3xl md:text-4xl lg:text-5xl" : "mt-5 text-4xl md:text-5xl xl:text-6xl"} font-[family-name:var(--font-display)] leading-tight font-normal tracking-tight text-[#f6edf5]`}>
         {title}
       </h2>
       <div className={compact ? "avx-page-compact-underline" : "mx-auto mt-6 h-[2px] w-48 bg-[#e446a8]"} />
@@ -44,13 +44,13 @@ function AvxHero() {
       <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[560px] bg-[radial-gradient(ellipse_at_50%_0%,#a23d7777,transparent_61%),radial-gradient(ellipse_at_22%_0%,#d46b3a44,transparent_43%)]" />
       <FadeIn className="mx-auto min-w-0 max-w-[1440px] px-5 pt-[calc(clamp(100px,13vw,190px)+97px)]">
         <Eyebrow>{avxPageContent.eyebrow}</Eyebrow>
-        <h1 className="mt-5 max-w-full font-[family-name:var(--font-display)] text-[clamp(2.2rem,8.1vw,8rem)] leading-[0.93] font-normal tracking-[-0.045em] uppercase">
+        <h1 className="mt-5 max-w-full font-[family-name:var(--font-display)] text-4xl leading-none font-normal tracking-tight uppercase sm:text-5xl md:text-6xl lg:text-7xl ">
           <span className="block text-[#f3e8f2]">{avxPageContent.title[0]}</span>
           <span className="block bg-gradient-to-r from-[#e352b0] via-[#c638c5] to-[#9231dd] bg-clip-text text-transparent">
             {avxPageContent.title[1]}
           </span>
         </h1>
-        <p className="mx-auto mt-8 max-w-[760px] text-sm leading-[1.5] text-[#d4c8d7] sm:text-base">
+        <p className="mx-auto mt-8 max-w-[760px] text-sm leading-relaxed text-[#d4c8d7] sm:text-base">
           {avxPageContent.description}
         </p>
       </FadeIn>
@@ -78,7 +78,7 @@ function TokenOverview() {
           {fixedSupplyDetails.map(({ label, value, detail }) => (
             <div
               key={label}
-              className="avx-page-overview-row"
+              className="avx-page-overview-row text-sm sm:text-base"
             >
               <dt className="max-w-[45%]">{label}</dt>
               <dd className="text-right">
@@ -118,7 +118,7 @@ function TokenReleaseSummary() {
           <div key={label} className={index > 0 ? "border-l border-white/40" : ""}>
             <CountUp
               value={Number(value)}
-              className="block text-[clamp(1.4rem,3vw,3rem)] leading-none"
+              className="block text-2xl leading-none sm:text-3xl lg:text-4xl"
             />
             <span className="block text-xs font-medium sm:text-base">{label}</span>
           </div>
@@ -139,10 +139,10 @@ function TokenReleaseSummary() {
 function FounderAllocation() {
   return (
     <div className="flex min-w-0 flex-col justify-center">
-      <p className="text-lg uppercase text-[#e0d5e1] sm:text-2xl">{avxPageContent.founderTitle}</p>
+      <p className="text-lg uppercase text-[#e0d5e1] sm:text-xl">{avxPageContent.founderTitle}</p>
       <p className="mt-2 flex items-end gap-3">
-        <strong className="bg-gradient-to-r from-[#e843b3] to-[#9635df] bg-clip-text text-[clamp(3.5rem,5.5vw,5.5rem)] leading-none text-transparent">0%</strong>
-        <span className="pb-2 text-sm text-[#ded4e0] sm:text-xl">At TGE</span>
+        <strong className="bg-gradient-to-r from-[#e843b3] to-[#9635df] bg-clip-text text-6xl leading-none text-transparent lg:text-7xl">0%</strong>
+        <span className="pb-2 text-sm text-[#ded4e0] sm:text-base">At TGE</span>
       </p>
       <div className="mt-14 grid grid-cols-[1fr_2fr] gap-3">
         <div className="relative h-5 rounded-full border border-[#b939ab]">
@@ -150,11 +150,11 @@ function FounderAllocation() {
         </div>
         <div className="h-5 rounded-full border border-[#b939ab]" />
       </div>
-      <div className="mt-8 grid grid-cols-[1fr_2fr] gap-3 text-xs text-[#e6dce7] sm:text-lg">
+      <div className="mt-8 grid grid-cols-[1fr_2fr] gap-3 text-xs text-[#e6dce7] sm:text-base">
         <span>TGE</span>
         <span className="flex justify-between gap-3"><span>Month 12 · Cliff Ends</span><span>Month 48</span></span>
       </div>
-      <p className="mt-14 rounded-[20px] bg-[#23062d] px-7 py-6 text-sm leading-[1.4] text-[#afa1b5] sm:text-xl">
+      <p className="mt-14 rounded-[20px] bg-[#23062d] px-7 py-6 text-sm leading-relaxed text-[#afa1b5] sm:text-base">
         {avxPageContent.founderDescription}
       </p>
     </div>
@@ -170,7 +170,7 @@ function VestingSchedule() {
           "radial-gradient(ellipse at 99% 0%, rgba(198,68,136,.58), transparent 43%), radial-gradient(ellipse at 0% 100%, rgba(196,60,140,.62), transparent 48%)",
       }}
     >
-      <h3 className="inline-flex rounded-full border border-[#b63aa8] px-5 py-2 text-sm uppercase text-[#e4d7e5] sm:text-lg">
+      <h3 className="inline-flex rounded-full border border-[#b63aa8] px-5 py-2 text-sm uppercase text-[#e4d7e5] sm:text-base">
         {avxPageContent.vestingTitle}
       </h3>
       <StaggerGroup className="mt-10 grid gap-5 lg:grid-cols-3">
@@ -214,12 +214,12 @@ function EnterpriseBoundary() {
       className="mx-auto mt-10 max-w-[1360px] rounded-[30px] border border-[#52415b] px-6 py-14 text-center sm:px-12 lg:py-14"
       style={{ backgroundImage: "radial-gradient(ellipse at 100% 100%, rgba(214,84,66,.7), transparent 42%)" }}
     >
-      <Eyebrow className="px-4 py-1 text-[clamp(9px,0.95vw,14px)]">{avxPageContent.boundaryEyebrow}</Eyebrow>
-      <h2 className="mt-6 font-[family-name:var(--font-display)] text-[clamp(2.8rem,5vw,5rem)] leading-[0.95] tracking-[-0.04em]">
+      <Eyebrow className="px-4 py-1 text-xs">{avxPageContent.boundaryEyebrow}</Eyebrow>
+      <h2 className="mt-6 font-[family-name:var(--font-display)] text-4xl leading-tight tracking-tight md:text-5xl xl:text-6xl">
         {avxPageContent.boundaryTitle[0]}<br />{avxPageContent.boundaryTitle[1]}
       </h2>
       <div className="mx-auto mt-7 h-[2px] w-48 bg-[#e446a8]" />
-      <div className="mx-auto mt-8 max-w-[1200px] space-y-6 text-sm leading-[1.55] text-[#e7dbe8] sm:text-lg">
+      <div className="mx-auto mt-8 max-w-[1200px] space-y-6 text-sm leading-relaxed text-[#e7dbe8] sm:text-base">
         {avxPageContent.boundaryParagraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
       </div>
     </ScaleIn>

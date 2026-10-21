@@ -31,13 +31,13 @@ function ParticipationHero() {
       <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[570px] bg-[radial-gradient(ellipse_at_50%_0%,#a13a6999,transparent_58%),radial-gradient(ellipse_at_18%_0%,#c4513244,transparent_38%)]" />
       <FadeIn className="mx-auto max-w-[1440px] px-5 pt-[calc(clamp(100px,13vw,190px)+97px)]">
         <Eyebrow>{participatePageContent.eyebrow}</Eyebrow>
-        <h1 className="mt-5 font-[family-name:var(--font-display)] text-[clamp(2.5rem,8.1vw,8rem)] leading-[0.93] font-normal tracking-[-0.045em] uppercase">
+        <h1 className="mt-5 font-[family-name:var(--font-display)] text-4xl leading-none font-normal tracking-tight uppercase sm:text-5xl md:text-6xl lg:text-7xl ">
           <span className="block text-[#f9edf5]">{participatePageContent.title[0]}</span>
           <span className="block bg-gradient-to-r from-[#eb49ae] via-[#b734d2] to-[#7930dc] bg-clip-text text-transparent">
             {participatePageContent.title[1]}
           </span>
         </h1>
-        <p className="mx-auto mt-8 max-w-[760px] text-sm leading-[1.5] text-[#d4c8d7] sm:text-base">
+        <p className="mx-auto mt-8 max-w-[760px] text-sm leading-relaxed text-[#d4c8d7] sm:text-base">
           {participatePageContent.introduction}
         </p>
       </FadeIn>
@@ -57,11 +57,11 @@ function StepIllustration({ step }: { step: ParticipationStep }) {
       strength={12}
       aria-label={`${step.title} icon`}
       role="img"
-      className="group relative flex size-32 shrink-0 items-center justify-center overflow-hidden rounded-[30px] border border-[#5b2377] bg-[#0d0516] shadow-[inset_0_0_0_5px_#220c35,0_0_25px_#70128022] lg:size-36"
+      className="group relative flex size-22 shrink-0 items-center justify-center overflow-hidden rounded-[30px] border border-[#5b2377] bg-[#0d0516] shadow-[inset_0_0_0_5px_#220c35,0_0_25px_#70128022] lg:size-26"
     >
       <Icon
         aria-hidden="true"
-        className={`size-12 drop-shadow-[0_0_14px_#ac2cc766] lg:size-14 ${step.number === "02" ? "rounded-full border-[3px] border-[#d942ba] p-2" : ""}`}
+        className={`size-7 drop-shadow-[0_0_14px_#ac2cc766] lg:size-10 ${step.number === "02" ? "rounded-full border-[3px] border-[#d942ba] p-2" : ""}`}
         style={
           step.number === "02" || step.number === "03"
             ? { fill: "url(#participation-step-gradient)" }
@@ -84,7 +84,7 @@ function ParticipationStepRow({ step, last }: { step: ParticipationStep; last: b
       </div>
 
       <div className="min-w-0 pb-16 sm:pb-20">
-        <h2 className="font-[family-name:var(--font-display)] text-[clamp(2.5rem,4.3vw,4.8rem)] leading-[0.96] tracking-[-0.04em] text-[#f6eaf3]">
+        <h2 className="font-[family-name:var(--font-display)] text-4xl leading-tight tracking-tight text-[#f6eaf3] md:text-5xl">
           <span className="bg-gradient-to-b from-[#ff9a22] via-[#e84aa9] to-[#962be5] bg-clip-text text-transparent">
             {step.number}.
           </span>{" "}
@@ -92,7 +92,7 @@ function ParticipationStepRow({ step, last }: { step: ParticipationStep; last: b
         </h2>
         <div className="mt-6 h-px w-48 bg-[#d13b95]" />
 
-        <div className="mt-10 max-w-[560px] space-y-5 text-sm font-medium leading-[1.45] text-[#e5dce7] sm:text-base">
+        <div className="mt-10 max-w-[560px] space-y-5 text-sm leading-relaxed font-medium text-[#e5dce7] sm:text-base">
           {step.description.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
           {"details" in step && step.details && (
             <ul className="list-disc pl-5">
@@ -101,7 +101,7 @@ function ParticipationStepRow({ step, last }: { step: ParticipationStep; last: b
           )}
         </div>
 
-        <p className="mt-10 max-w-[590px] border-l-2 border-[#b22a85] py-1 pl-5 text-sm leading-[1.45] whitespace-pre-line text-[#aa9bac] italic sm:text-base">
+        <p className="mt-10 max-w-[590px] border-l-2 border-[#b22a85] py-1 pl-5 text-sm leading-relaxed whitespace-pre-line text-[#aa9bac] italic sm:text-base">
           {step.note}
         </p>
 

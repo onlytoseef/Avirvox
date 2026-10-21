@@ -44,13 +44,13 @@ export function ArchitectureCard({ role }: { role: (typeof ecosystemRoles)[numbe
         <RoleVisual role={role} />
       </div>
       <p className="mt-2 text-sm font-medium uppercase text-[#f2e7f1]">{role.name}</p>
-      <h3 className="mt-3 bg-gradient-to-b from-[#ff8f25] via-[#e84b84] to-[#b42ddd] bg-clip-text font-[family-name:var(--font-display)] text-[clamp(1.7rem,2.25vw,2.3rem)] leading-[0.95] tracking-[-0.035em] uppercase text-transparent">
+      <h3 className="mt-3 bg-gradient-to-b from-[#ff8f25] via-[#e84b84] to-[#b42ddd] bg-clip-text font-[family-name:var(--font-display)] text-2xl leading-tight tracking-tight uppercase text-transparent xl:text-3xl">
         {role.title.map((line) => (
           <span key={line} className="block">{line}</span>
         ))}
       </h3>
       <div className="mt-4 h-px w-40 bg-gradient-to-r from-transparent via-[#7f5a83] to-transparent" />
-      <p className="mt-4 max-w-[370px] text-xs leading-[1.4] text-[#f0e7ef] sm:text-sm">
+      <p className="mt-4 max-w-[370px] text-sm leading-relaxed text-[#f0e7ef]">
         {role.description}
       </p>
     </article>

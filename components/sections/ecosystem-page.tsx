@@ -18,7 +18,7 @@ function SectionHeading({ eyebrow, title }: { eyebrow: string; title: string }) 
   return (
     <div className="text-center">
       <Eyebrow>{eyebrow}</Eyebrow>
-      <h2 className="mt-5 font-[family-name:var(--font-display)] text-[clamp(2.7rem,4.8vw,4.2rem)] leading-[0.98] tracking-[-0.045em] text-[#f6edf5]">
+      <h2 className="mt-5 font-[family-name:var(--font-display)] text-4xl leading-tight tracking-tight text-[#f6edf5] md:text-5xl xl:text-6xl">
         {title}
       </h2>
       <div className="mx-auto mt-6 h-[2px] w-48 bg-[#e446a8]" />
@@ -32,7 +32,7 @@ function EcosystemHero() {
       <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[600px] bg-[radial-gradient(ellipse_at_52%_0%,#a43d7777,transparent_62%),radial-gradient(ellipse_at_22%_0%,#cc603a44,transparent_42%)]" />
       <FadeIn className="mx-auto max-w-[1440px] px-5 pt-[calc(clamp(100px,13vw,190px)+97px)]">
         <Eyebrow>{ecosystemPageContent.eyebrow}</Eyebrow>
-        <h1 className="mt-5 font-[family-name:var(--font-display)] text-[clamp(2.4rem,7.8vw,7.1rem)] leading-[0.93] tracking-[-0.045em] uppercase">
+        <h1 className="mt-5 font-[family-name:var(--font-display)] text-4xl leading-none tracking-tight uppercase sm:text-5xl md:text-6xl lg:text-7xl">
           <span className="block text-[#f3e8f2]">Participation, Utility</span>
           <span className="block text-[#f3e8f2]">
             And Clear{" "}
@@ -44,7 +44,7 @@ function EcosystemHero() {
             Boundaries
           </span>
         </h1>
-        <p className="mx-auto mt-8 max-w-[1000px] text-sm leading-[1.5] text-[#d4c8d7] sm:text-lg">
+        <p className="mx-auto mt-8 max-w-[1000px] text-base leading-relaxed text-[#d4c8d7] lg:text-lg">
           {ecosystemPageContent.introduction}
         </p>
       </FadeIn>
@@ -58,19 +58,26 @@ function EcosystemHero() {
 
 function EcosystemArchitecture() {
   const { architecture } = ecosystemPageContent;
+  const arcPath = "M1 493 A404 493 0 0 1 809 493";
 
   return (
     <section className="relative mx-auto max-w-[1440px] px-5 pt-28 sm:px-10 lg:pt-[145px]">
-      <div className="ecosystem-page-arc" aria-hidden="true" />
+      <div className="ecosystem-page-arc" aria-hidden="true">
+        <svg viewBox="0 0 810 495" preserveAspectRatio="none" fill="none">
+          <circle className="ecosystem-travel-dot" r="2.5" fill="#fff">
+            <animateMotion path={arcPath} dur="5s" repeatCount="indefinite" />
+          </circle>
+        </svg>
+      </div>
       <FadeIn className="relative text-center">
         <Eyebrow>{architecture.eyebrow}</Eyebrow>
-        <h2 className="mt-5 font-[family-name:var(--font-display)] text-[clamp(2.7rem,4.9vw,4.5rem)] leading-[0.98] tracking-[-0.045em]">
+        <h2 className="mt-5 font-[family-name:var(--font-display)] text-4xl leading-tight tracking-tight md:text-5xl xl:text-6xl">
           {architecture.title[0]}
           <br />
           {architecture.title[1]}
         </h2>
         <div className="mx-auto mt-6 h-[2px] w-48 bg-[#e446a8]" />
-        <p className="mx-auto mt-7 max-w-[520px] text-sm leading-[1.4] text-[#d4c8d7] sm:text-lg">
+        <p className="mx-auto mt-7 max-w-[520px] text-base leading-relaxed text-[#d4c8d7] lg:text-lg">
           {architecture.description}
         </p>
       </FadeIn>
@@ -88,6 +95,8 @@ function EcosystemArchitecture() {
 }
 
 function ParticipationWave() {
+  const wavePath = "M16 52 C130 4 240 4 358 52 S590 100 710 52 S940 4 1062 52 S1250 100 1360 52";
+
   return (
     <svg
       className="mt-14 hidden h-[100px] w-full md:block"
@@ -108,7 +117,10 @@ function ParticipationWave() {
           <stop offset="1" stopColor="#ad2fe8" />
         </linearGradient>
       </defs>
-      <path d="M0 52 C150 0 250 5 340 56 S590 110 710 54 S930 12 1050 54 S1250 104 1360 56" stroke="url(#ecosystem-wave)" strokeWidth="2" />
+      <path d={wavePath} stroke="url(#ecosystem-wave)" strokeWidth="2" />
+      <circle className="ecosystem-travel-dot" r="2.5" fill="#fff">
+        <animateMotion path={wavePath} dur="5s" repeatCount="indefinite" />
+      </circle>
       {[16, 358, 710, 1062].map((x) => (
         <g key={x}>
           <circle cx={x} cy="52" r="16" fill="#551193" />
@@ -132,10 +144,10 @@ function ParticipationBenefits() {
         {participationBenefits.map((benefit, index) => (
           <StaggerItem key={benefit.title} className={index % 2 === 1 ? "md:pt-12" : ""}>
             <article>
-              <h3 className="max-w-[270px] text-[clamp(1.4rem,2.2vw,2rem)] leading-[1.1] font-semibold text-white">
+              <h3 className="max-w-[270px] text-xl leading-tight font-semibold text-white lg:text-2xl">
                 {benefit.title}
               </h3>
-              <p className="mt-5 max-w-[310px] text-sm leading-[1.5] text-[#e2d8e3] sm:text-lg">
+              <p className="mt-5 max-w-[310px] text-sm leading-relaxed text-[#e2d8e3] sm:text-base">
                 {benefit.description}
               </p>
             </article>
@@ -155,7 +167,7 @@ function ParticipantGroups() {
         <StaggerItem className="lg:row-span-2">
           <div className="ecosystem-page-participant-feature flex min-h-[610px] flex-col justify-end rounded-[30px] p-7">
             <Eyebrow className="self-start">{participants.eyebrow}</Eyebrow>
-            <h2 className="mt-6 font-[family-name:var(--font-display)] text-[clamp(3rem,4vw,4.5rem)] leading-[0.98] tracking-[-0.04em] text-white">
+            <h2 className="mt-6 font-[family-name:var(--font-display)] text-4xl leading-tight tracking-tight text-white md:text-5xl 2xl:text-6xl">
               Participant<br />Groups
             </h2>
             <GradientButton href="/how-to-participate" className="mt-8 self-start px-10">
@@ -187,13 +199,13 @@ function OperatingPrinciples() {
         {operatingPrinciples.map((principle) => (
           <StaggerItem key={principle.number}>
             <article className="flex min-h-[235px] flex-col border-b-2 border-[#b8349f] pb-4">
-              <span className="bg-gradient-to-b from-[#603021] to-[#3e105e] bg-clip-text text-[clamp(4.4rem,6vw,5.6rem)] leading-none font-bold text-transparent">
+              <span className="bg-gradient-to-b from-[#603021] to-[#3e105e] bg-clip-text text-6xl leading-none font-bold text-transparent lg:text-7xl">
                 {principle.number}.
               </span>
-              <h3 className="mt-4 min-h-12 text-[clamp(1.25rem,2vw,1.8rem)] leading-[1.15] font-semibold uppercase text-white">
+              <h3 className="mt-4 min-h-12 text-xl leading-tight font-semibold uppercase text-white lg:text-2xl">
                 {principle.title}
               </h3>
-              <p className="mt-3 max-w-[380px] text-sm leading-[1.5] text-[#e1d7e3] sm:text-lg">
+              <p className="mt-3 max-w-[380px] text-sm leading-relaxed text-[#e1d7e3] sm:text-base">
                 {principle.description}
               </p>
             </article>

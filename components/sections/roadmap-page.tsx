@@ -16,13 +16,13 @@ function RoadmapHero() {
       <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[560px] bg-[radial-gradient(ellipse_at_52%_0%,#79255488,transparent_61%),radial-gradient(ellipse_at_18%_0%,#db633b44,transparent_37%)]" />
       <FadeIn className="mx-auto min-w-0 max-w-[1440px] px-5 pt-[calc(clamp(100px,13vw,190px)+97px)]">
         <Eyebrow>{roadmapPageContent.eyebrow}</Eyebrow>
-        <h1 className="mt-5 max-w-full font-[family-name:var(--font-display)] text-[clamp(2.2rem,8.1vw,8rem)] leading-[0.93] font-normal tracking-[-0.045em] uppercase">
+        <h1 className="mt-5 max-w-full font-[family-name:var(--font-display)] text-4xl leading-none font-normal tracking-tight uppercase sm:text-5xl md:text-6xl lg:text-7xl ">
           <span className="block text-[#f9edf5]">{roadmapPageContent.title[0]}</span>
           <span className="block bg-gradient-to-r from-[#ec4aab] via-[#b631d4] to-[#7830dd] bg-clip-text text-transparent">
             {roadmapPageContent.title[1]}
           </span>
         </h1>
-        <p className="mx-auto mt-8 max-w-[760px] text-sm leading-[1.5] text-[#d4c8d7] sm:text-base">
+        <p className="mx-auto mt-8 max-w-[760px] text-sm leading-relaxed text-[#d4c8d7] sm:text-base">
           {roadmapPageContent.intro}
         </p>
       </FadeIn>
@@ -44,13 +44,13 @@ function TgeMilestone() {
     >
       <div className="absolute inset-0 -z-10 bg-[linear-gradient(180deg,#08040e44,transparent_45%,#d9479b22)]" />
       <Eyebrow>{milestone.eyebrow}</Eyebrow>
-      <h2 className="mt-5 font-[family-name:var(--font-display)] text-[clamp(2.8rem,5vw,5.3rem)] leading-none tracking-[-0.045em] text-white">
+      <h2 className="mt-5 font-[family-name:var(--font-display)] text-4xl leading-tight tracking-tight text-white md:text-5xl xl:text-6xl">
         {milestone.title}
       </h2>
       <p className="mt-4 text-[11px] font-semibold tracking-[0.11em] uppercase text-white/90 sm:text-xs">
         {milestone.phase}
       </p>
-      <p className="mx-auto mt-5 max-w-[800px] text-xs leading-[1.5] text-white/85 sm:text-sm">
+      <p className="mx-auto mt-5 max-w-[800px] text-sm leading-relaxed text-white/85 sm:text-base">
         {milestone.description}
       </p>
     </ScaleIn>
@@ -68,13 +68,13 @@ function RoadmapClosing() {
           "radial-gradient(ellipse at 100% 100%, rgba(218,88,69,0.78), transparent 39%), radial-gradient(ellipse at 66% 100%, rgba(130,33,133,0.3), transparent 50%)",
       }}
     >
-      <h2 className="font-[family-name:var(--font-display)] text-[clamp(2.8rem,5.1vw,5.8rem)] leading-[0.98] tracking-[-0.04em] text-[#f7edf5]">
+      <h2 className="font-[family-name:var(--font-display)] text-4xl leading-tight tracking-tight text-[#f7edf5] md:text-5xl xl:text-6xl">
         {closing.title[0]}
         <br />
         {closing.title[1]}
       </h2>
       <div className="mt-6 h-px w-36 bg-gradient-to-r from-transparent via-[#ee4c9b] to-transparent" />
-      <p className="mx-auto mt-6 max-w-[690px] text-sm leading-[1.5] text-[#d8ccdb] sm:text-base">
+      <p className="mx-auto mt-6 max-w-[690px] text-sm leading-relaxed text-[#d8ccdb] sm:text-base">
         {closing.description}
       </p>
       <div className="mt-8 flex flex-wrap justify-center gap-3">

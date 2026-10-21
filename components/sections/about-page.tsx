@@ -32,12 +32,12 @@ function SectionHeading({
   return (
     <div className="text-center">
       <Eyebrow>{eyebrow}</Eyebrow>
-      <h2 className="mt-5 font-[family-name:var(--font-display)] text-[clamp(2.6rem,4.9vw,4.6rem)] leading-[0.98] tracking-[-0.045em] text-[#f7edf5]">
+      <h2 className="mt-5 font-[family-name:var(--font-display)] text-4xl leading-tight tracking-tight text-[#f7edf5] md:text-5xl xl:text-6xl">
         {children}
       </h2>
       <div className="mx-auto mt-6 h-[2px] w-48 bg-[#e446a8]" />
       {description && (
-        <p className="mx-auto mt-6 max-w-[720px] text-sm leading-[1.5] text-[#d2c6d5] sm:text-lg">
+        <p className="mx-auto mt-6 max-w-[720px] text-sm leading-relaxed text-[#d2c6d5] sm:text-base">
           {description}
         </p>
       )}
@@ -53,7 +53,7 @@ function AboutHero() {
       <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[570px] bg-[radial-gradient(ellipse_at_50%_0%,#a43c7977,transparent_60%),radial-gradient(ellipse_at_20%_0%,#c7603c44,transparent_39%)]" />
       <FadeIn className="mx-auto max-w-[1440px] px-5 pt-[calc(clamp(100px,13vw,190px)+97px)]">
         <Eyebrow>{hero.eyebrow}</Eyebrow>
-        <h1 className="mt-5 font-[family-name:var(--font-display)] text-[clamp(2.4rem,7.2vw,7.2rem)] leading-[0.93] tracking-[-0.045em] uppercase">
+        <h1 className="mt-5 font-[family-name:var(--font-display)] text-4xl leading-none tracking-tight uppercase sm:text-5xl md:text-6xl lg:text-7xl ">
           <span className="block text-[#f5eaf4]">Building The Participation</span>
           <span className="block text-[#f5eaf4]">
             Layer For The{" "}
@@ -65,7 +65,7 @@ function AboutHero() {
             Media Economy
           </span>
         </h1>
-        <p className="mx-auto mt-8 max-w-[920px] text-sm leading-[1.5] text-[#d4c8d7] sm:text-lg">
+        <p className="mx-auto mt-8 max-w-[920px] text-sm leading-relaxed text-[#d4c8d7] sm:text-base">
           {hero.description}
         </p>
       </FadeIn>
@@ -89,17 +89,17 @@ function ClearBoundaries() {
       }}
     >
       <Eyebrow>{boundaries.eyebrow}</Eyebrow>
-      <h2 className="mt-6 font-[family-name:var(--font-display)] text-[clamp(2.7rem,4.5vw,4.6rem)] leading-[0.98] tracking-[-0.045em]">
+      <h2 className="mt-6 font-[family-name:var(--font-display)] text-4xl leading-tight tracking-tight md:text-5xl xl:text-6xl">
         {boundaries.title}
       </h2>
       <div className="mt-6 h-[2px] w-48 bg-[#e446a8]" />
-      <p className="mt-6 max-w-[760px] text-sm leading-[1.45] font-semibold text-[#f1e8f1] sm:text-lg">
+      <p className="mt-6 max-w-[760px] text-sm leading-relaxed font-semibold text-[#f1e8f1] sm:text-base">
         {boundaries.focus}
       </p>
-      <p className="mt-6 max-w-[800px] text-sm leading-[1.45] text-[#d5cad8] sm:text-lg">
+      <p className="mt-6 max-w-[800px] text-sm leading-relaxed text-[#d5cad8] sm:text-base">
         {boundaries.enterprise}
       </p>
-      <p className="mt-7 bg-gradient-to-r from-[#ee6480] to-[#ba2edb] bg-clip-text font-[family-name:var(--font-display)] text-[clamp(1.7rem,3vw,2.8rem)] leading-[1.1] italic text-transparent">
+      <p className="mt-7 bg-gradient-to-r from-[#ee6480] to-[#ba2edb] bg-clip-text font-[family-name:var(--font-display)] text-2xl leading-tight italic text-transparent sm:text-3xl xl:text-4xl">
         {boundaries.closing}
       </p>
     </ScaleIn>
@@ -134,7 +134,7 @@ function ContractAudit() {
     >
       <FadeIn direction="left" className="rounded-[23px] bg-[#1d2028] px-7 py-8 sm:px-9">
         <Eyebrow>{contract.eyebrow}</Eyebrow>
-        <h2 className="mt-6 font-[family-name:var(--font-display)] text-[clamp(2.5rem,4vw,4rem)] leading-[0.98] tracking-[-0.045em]">
+        <h2 className="mt-6 font-[family-name:var(--font-display)] text-4xl leading-tight tracking-tight lg:text-5xl xl:text-6xl">
           {contract.title}
         </h2>
         <div className="mt-6 h-[2px] w-48 bg-[#e446a8]" />
@@ -159,12 +159,12 @@ function ContractAudit() {
           </span>
           <div>
             <p className="text-sm font-semibold uppercase text-[#f0e9f0]">{contract.auditLabel}</p>
-            <h3 className="mt-1 font-[family-name:var(--font-display)] text-[clamp(2.6rem,4vw,4.1rem)] leading-none">
+            <h3 className="mt-1 font-[family-name:var(--font-display)] text-4xl leading-tight lg:text-5xl">
               {contract.auditStatus}
             </h3>
           </div>
         </div>
-        <p className="mt-7 max-w-[560px] text-sm leading-[1.5] text-[#d8ccdb] sm:text-lg">
+        <p className="mt-7 max-w-[560px] text-sm leading-relaxed text-[#d8ccdb] sm:text-base">
           {contract.auditDescription}
         </p>
         <p className="mt-6 max-w-[560px] border-l-2 border-[#ae318b] pl-5 text-sm leading-[1.5] text-[#afa1b5] italic sm:text-base">
@@ -202,7 +202,7 @@ function LeadershipSection() {
           {team.title}
         </SectionHeading>
       </FadeIn>
-      <StaggerGroup className="mt-14 grid gap-5 md:grid-cols-2">
+      <StaggerGroup className="mx-auto mt-14 grid max-w-[1100px] gap-5 md:grid-cols-2">
         {leadershipTeam.map((person) => (
           <StaggerItem key={person.name}>
             <TiltCard className="group rounded-[23px]">
@@ -227,7 +227,7 @@ function QuestionsSection() {
         {aboutQuestions.map(({ question, answer }, index) => (
           <StaggerItem key={question}>
             <details open={index === 0} className="group rounded-[23px] border border-[#57475f] bg-[#090511] px-7 py-6">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-5 text-base text-[#f2e8f3] marker:hidden sm:text-xl">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-5 text-base text-[#f2e8f3] marker:hidden sm:text-lg">
                 <span>{question}</span>
                 <span className="text-3xl leading-none text-[#e246aa] group-open:hidden" aria-hidden="true">+</span>
                 <span className="hidden text-3xl leading-none text-[#e246aa] group-open:block" aria-hidden="true">−</span>

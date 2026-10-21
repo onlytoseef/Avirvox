@@ -8,10 +8,10 @@ export function ResourceCard({ resource }: { resource: Resource }) {
     <article
       className="flex min-h-[325px] w-[min(380px,82vw)] shrink-0 snap-start flex-col rounded-[30px] border border-[#58475d] bg-[#090511] p-8 sm:w-[380px]"
     >
-      <h3 className="text-[clamp(1.5rem,2vw,2rem)] leading-[1.1] font-semibold text-white">
+      <h3 className="text-xl leading-tight font-semibold text-white sm:text-2xl">
         {resource.title}
       </h3>
-      <p className="mt-4 max-w-[300px] text-sm leading-[1.45] text-[#ddd1e0]">
+      <p className="mt-4 max-w-[300px] text-sm leading-relaxed text-[#ddd1e0]">
         {resource.description}
       </p>
       <a

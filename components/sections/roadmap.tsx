@@ -15,13 +15,13 @@ export function Roadmap() {
         <Eyebrow>{roadmapContent.eyebrow}</Eyebrow>
 
         {/* 62px @ 1440 (same as Execution heading) */}
-        <h2 className="mt-[clamp(12px,1.4vw,20px)] font-[family-name:var(--font-display)] text-[clamp(34px,4.3vw,62px)] font-normal leading-[1.05] tracking-[-0.02em] text-[#f6eaf4]">
+        <h2 className="mt-[clamp(12px,1.4vw,20px)] font-[family-name:var(--font-display)] text-4xl leading-tight font-normal tracking-tight text-[#f6eaf4] md:text-5xl xl:text-6xl">
           {roadmapContent.title}
         </h2>
 
         <div className="mt-3 h-[2px] w-[clamp(80px,7.8vw,112px)] bg-gradient-to-r from-[#ec468d] to-[#a026dd]" />
 
-        <p className="mt-[clamp(12px,1.3vw,18px)] max-w-[700px] text-[clamp(14px,1.25vw,18px)] leading-[1.5] text-[#d9cfe0]">
+        <p className="mt-[clamp(12px,1.3vw,18px)] max-w-[700px] text-sm leading-relaxed text-[#d9cfe0] sm:text-base">
           {roadmapContent.description}
         </p>
       </FadeIn>

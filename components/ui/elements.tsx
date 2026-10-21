@@ -31,12 +31,12 @@ export function Heading({
   return (
     <div className="mx-auto max-w-4xl text-center">
       <Eyebrow>{eyebrow}</Eyebrow>
-      <h2 className={`section-title relative mt-5 font-[family-name:var(--font-display)] leading-[0.94] font-normal tracking-[-0.055em] text-[#f3e8ee] ${titleClassName}`}>
+      <h2 className={`relative mt-5 font-[family-name:var(--font-display)] text-4xl leading-tight font-normal tracking-tight text-[#f3e8ee] md:text-5xl xl:text-6xl ${titleClassName}`}>
         {children}
         <span aria-hidden="true" className="absolute -bottom-3 left-1/2 h-px w-28 -translate-x-1/2 bg-gradient-to-r from-[#ec468d] to-[#a026dd]" />
       </h2>
       {description && (
-        <p className="mx-auto mt-6 max-w-2xl text-[13px] leading-[1.55] text-[#b9aebd] sm:text-[15px]">
+        <p className="mx-auto mt-6 max-w-2xl text-sm leading-relaxed text-[#b9aebd] sm:text-base">
           {description}
         </p>
       )}

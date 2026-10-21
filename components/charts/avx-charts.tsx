@@ -51,8 +51,8 @@ export function SupplyDonut() {
       </ResponsiveContainer>
       <div className="avx-page-donut-center" />
       <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center text-center">
-        <strong className="avx-page-donut-value">1B</strong>
-        <span className="avx-page-donut-label">Total Supply</span>
+        <strong className="avx-page-donut-value text-3xl sm:text-4xl">1B</strong>
+        <span className="avx-page-donut-label text-xs sm:text-sm">Total Supply</span>
       </div>
     </div>
   );

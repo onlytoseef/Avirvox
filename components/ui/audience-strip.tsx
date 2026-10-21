@@ -10,17 +10,10 @@ export function AudienceStrip({
   const isLarge = size === "large";
   const isCompact = size === "compact";
 
-  return (
-    <div
-      className={`flex items-center ${
-        isCompact
-          ? "flex-nowrap justify-start gap-x-2 overflow-hidden"
-          : `flex-wrap justify-center gap-y-3 ${isLarge ? "gap-x-4 lg:justify-between" : "gap-x-3"}`
-      } ${className}`}
-    >
-      {heroAudiences.map((name, index) => (
+  const items = (copy: number) =>
+    heroAudiences.map((name, index) => (
         <div
-          key={`${name}-${index}`}
+          key={`${copy}-${name}-${index}`}
           className={`flex items-center ${
             isCompact ? "shrink-0 gap-2" : isLarge ? "gap-4" : "gap-3"
           }`}
@@ -37,12 +30,21 @@ export function AudienceStrip({
             {name}
           </span>
           <span
-            className={`${
+            className={`audience-marquee-dot ${
               isCompact ? "size-1" : isLarge ? "size-2" : "size-1.5"
-            } rounded-full bg-[#e83de4] shadow-[0_0_10px_#e83de4]`}
+            } block shrink-0 rounded-full bg-[#e83de4] shadow-[0_0_10px_#e83de4]`}
+            style={{ animationDelay: `${(index % 4) * -0.45}s` }}
+            aria-hidden="true"
           />
         </div>
-      ))}
+      ));
+
+  return (
+    <div className={`audience-strip ${className}`}>
+      <div className="audience-marquee-track">
+        <div className="audience-marquee-group">{items(0)}</div>
+        <div className="audience-marquee-group" aria-hidden="true">{items(1)}</div>
+      </div>
     </div>
   );
 }

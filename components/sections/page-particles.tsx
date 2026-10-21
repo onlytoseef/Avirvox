@@ -3,8 +3,8 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
 const BAND_HEIGHT = 680;
-const STARS_PER_BAND = 18;
-const BUBBLES_PER_BAND = 3;
+const STARS_PER_BAND = 22;
+const BUBBLES_PER_BAND = 4;
 
 function fraction(seed: number) {
   const value = Math.sin(seed * 127.1 + 78.233) * 43758.5453;
@@ -30,23 +30,47 @@ export function PageParticles() {
     if (reducedMotion.matches) return () => resizeObserver.disconnect();
 
     let frame = 0;
+    let pointerX = 0;
+    let pointerY = 0;
     const update = () => {
       frame = 0;
-      const distance = Math.min(window.scrollY * 0.1, 480);
-      layer.style.setProperty("--star-shift-slow", `${-distance * 0.45}px`);
-      layer.style.setProperty("--star-shift-medium", `${-distance * 0.75}px`);
+      const distance = window.scrollY * 0.12;
+      layer.style.setProperty("--star-shift-slow", `${-distance * 0.35}px`);
+      layer.style.setProperty("--star-shift-medium", `${-distance * 0.65}px`);
       layer.style.setProperty("--star-shift-fast", `${-distance}px`);
-      layer.style.setProperty("--bubble-scroll-shift", `${-distance * 0.6}px`);
+      layer.style.setProperty("--bubble-scroll-shift", `${-distance * 0.8}px`);
+      layer.style.setProperty("--pointer-slow-x", `${pointerX * 8}px`);
+      layer.style.setProperty("--pointer-slow-y", `${pointerY * 6}px`);
+      layer.style.setProperty("--pointer-medium-x", `${pointerX * 16}px`);
+      layer.style.setProperty("--pointer-medium-y", `${pointerY * 12}px`);
+      layer.style.setProperty("--pointer-fast-x", `${pointerX * 26}px`);
+      layer.style.setProperty("--pointer-fast-y", `${pointerY * 18}px`);
+      layer.style.setProperty("--pointer-bubble-x", `${pointerX * 20}px`);
+      layer.style.setProperty("--pointer-bubble-y", `${pointerY * 14}px`);
     };
-    const onScroll = () => {
+    const scheduleUpdate = () => {
       if (!frame) frame = window.requestAnimationFrame(update);
+    };
+    const onPointerMove = (event: PointerEvent) => {
+      pointerX = (event.clientX / window.innerWidth - 0.5) * 2;
+      pointerY = (event.clientY / window.innerHeight - 0.5) * 2;
+      scheduleUpdate();
+    };
+    const onPointerLeave = () => {
+      pointerX = 0;
+      pointerY = 0;
+      scheduleUpdate();
     };
 
     update();
-    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("scroll", scheduleUpdate, { passive: true });
+    window.addEventListener("pointermove", onPointerMove, { passive: true });
+    document.addEventListener("pointerleave", onPointerLeave);
     return () => {
       resizeObserver.disconnect();
-      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("scroll", scheduleUpdate);
+      window.removeEventListener("pointermove", onPointerMove);
+      document.removeEventListener("pointerleave", onPointerLeave);
       if (frame) window.cancelAnimationFrame(frame);
     };
   }, []);
@@ -59,8 +83,8 @@ export function PageParticles() {
         left: `${3 + fraction(index + 1) * 94}%`,
         top: band * BAND_HEIGHT + 30 + fraction(index + 303) * (BAND_HEIGHT - 60),
         size: point % 9 === 0 ? 4 : point % 3 === 0 ? 3 : 2,
-        duration: `${11 + fraction(index + 901) * 10}s`,
-        delay: `${-fraction(index + 1301) * 21}s`,
+        duration: `${7 + fraction(index + 901) * 6}s`,
+        delay: `${-fraction(index + 1301) * 13}s`,
         tone: point % 11 === 0 ? "amber" : point % 4 === 0 ? "rose" : "violet",
       };
     });
@@ -70,8 +94,8 @@ export function PageParticles() {
         left: `${6 + fraction(index + 2101) * 88}%`,
         top: band * BAND_HEIGHT + 80 + fraction(index + 2401) * (BAND_HEIGHT - 160),
         size: 8 + Math.round(fraction(index + 2701) * 8),
-        duration: `${15 + fraction(index + 3001) * 8}s`,
-        delay: `${-fraction(index + 3301) * 23}s`,
+        duration: `${10 + fraction(index + 3001) * 6}s`,
+        delay: `${-fraction(index + 3301) * 16}s`,
         tone: ["amber", "rose", "violet"][index % 3],
       };
     });

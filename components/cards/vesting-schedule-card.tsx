@@ -5,8 +5,8 @@ type VestingSchedule = (typeof vestingSchedules)[number];
 export function VestingScheduleCard({ schedule }: { schedule: VestingSchedule }) {
   return (
     <article className="rounded-[30px] border border-[#52415b] bg-[#090511] px-5 py-8 sm:px-7">
-      <h4 className="text-base font-semibold uppercase sm:text-xl">{schedule.name}</h4>
-      <p className="mt-7 inline-block rounded-full bg-[#230630] px-4 py-2 text-sm text-[#b9aabe] sm:text-lg">
+      <h4 className="text-base font-semibold uppercase sm:text-lg">{schedule.name}</h4>
+      <p className="mt-7 inline-block rounded-full bg-[#230630] px-4 py-2 text-sm text-[#b9aabe] sm:text-base">
         {schedule.dates}
       </p>
       <div className="mt-5 grid grid-cols-3 rounded-[20px] border border-[#89768e] px-2 py-4 text-center">

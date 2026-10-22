@@ -19,7 +19,7 @@ export const roadmapPageContent = {
     primaryLabel: "Explore AVX",
     primaryHref: "/avx",
     secondaryLabel: "How To Participate",
-    secondaryHref: "/#participate",
+    secondaryHref: "/how-to-participate",
   },
 };
 

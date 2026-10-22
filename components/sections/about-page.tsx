@@ -175,9 +175,14 @@ function ContractAudit() {
             <button type="button" disabled className="min-h-11 min-w-44 cursor-not-allowed rounded-full border border-[#7e6a85] px-5 text-xs text-[#c6b9ca] opacity-65">
               View on BscScan
             </button>
-            <button type="button" disabled className="min-h-11 min-w-44 cursor-not-allowed rounded-full border border-[#7e6a85] px-5 text-xs text-[#c6b9ca] opacity-65">
+            <a
+              href="https://www.avirvox.io/assets/Avirvox%20Audit-BXUT7G2-.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex min-h-11 min-w-44 items-center justify-center rounded-full border border-[#7e6a85] px-5 text-xs text-[#c6b9ca] transition-colors hover:border-[#e64ca8] hover:text-white"
+            >
               View Audit Report
-            </button>
+            </a>
           </div>
           <Image
             src="/assets/images/qr-code.png"

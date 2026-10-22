@@ -22,7 +22,7 @@ export const footerNavigation = [
 ];
 
 export const footerDocuments = [
-  { label: "Whitepaper", href: "/about#resources" },
+  { label: "Whitepaper", href: "/whitepaper" },
   { label: "Contract & Audit", href: "/about#contract-audit" },
   { label: "Token Sale Terms", href: "/token-sale-terms" },
   { label: "Eligibility", href: "/eligibility-restricted-jurisdictions" },

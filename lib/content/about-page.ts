@@ -57,7 +57,7 @@ export const resourceCards = [
     title: "Whitepaper",
     description: "Explore the Avirox Labs vision, ecosystem structure, AVX utility and token framework.",
     action: "Read Whitepaper",
-    href: "mailto:Coin@Avirox.io?subject=Whitepaper%20request",
+    href: "/whitepaper",
   },
   {
     title: "Token Sale Terms",

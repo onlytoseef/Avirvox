@@ -1,6 +1,6 @@
 export const headerAction = {
   label: "View Eligibility",
-  href: "/how-to-participate#verify",
+  href: "/about#resources",
 };
 
 export const headerLinks = [

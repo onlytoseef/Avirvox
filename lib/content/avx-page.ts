@@ -68,13 +68,6 @@ export const tokenReleaseDetails = [
   { label: "Vesting", value: "36 Months" },
 ];
 
-export const tgeCountdown = [
-  ["51", "Days"],
-  ["14", "Hours"],
-  ["59", "Mins"],
-  ["12", "Sec"],
-] as const;
-
 export const vestingSchedules = [
   {
     name: "Private / Strategic",

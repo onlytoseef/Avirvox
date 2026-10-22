@@ -21,7 +21,7 @@ export const aboutPageContent = {
     eyebrow: "AVX Contract & Audit",
     title: "Verify Before You Participate",
     addressLabel: "Official Contract",
-    addressPending: "Verified contract address pending",
+    address: "0x4727d9A390Aa7bc001C52E4b1E9c9D990F12E99b",
     auditLabel: "Audit Status",
     auditStatus: "Report Pending",
     auditDescription:
@@ -69,7 +69,7 @@ export const resourceCards = [
     title: "Eligibility",
     description: "Understand jurisdictional restrictions and participation requirements.",
     action: "View Eligibility",
-    href: "/eligibility-restricted-jurisdictions",
+    href: "/about#resources",
   },
   {
     title: "KYC / AML",

@@ -5,7 +5,6 @@ import { SaleRoundsChart, SupplyDonut } from "@/components/charts/avx-charts";
 import {
   avxPageContent,
   fixedSupplyDetails,
-  tgeCountdown,
   tokenReleaseDetails,
   vestingSchedules,
 } from "@/lib/content/avx-page";
@@ -13,7 +12,7 @@ import { FadeIn } from "@/components/motion/fade-in";
 import { TiltCard } from "@/components/motion/tilt-card";
 import { ScaleIn } from "@/components/motion/scale-in";
 import { PageParticles } from "@/components/sections/page-particles";
-import { CountUp } from "@/components/motion/count-up";
+import { TgeCountdown } from "@/components/ui/tge-countdown";
 import { StaggerGroup, StaggerItem } from "@/components/motion/stagger";
 
 function SectionHeading({
@@ -113,17 +112,7 @@ function TokenReleaseSummary() {
       <p className="bg-gradient-to-r from-[#ff8e29] to-[#b733d7] bg-clip-text text-xl font-semibold text-transparent sm:text-2xl">
         TGE IN
       </p>
-      <div className="mt-4 grid grid-cols-4 rounded-[22px] border border-[#ac3abb] px-2 py-4 text-center">
-        {tgeCountdown.map(([value, label], index) => (
-          <div key={label} className={index > 0 ? "border-l border-white/40" : ""}>
-            <CountUp
-              value={Number(value)}
-              className="block text-2xl leading-none sm:text-3xl lg:text-4xl"
-            />
-            <span className="block text-xs font-medium sm:text-base">{label}</span>
-          </div>
-        ))}
-      </div>
+      <TgeCountdown />
       <dl className="mt-5">
         {tokenReleaseDetails.map(({ label, value }) => (
           <div key={label} className="flex justify-between gap-4 border-b border-white/30 py-5 text-sm text-[#ddd8e0] sm:text-base">

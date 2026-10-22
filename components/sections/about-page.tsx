@@ -149,9 +149,9 @@ function ContractAudit() {
       </FadeIn>
       <FadeIn direction="right" className="flex flex-col justify-center">
         <p className="text-sm font-semibold uppercase text-[#f0e9f0]">{contract.addressLabel}</p>
-        <div className="mt-2 flex min-h-14 items-center gap-4 rounded-full border border-[#7e6a85] px-5 text-xs text-[#d7cadb] sm:text-sm">
+        <div className="mt-2 flex min-h-14 items-center gap-4 rounded-2xl border border-[#7e6a85] px-5 py-3 text-xs text-[#d7cadb] sm:rounded-full sm:text-sm">
           <FiCopy className="shrink-0 text-[#d94ab5]" aria-hidden="true" />
-          <span className="border-l border-[#7e6a85] pl-4">{contract.addressPending}</span>
+          <span className="min-w-0 break-all border-l border-[#7e6a85] pl-4">{contract.address}</span>
         </div>
         <div className="mt-8 flex items-center gap-5">
           <span className="grid size-16 shrink-0 place-items-center rounded-full bg-gradient-to-b from-[#ff9128] to-[#af2fe6] text-[#080511]">

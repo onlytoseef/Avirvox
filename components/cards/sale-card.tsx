@@ -1,12 +1,24 @@
-import { Fragment, type CSSProperties } from "react";
+"use client";
+
+import { Fragment, useEffect, useState, type CSSProperties } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { FiArrowRight, FiChevronDown } from "react-icons/fi";
 import {
   paymentAssets,
   saleCardContent,
-  saleCountdown,
 } from "@/lib/content/sale-card";
+
+const saleOpensAt = Date.UTC(2026, 10, 15);
+
+function getCountdown() {
+  const remainingSeconds = Math.max(0, Math.floor((saleOpensAt - Date.now()) / 1000));
+  return [
+    [Math.floor(remainingSeconds / 86400), "Days"],
+    [Math.floor((remainingSeconds % 86400) / 3600), "Hours"],
+    [Math.floor((remainingSeconds % 3600) / 60), "Mins"],
+    [remainingSeconds % 60, "Sec"],
+  ] as const;
+}
 
 // Keep the sale panel legible while limiting its height on shorter screens.
 const q = (n: number) => {
@@ -31,6 +43,15 @@ function Chevron({ size = 12 }: { size?: number }) {
 }
 
 export function SaleCard() {
+  const [countdown, setCountdown] = useState<ReturnType<typeof getCountdown> | null>(null);
+
+  useEffect(() => {
+    const updateCountdown = () => setCountdown(getCountdown());
+    updateCountdown();
+    const interval = window.setInterval(updateCountdown, 1000);
+    return () => window.clearInterval(interval);
+  }, []);
+
   return (
     <div
       className="w-full min-w-0 max-w-[615px]"
@@ -86,9 +107,9 @@ export function SaleCard() {
               padding: `0 ${q(28)}`,
               borderRadius: q(14),
             }}
-            aria-label={saleCardContent.countdownLabel}
+            aria-label="Countdown to 15 November 2026 at 00:00 UTC"
           >
-            {saleCountdown.map(([value, label], index) => (
+            {(countdown ?? [["--", "Days"], ["--", "Hours"], ["--", "Mins"], ["--", "Sec"]]).map(([value, label], index) => (
               <Fragment key={label}>
                 {index > 0 && (
                   <span
@@ -102,7 +123,7 @@ export function SaleCard() {
                     className="block font-bold"
                     style={{ ...fs(40), lineHeight: q(40) }}
                   >
-                    {value}
+                    {typeof value === "number" ? String(value).padStart(2, "0") : value}
                   </strong>
                   <span
                     className="block font-semibold"
@@ -186,9 +207,9 @@ export function SaleCard() {
             aria-label={saleCardContent.progressLabel}
             aria-valuemin={0}
             aria-valuemax={100}
-            aria-valuenow={8}
+            aria-valuenow={0}
           >
-            <div className="h-full w-[12.2%] rounded-full bg-gradient-to-r from-[#ee6a2a] via-[#e2469b] to-[#a845e2]" />
+            <div className="h-full w-0 rounded-full bg-gradient-to-r from-[#ee6a2a] via-[#e2469b] to-[#a845e2]" />
           </div>
 
           <div
@@ -304,13 +325,14 @@ export function SaleCard() {
             </p>
           </div>
 
-          <Link
-            href={saleCardContent.actionHref}
-            className="flex items-center justify-center rounded-full bg-gradient-to-b from-[#f8861f] via-[#e44a8c] to-[#a63de8] font-medium text-white shadow-[inset_0_1px_#ffffff40]"
+          <button
+            type="button"
+            disabled
+            className="flex w-full cursor-not-allowed items-center justify-center rounded-full bg-gradient-to-b from-[#f8861f] via-[#e44a8c] to-[#a63de8] font-medium text-white opacity-50 shadow-[inset_0_1px_#ffffff40]"
             style={{ ...fs(17), marginTop: q(22), height: q(53) }}
           >
             {saleCardContent.actionLabel}
-          </Link>
+          </button>
         </div>
       </div>
     </div>

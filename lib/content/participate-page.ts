@@ -16,7 +16,7 @@ export const participatePageContent = {
       "Trust unsolicited messages about AVX claims.",
     ],
     contractLabel: "Official AVX Contract",
-    contractPending: "Contract address will appear here when verified",
+    contractAddress: "0x4727d9A390Aa7bc001C52E4b1E9c9D990F12E99b",
   },
 };
 
@@ -30,7 +30,7 @@ export const participationSteps = [
       "Create your wallet and securely back up your recovery phrase.",
     ],
     note: "IMPORTANT\nNever share your seed phrase, private key or recovery credentials.",
-    action: { label: "View Eligibility", href: "#verify" },
+    action: { label: "View Eligibility", href: "/about#resources" },
   },
   {
     number: "02",
@@ -40,7 +40,7 @@ export const participationSteps = [
       "Buy BNB, USDT, USDC or other supported crypto assets from a trusted exchange such as Binance, Coinbase, Kraken or KuCoin.",
     ],
     note: "Make sure you have sufficient BNB available for network fees.",
-    action: { label: "View KYC / AML", href: "#verify" },
+    action: { label: "View KYC / AML", href: "/kyc-aml-notice" },
   },
   {
     number: "03",

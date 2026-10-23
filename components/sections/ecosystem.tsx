@@ -59,21 +59,13 @@ export function Ecosystem() {
       </Heading>
 
       <StaggerGroup className="relative z-10 mx-auto mt-8 grid max-w-[730px] grid-cols-1 gap-2.5 sm:grid-cols-3 sm:gap-3 text-xs">
-        {architectureLabels.map(({ label, icon, active }) => (
+        {architectureLabels.map(({ label, icon }) => (
           <StaggerItem
             key={label}
-            className={`flex min-h-[52px] items-center gap-2 rounded-[18px] border px-4 py-2.5 font-medium sm:px-4 ${
-              active
-                ? "border-transparent bg-gradient-to-b from-[#f28b20] via-[#d847a0] to-[#8c20e8] text-white shadow-[0_10px_30px_#a128ea26]"
-                : "border-line bg-[#0c0812] text-white/90"
-            }`}
+            className="flex min-h-[52px] items-center gap-2 rounded-[18px] border border-transparent bg-gradient-to-b from-[#f28b20] via-[#d847a0] to-[#8c20e8] px-4 py-2.5 font-medium text-white shadow-[0_10px_30px_#a128ea26] sm:px-4"
           >
             <span
-              className={`grid size-7 shrink-0 place-items-center rounded-lg ${
-                active
-                  ? "bg-[#0c0812] text-white"
-                  : "bg-gradient-to-b from-[#f28b20] via-[#d847a0] to-[#8c20e8] text-white"
-              }`}
+              className="grid size-7 shrink-0 place-items-center rounded-lg bg-[#0c0812] text-white"
             >
               <ArchitectureIcon name={icon} />
             </span>
@@ -102,7 +94,7 @@ export function Ecosystem() {
             {ecosystemContent.featureDescription}
           </p>
           <div className="mt-3">
-            <OutlineButton href="#avx" size="sm">
+            <OutlineButton href="/ecosystem" size="sm">
               {ecosystemContent.exploreLabel} <span className="ml-2 text-[#ec4fae]">→</span>
             </OutlineButton>
           </div>

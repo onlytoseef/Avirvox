@@ -15,7 +15,7 @@ export const resourcesCard = {
   description:
     "Access leadership information, verified AVX contract and audit details, FAQs, contact channels and official Avirox Labs resources.",
   primaryLabel: "Explore AVX",
-  primaryHref: "/about",
+  primaryHref: "/avx",
   secondaryLabel: "View Eligibility",
-  secondaryHref: "/how-to-participate#verify",
+  secondaryHref: "/about#resources",
 };

@@ -17,9 +17,9 @@ export const roadmapPageContent = {
     description:
       "Avirox Labs will evolve progressively as ecosystem programs, partnerships and utility pathways become ready.",
     primaryLabel: "Explore AVX",
-    primaryHref: "/#avx",
+    primaryHref: "/avx",
     secondaryLabel: "How To Participate",
-    secondaryHref: "/#participate",
+    secondaryHref: "/how-to-participate",
   },
 };
 

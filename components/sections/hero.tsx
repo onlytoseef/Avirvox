@@ -22,16 +22,17 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative overflow-hidden pb-[clamp(24px,3vw,43px)]"
+      className="overflow-hidden pb-[clamp(24px,3vw,43px)]"
     >
+      <div className="relative pb-[clamp(32px,4vw,56px)]">
       <div
-        className="pointer-events-none absolute inset-x-0 top-0 h-[clamp(520px,57.8vw,832px)]"
+        className="pointer-events-none absolute inset-0"
         style={{
           backgroundImage:
             "radial-gradient(ellipse 85% 75% at 50% 100%, rgba(201,58,168,0.8) 0%, rgba(122,29,120,0.65) 40%, rgba(5,3,10,0) 78%), repeating-linear-gradient(90deg, rgba(5,3,10,0) 0px, rgba(5,3,10,0) 26px, rgba(52,17,57,0.55) 34px, rgba(52,17,57,0.55) 62px, rgba(5,3,10,0) 70px)",
         }}
       />
-      <div className="pointer-events-none absolute inset-x-0 top-0 h-[clamp(520px,57.8vw,832px)] bg-[url('/images/hero-bg.webp')] bg-cover bg-top" />
+      <div className="pointer-events-none absolute inset-0 bg-[url('/images/hero-bg.webp')] bg-cover bg-top" />
 
       <div className="relative z-10 mx-auto grid max-w-[1440px] items-start gap-10 px-5 pt-[clamp(100px,8vw,122px)] lg:grid-cols-[692fr_615fr] lg:gap-[clamp(24px,4vw,57px)] lg:px-[34px]">
         <div className="min-w-0 pt-6 lg:pt-[clamp(12px,2vw,24px)]">
@@ -70,7 +71,7 @@ export function Hero() {
               {heroContent.exploreLabel}
             </GradientButton>
             <OutlineButton
-              href="#resources"
+              href="/whitepaper"
               className="min-h-[clamp(40px,3.8vw,55px)] min-w-[clamp(140px,14.9vw,215px)] text-xs sm:text-sm"
             >
               {heroContent.whitepaperLabel}
@@ -100,8 +101,9 @@ export function Hero() {
           <SaleCard />
         </FadeIn>
       </div>
+      </div>
 
-      <AudienceStrip className="relative z-10 mt-[clamp(48px,9.2vw,133px)]" />
+      <AudienceStrip className="relative z-10 mt-[clamp(48px,6vw,80px)]" />
     </section>
   );
 }

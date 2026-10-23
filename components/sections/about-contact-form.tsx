@@ -17,10 +17,9 @@ export function AboutContactForm() {
     const country = String(data.get("country") ?? "").trim();
     const inquiryType = String(data.get("inquiryType") ?? "").trim();
     const message = String(data.get("message") ?? "").trim();
-    const phoneConsent = data.get("phoneConsent") === "on" ? "Yes" : "No";
     const subject = encodeURIComponent(`Avirox Labs inquiry: ${inquiryType || "General"}`);
     const body = encodeURIComponent(
-      `Name: ${name}\nEmail: ${email}\nOrganization: ${organization}\nCountry: ${country}\nInquiry type: ${inquiryType}\nPhone contact consent: ${phoneConsent}\n\n${message}`,
+      `Name: ${name}\nEmail: ${email}\nOrganization: ${organization}\nCountry: ${country}\nInquiry type: ${inquiryType}\n\n${message}`,
     );
 
     setStatus("Opening your email app to send the inquiry.");
@@ -62,10 +61,6 @@ export function AboutContactForm() {
           </select>
         </label>
       </div>
-      <label className="mx-auto mt-8 flex w-fit items-center gap-3 text-sm text-[#cfc2d3]">
-        <input type="checkbox" name="phoneConsent" className="size-5 accent-[#d43cb3]" />
-        I agree to be contacted by phone call.
-      </label>
       <div className="mt-8 text-center">
         <button type="submit" className="min-h-12 min-w-52 rounded-full bg-gradient-to-r from-[#ff9926] via-[#e84e91] to-[#8e25e7] px-8 text-sm font-semibold text-white hover:brightness-110">
           Send Inquiry

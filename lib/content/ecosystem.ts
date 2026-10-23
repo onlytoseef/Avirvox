@@ -10,7 +10,7 @@ export const ecosystemContent = {
   featureTitle: ["A Connected Ecosystem with", "Clearly Defined Roles"],
   featureDescription:
     "The Avirox ecosystem brings together three distinct layers: Avirox Inc. as the independent enterprise product company, Avirox Labs as the participation and ecosystem layer, and AVX as the utility token supporting eligible ecosystem functions.",
-  exploreLabel: "Explore AVX",
+  exploreLabel: "Explore Ecosystem",
 };
 
 export const ecosystemRelationships = [
@@ -20,7 +20,7 @@ export const ecosystemRelationships = [
 ];
 
 export const architectureLabels = [
-  { label: "Ecosystem Architecture", icon: "architecture", active: true },
-  { label: "Avirox Inc. Relationship", icon: "relationship", active: false },
-  { label: "Participation Ecosystem", icon: "participation", active: false },
+  { label: "Ecosystem Architecture", icon: "architecture" },
+  { label: "Avirox Inc. Relationship", icon: "relationship" },
+  { label: "Participation Ecosystem", icon: "participation" },
 ] as const;

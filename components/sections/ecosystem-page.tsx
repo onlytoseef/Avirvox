@@ -214,7 +214,7 @@ function OperatingPrinciples() {
       </StaggerGroup>
       <FadeIn delay={0.1} className="mt-16 flex flex-wrap justify-center gap-4">
         <GradientButton href="/avx" className="min-w-48">Explore AVX</GradientButton>
-        <OutlineButton href="/how-to-participate#verify" className="min-w-48">View Eligibility</OutlineButton>
+        <OutlineButton href="/about#resources" className="min-w-48">View Eligibility</OutlineButton>
       </FadeIn>
     </section>
   );

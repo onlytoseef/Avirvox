@@ -21,9 +21,9 @@ export function SecurityCard() {
             {security.description}
           </p>
           <p className="mt-12 text-xs font-semibold uppercase text-[#e8dce8]">{security.contractLabel}</p>
-          <div className="mt-3 inline-flex max-w-full items-center gap-3 rounded-full border border-[#695373] px-5 py-3 text-xs text-[#e8dce8]">
+          <div className="mt-3 inline-flex max-w-full items-center gap-3 rounded-2xl border border-[#695373] px-5 py-3 text-xs text-[#e8dce8] sm:rounded-full">
             <span className="text-[#cf36d5]">▣</span>
-            <span>{security.contractPending}</span>
+            <span className="break-all">{security.contractAddress}</span>
           </div>
         </div>
         <div>
@@ -39,9 +39,9 @@ export function SecurityCard() {
         </div>
       </div>
       <div className="mt-12 flex flex-wrap justify-center gap-3">
-        <GradientButton href="mailto:Coin@Avirox.io?subject=Official%20AVX%20contract" size="sm" className="min-w-44">Ask for Contract Address</GradientButton>
-        <OutlineButton href="/#resources" size="sm" className="min-w-44">View Resources</OutlineButton>
-        <OutlineButton href="mailto:Coin@Avirox.io?subject=AVX%20audit" size="sm" className="min-w-44">View Audit Report</OutlineButton>
+        <GradientButton href={`https://bscscan.com/address/${security.contractAddress}`} size="sm" className="min-w-44">View Contract on BscScan</GradientButton>
+        <OutlineButton href="/about#resources" size="sm" className="min-w-44">View Resources</OutlineButton>
+        <OutlineButton href="https://www.avirvox.io/assets/Avirvox%20Audit-BXUT7G2-.pdf" size="sm" className="min-w-44">View Audit Report</OutlineButton>
       </div>
     </section>
   );

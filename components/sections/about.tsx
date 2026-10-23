@@ -25,8 +25,8 @@ export function About() {
           {aboutContent.title[1]}
         </Heading>
         <div className="mt-8 flex flex-wrap justify-center gap-3">
-          <GradientButton href="#participate">{aboutContent.eligibilityLabel}</GradientButton>
-          <OutlineButton href="#resources">{aboutContent.whitepaperLabel}</OutlineButton>
+          <GradientButton href="/about#resources">{aboutContent.eligibilityLabel}</GradientButton>
+          <OutlineButton href="/whitepaper">{aboutContent.whitepaperLabel}</OutlineButton>
         </div>
       </FadeIn>
     </section>

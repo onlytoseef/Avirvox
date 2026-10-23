@@ -26,9 +26,8 @@ export function ExecutionIntroCard() {
 
       <div className="mt-[clamp(28px,3.8vw,52px)]">
         <GradientButton
-          href="#roadmap"
-          size="sm"
-          className="min-h-[44px] px-8 text-sm md:min-h-[clamp(44px,3.8vw,55px)] md:px-[clamp(28px,3.2vw,46px)]"
+          href="#home"
+          className="min-h-12 min-w-44 px-8 text-sm"
         >
           {executionContent.actionLabel}
         </GradientButton>

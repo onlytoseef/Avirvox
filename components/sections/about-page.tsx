@@ -172,9 +172,14 @@ function ContractAudit() {
         </p>
         <div className="mt-7 flex items-end gap-5">
           <div className="flex flex-col gap-3">
-            <button type="button" disabled className="min-h-11 min-w-44 cursor-not-allowed rounded-full border border-[#7e6a85] px-5 text-xs text-[#c6b9ca] opacity-65">
+            <a
+              href={`https://bscscan.com/address/${contract.address}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex min-h-11 min-w-44 items-center justify-center rounded-full border border-[#7e6a85] px-5 text-xs text-[#c6b9ca] transition-colors hover:border-[#e64ca8] hover:text-white"
+            >
               View on BscScan
-            </button>
+            </a>
             <a
               href="https://www.avirvox.io/assets/Avirvox%20Audit-BXUT7G2-.pdf"
               target="_blank"

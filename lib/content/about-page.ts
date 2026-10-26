@@ -23,7 +23,7 @@ export const aboutPageContent = {
     addressLabel: "Official Contract",
     address: "0x4727d9A390Aa7bc001C52E4b1E9c9D990F12E99b",
     auditLabel: "Audit Status",
-    auditStatus: "Report Pending",
+    auditStatus: "Audited",
     auditDescription:
       "Use only official AVX contract and audit information when it is published through verified Avirox Labs channels.",
     auditNote:

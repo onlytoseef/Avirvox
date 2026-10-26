@@ -1,12 +1,12 @@
 export const ecosystemPageContent = {
-  eyebrow: "The Avirox Labs Ecosystem",
+  eyebrow: "The Avirvox Labs Ecosystem",
   introduction:
-    "Avirox Labs brings together creators, contributors, developers, partners and communities around a participation layer designed to support real ecosystem activity while maintaining clear boundaries between Avirox Inc., Avirox Labs and AVX.",
+    "Avirvox Labs brings together creators, contributors, developers, partners and communities around a participation layer designed to support real ecosystem activity while maintaining clear boundaries between Avirvox Inc., Avirvox Labs and AVX.",
   architecture: {
     eyebrow: "Ecosystem Architecture",
     title: ["A Connected Ecosystem", "With Clearly Defined Roles"],
     description:
-      "A clearly defined operating model with distinct roles around the Avirox Labs participation layer.",
+      "A clearly defined operating model with distinct roles around the Avirvox Labs participation layer.",
   },
   participation: {
     eyebrow: "Participation Ecosystem",
@@ -26,24 +26,24 @@ export const ecosystemPageContent = {
 export const ecosystemRoles = [
   {
     id: "inc",
-    name: "Avirox Inc.",
+    name: "Avirvox Inc.",
     title: ["Independent Enterprise", "Product Company"],
     description:
-      "Avirox Inc. is the independent enterprise product company developing the Enterprise Media Lifecycle Platform.",
+      "Avirvox Inc. is the independent enterprise product company developing the Enterprise Media Lifecycle Platform.",
   },
   {
     id: "labs",
-    name: "Avirox Labs",
+    name: "Avirvox Labs",
     title: ["Participation &", "Ecosystem Layer"],
     description:
-      "Avirox Labs develops the participation layer around the broader Avirox ecosystem, including community, partner, contributor, developer and AVX utility pathways.",
+      "Avirvox Labs develops the participation layer around the broader Avirvox ecosystem, including community, partner, contributor, developer and AVX utility pathways.",
   },
   {
     id: "avx",
     name: "AVX",
     title: ["Utility Token"],
     description:
-      "AVX is the utility token inside the Avirox Labs ecosystem and supports eligible ecosystem functions as they become ready.",
+      "AVX is the utility token inside the Avirvox Labs ecosystem and supports eligible ecosystem functions as they become ready.",
   },
 ] as const;
 
@@ -123,7 +123,7 @@ export const operatingPrinciples = [
     number: "03",
     title: "Enterprise Independence",
     description:
-      "Avirox Inc. operates independently from AVX and the Labs participation layer.",
+      "Avirvox Inc. operates independently from AVX and the Labs participation layer.",
   },
   {
     number: "04",

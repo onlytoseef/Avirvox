@@ -2,7 +2,7 @@ export const roadmapPageContent = {
   eyebrow: "Roadmap",
   title: ["From Participation To", "Ecosystem Growth"],
   intro:
-    "A phased roadmap for building the Avirox Labs ecosystem, activating AVX utility and expanding participation through measurable ecosystem activity.",
+    "A phased roadmap for building the Avirvox Labs ecosystem, activating AVX utility and expanding participation through measurable ecosystem activity.",
   milestone: {
     eyebrow: "Key Milestone | Scheduled",
     title: "TGE – 15 March 2027",
@@ -15,7 +15,7 @@ export const roadmapPageContent = {
   closing: {
     title: ["Built In Phases. Powered By", "Participation."],
     description:
-      "Avirox Labs will evolve progressively as ecosystem programs, partnerships and utility pathways become ready.",
+      "Avirvox Labs will evolve progressively as ecosystem programs, partnerships and utility pathways become ready.",
     primaryLabel: "Explore AVX",
     primaryHref: "/avx",
     secondaryLabel: "How To Participate",

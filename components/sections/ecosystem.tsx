@@ -101,7 +101,7 @@ export function Ecosystem() {
         </div>
         <Image
           src="/assets/images/graph.png"
-          alt="AVX utility connecting eight nodes in the Avirox Labs ecosystem"
+          alt="AVX utility connecting eight nodes in the Avirvox Labs ecosystem"
           width={313}
           height={313}
           className="mx-auto h-auto w-full max-w-[224px] rounded-[24px] border border-[#65536b]"

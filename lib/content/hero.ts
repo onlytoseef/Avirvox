@@ -1,9 +1,9 @@
 export const heroContent = {
-  eyebrow: "Avirox Labs | Participation Ecosystem",
+  eyebrow: "Avirvox Labs | Participation Ecosystem",
   title: ["POWERING", "PARTICIPATION."],
   subtitle: "The Participation Layer for the Global Media Economy",
   description:
-    "Avirox Labs builds the participation and ecosystem layer around the broader Avirox vision, connecting creators, contributors, developers, partners and communities through structured programs and ecosystem utility.",
+    "Avirvox Labs builds the participation and ecosystem layer around the broader Avirvox vision, connecting creators, contributors, developers, partners and communities through structured programs and ecosystem utility.",
   exploreLabel: "Explore Ecosystem",
   whitepaperLabel: "Read Whitepaper",
 };

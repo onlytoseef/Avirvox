@@ -2,7 +2,7 @@ export const avxPageContent = {
   eyebrow: "AVX Utility Token",
   title: ["AVX Powering", "Participation"],
   description:
-    "AVX is the fixed-supply utility token inside the Avirox Labs ecosystem, designed to support eligible ecosystem functions and participation pathways as they become ready.",
+    "AVX is the fixed-supply utility token inside the Avirvox Labs ecosystem, designed to support eligible ecosystem functions and participation pathways as they become ready.",
   supplyEyebrow: "Token Overview",
   supplyTitle: "Fixed Supply. Defined Structure.",
   saleEyebrow: "Sale Structure",
@@ -17,8 +17,8 @@ export const avxPageContent = {
   boundaryEyebrow: "Important Boundary",
   boundaryTitle: ["Clear Roles. Independent", "Enterprise Access."],
   boundaryParagraphs: [
-    "Avirox Labs and AVX support participation across the broader ecosystem, while Avirox Inc. operates independently as the enterprise product company. Enterprise customers can access Avirox Inc. products and services without holding or using AVX.",
-    "AVX does not provide ownership, control or governance rights over Avirox Inc., its customers, data or enterprise operations.",
+    "Avirvox Labs and AVX support participation across the broader ecosystem, while Avirvox Inc. operates independently as the enterprise product company. Enterprise customers can access Avirvox Inc. products and services without holding or using AVX.",
+    "AVX does not provide ownership, control or governance rights over Avirvox Inc., its customers, data or enterprise operations.",
   ],
 };
 

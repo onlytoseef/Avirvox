@@ -1,16 +1,16 @@
 export const aboutPageContent = {
   hero: {
-    eyebrow: "About Avirox Labs",
+    eyebrow: "About Avirvox Labs",
     description:
-      "Avirox Labs is focused on building the participation ecosystem around the broader Avirox vision — connecting communities, creators, contributors, developers and partners through defined ecosystem programs and the phased AVX utility layer.",
+      "Avirvox Labs is focused on building the participation ecosystem around the broader Avirvox vision — connecting communities, creators, contributors, developers and partners through defined ecosystem programs and the phased AVX utility layer.",
   },
   boundaries: {
-    eyebrow: "About Avirox Labs",
+    eyebrow: "About Avirvox Labs",
     title: "Participation With Clear Boundaries",
     focus:
-      "Avirox Labs focuses on ecosystem participation, community programs, partnerships and AVX utility.",
+      "Avirvox Labs focuses on ecosystem participation, community programs, partnerships and AVX utility.",
     enterprise:
-      "Avirox Inc. operates independently as the enterprise product company developing the Enterprise Media Lifecycle Platform.",
+      "Avirvox Inc. operates independently as the enterprise product company developing the Enterprise Media Lifecycle Platform.",
     closing: "Clear Roles. Independent Operations. One Broader Vision.",
   },
   resources: {
@@ -25,7 +25,7 @@ export const aboutPageContent = {
     auditLabel: "Audit Status",
     auditStatus: "Audited",
     auditDescription:
-      "Use only official AVX contract and audit information when it is published through verified Avirox Labs channels.",
+      "Use only official AVX contract and audit information when it is published through verified Avirvox Labs channels.",
     auditNote:
       "An independent audit does not guarantee that a smart contract is free from all vulnerabilities or risks.",
   },
@@ -40,13 +40,13 @@ export const aboutPageContent = {
     title: "Answers, Plainly.",
   },
   contact: {
-    eyebrow: "Contact Avirox Labs",
+    eyebrow: "Contact Avirvox Labs",
     title: ["Have A Question Or Want To", "Connect?"],
     description: "Choose the inquiry type that best matches your request.",
   },
   channels: {
     eyebrow: "Official Channels",
-    title: ["Follow The Official Avirox", "Labs Channels"],
+    title: ["Follow The Official Avirvox", "Labs Channels"],
     description:
       "Follow only verified channels for official company, AVX, ecosystem and participation updates.",
   },
@@ -55,7 +55,7 @@ export const aboutPageContent = {
 export const resourceCards = [
   {
     title: "Whitepaper",
-    description: "Explore the Avirox Labs vision, ecosystem structure, AVX utility and token framework.",
+    description: "Explore the Avirvox Labs vision, ecosystem structure, AVX utility and token framework.",
     action: "Read Whitepaper",
     href: "/whitepaper",
   },
@@ -98,7 +98,7 @@ export const resourceCards = [
 ] as const;
 
 export const tokenFacts = [
-  ["Token", "Avirox"],
+  ["Token", "Avirvox"],
   ["Symbol", "AVX"],
   ["Network", "BNB Smart Chain"],
   ["Standard", "BEP-20"],
@@ -138,24 +138,24 @@ export const leadershipTeam = [
 
 export const aboutQuestions = [
   {
-    question: "What is Avirox Labs?",
+    question: "What is Avirvox Labs?",
     answer:
-      "Avirox Labs is the participation and ecosystem company around the broader Avirox vision, focused on community, partnerships, ecosystem programs and the phased AVX utility layer.",
+      "Avirvox Labs is the participation and ecosystem company around the broader Avirvox vision, focused on community, partnerships, ecosystem programs and the phased AVX utility layer.",
   },
   {
     question: "What is AVX?",
     answer:
-      "AVX is the fixed-supply utility token within the Avirox Labs ecosystem. Its utility is planned to activate as eligible ecosystem programs become ready.",
+      "AVX is the fixed-supply utility token within the Avirvox Labs ecosystem. Its utility is planned to activate as eligible ecosystem programs become ready.",
   },
   {
-    question: "Is AVX required to use Avirox Inc.?",
+    question: "Is AVX required to use Avirvox Inc.?",
     answer:
-      "No. Avirox Inc. operates independently. Enterprise customers can access its products and services without holding AVX.",
+      "No. Avirvox Inc. operates independently. Enterprise customers can access its products and services without holding AVX.",
   },
   {
     question: "Does AVX represent equity or ownership?",
     answer:
-      "No. AVX does not provide ownership, control or governance rights over Avirox Inc., its customers, data or enterprise operations.",
+      "No. AVX does not provide ownership, control or governance rights over Avirvox Inc., its customers, data or enterprise operations.",
   },
   {
     question: "Who can participate in AVX?",
@@ -170,7 +170,7 @@ export const aboutQuestions = [
   {
     question: "Which payment methods are supported?",
     answer:
-      "The participation flow describes supported assets including BNB, USDT and USDC. Confirm current options only through official Avirox Labs channels.",
+      "The participation flow describes supported assets including BNB, USDT and USDC. Confirm current options only through official Avirvox Labs channels.",
   },
   {
     question: "How do I track or claim AVX?",

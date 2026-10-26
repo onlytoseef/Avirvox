@@ -17,17 +17,17 @@ export function AboutContactForm() {
     const country = String(data.get("country") ?? "").trim();
     const inquiryType = String(data.get("inquiryType") ?? "").trim();
     const message = String(data.get("message") ?? "").trim();
-    const subject = encodeURIComponent(`Avirox Labs inquiry: ${inquiryType || "General"}`);
+    const subject = encodeURIComponent(`Avirvox Labs inquiry: ${inquiryType || "General"}`);
     const body = encodeURIComponent(
       `Name: ${name}\nEmail: ${email}\nOrganization: ${organization}\nCountry: ${country}\nInquiry type: ${inquiryType}\n\n${message}`,
     );
 
     setStatus("Opening your email app to send the inquiry.");
-    window.location.href = `mailto:Coin@Avirox.io?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:Coin@Avirvox.io?subject=${subject}&body=${body}`;
   }
 
   return (
-    <form onSubmit={handleSubmit} className="mt-12" aria-label="Contact Avirox Labs">
+    <form onSubmit={handleSubmit} className="mt-12" aria-label="Contact Avirvox Labs">
       <div className="grid gap-5 sm:grid-cols-2">
         <label>
           <span className="sr-only">Name</span>

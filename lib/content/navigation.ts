@@ -34,7 +34,7 @@ export const footerDocuments = [
 
 export const footerContent = {
   address: [
-    "Avirox Labs FZE LLC",
+    "Avirvox Labs FZE LLC",
     "Business Centre, Sharjah",
     "Publishing City Free Zone,",
     "Sharjah, United Arab Emirates",
@@ -42,8 +42,8 @@ export const footerContent = {
   navigationTitle: "Navigate",
   documentsTitle: "Documents & Legal",
   contactTitle: "Contact Us",
-  email: "Coin@Avirox.io",
+  email: "Coin@Avirvox.io",
   disclaimer:
-    "AVX Is A Utility Token For The Avirox Labs Ecosystem. Digital Asset Participation Involves Risk. Returns, Liquidity, Utility, Activation And Exchange Listing Are Not Guaranteed. Eligibility, KYC/AML And Token Sale Terms Apply.",
-  copyright: "Avirox Labs FZE LLC © 2026 Avirox Labs. All Rights Reserved.",
+    "AVX Is A Utility Token For The Avirvox Labs Ecosystem. Digital Asset Participation Involves Risk. Returns, Liquidity, Utility, Activation And Exchange Listing Are Not Guaranteed. Eligibility, KYC/AML And Token Sale Terms Apply.",
+  copyright: "Avirvox Labs FZE LLC © 2026 Avirvox Labs. All Rights Reserved.",
 };

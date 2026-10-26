@@ -15,10 +15,10 @@ export function BrandMark({ className = "w-10 h-auto" }: { className?: string })
 
 export function Brand({ large = false }: { large?: boolean }) {
   return (
-    <Link href="/#home" aria-label="Avirox Labs home" className="inline-flex items-center">
+    <Link href="/#home" aria-label="Avirvox Labs home" className="inline-flex items-center">
       <Image
         src="/assets/images/logo.png"
-        alt="Avirox Labs"
+        alt="Avirvox Labs"
         width={157}
         height={53}
         priority={!large}

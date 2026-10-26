@@ -11,9 +11,9 @@ export const participationCard = {
 
 export const resourcesCard = {
   eyebrow: "About / Resources",
-  title: ["About Avirox Labs &", "Official Resources"],
+  title: ["About Avirvox Labs &", "Official Resources"],
   description:
-    "Access leadership information, verified AVX contract and audit details, FAQs, contact channels and official Avirox Labs resources.",
+    "Access leadership information, verified AVX contract and audit details, FAQs, contact channels and official Avirvox Labs resources.",
   primaryLabel: "Explore AVX",
   primaryHref: "/avx",
   secondaryLabel: "View Eligibility",

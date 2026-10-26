@@ -2,12 +2,12 @@ export const participatePageContent = {
   eyebrow: "How to Participate",
   title: ["AVX Participation,", "Made Clear"],
   introduction:
-    "A clear and transparent process for eligible participants to participate in AVX through official Avirox Labs channels.",
+    "A clear and transparent process for eligible participants to participate in AVX through official Avirvox Labs channels.",
   security: {
     eyebrow: "Verify Before You Participate",
     title: "Stay Official. Stay Secure.",
     description:
-      "Protect your participation by using only verified Avirox Labs information and official transaction channels.",
+      "Protect your participation by using only verified Avirvox Labs information and official transaction channels.",
     warningTitle: "Never",
     warnings: [
       "Share your seed phrase or private key.",
@@ -54,7 +54,7 @@ export const participationSteps = [
     label: "Connect & Select",
     title: "Connect & Select",
     description: [
-      "Visit the official Avirox Labs presale page and connect your wallet.",
+      "Visit the official Avirvox Labs presale page and connect your wallet.",
     ],
     note: "Select BNB, USDT or USDC, enter your participation amount and review the corresponding AVX allocation.",
   },

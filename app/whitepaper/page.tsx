@@ -24,7 +24,7 @@ export default function WhitepaperPage() {
           <p className="mt-8 text-xs font-semibold uppercase tracking-[0.22em] text-rose">Documents & Legal</p>
           <h1 className="mt-4 text-4xl font-semibold tracking-tight text-white sm:text-6xl">Whitepaper</h1>
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-[#c9bccf] sm:text-lg">
-            Explore the Avirox Labs vision, ecosystem structure, AVX utility and token framework.
+            Explore the Avirvox Labs vision, ecosystem structure, AVX utility and token framework.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a

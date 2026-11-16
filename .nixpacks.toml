@@ -1,0 +1,16 @@
+# Avirvox Labs — Nixpacks build config (Dokploy)
+# Force Node.js 22: Next.js 16 requires >=20.9 and googleapis requires >=22.
+
+[phases.setup]
+nixPkgs = ["nodejs_22", "npm-9_x"]
+
+# Include dev dependencies (TypeScript, Tailwind, eslint) for the build step.
+[phases.install]
+cmds = ["npm ci --include=dev"]
+
+[phases.build]
+cmds = ["npm run build"]
+
+# Apply database migrations (idempotent) before starting the server.
+[start]
+cmd = "npm run db:migrate && npm run start"

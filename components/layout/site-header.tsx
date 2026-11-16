@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Brand } from "@/components/ui/brand";
@@ -8,7 +9,28 @@ import { headerAction, headerLinks } from "@/lib/content/navigation";
 
 export function SiteHeader() {
   const pathname = usePathname();
+  const [authenticated, setAuthenticated] = useState(false);
   const isActiveLink = (href: string) => href === pathname;
+
+  useEffect(() => {
+    let active = true;
+
+    fetch("/api/auth/me")
+      .then((response) => {
+        if (active) setAuthenticated(response.ok);
+      })
+      .catch(() => {
+        if (active) setAuthenticated(false);
+      });
+
+    return () => {
+      active = false;
+    };
+  }, [pathname]);
+
+  const authAction = authenticated
+    ? { label: "Dashboard", href: "/dashboard" }
+    : { label: "Login", href: "/login" };
 
   return (
     <header className="absolute inset-x-0 top-0 z-20 mx-auto flex w-full max-w-[1440px] items-center justify-between gap-5 bg-transparent px-5 py-5 lg:px-[30px] lg:py-[33px]">
@@ -29,7 +51,15 @@ export function SiteHeader() {
           </Link>
         ))}
       </nav>
-      <div className="hidden sm:block">
+      <div className="hidden items-center gap-3 sm:flex">
+        <Button
+          href={authAction.href}
+          variant="outline"
+          size="sm"
+          className="min-h-[clamp(40px,3.95vw,57px)] px-[clamp(14px,1.6vw,24px)] text-[clamp(11px,0.97vw,14px)] font-semibold"
+        >
+          {authAction.label}
+        </Button>
         <Button
           href={headerAction.href}
           size="sm"
@@ -59,7 +89,10 @@ export function SiteHeader() {
               {name}
             </Link>
           ))}
-          <Button href={headerAction.href} size="sm" className="mt-1">
+          <Button href={authAction.href} variant="outline" size="sm" className="mt-1">
+            {authAction.label}
+          </Button>
+          <Button href={headerAction.href} size="sm">
             {headerAction.label}
           </Button>
         </nav>

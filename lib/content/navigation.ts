@@ -10,6 +10,7 @@ export const headerLinks = [
   ["How to Participate", "/how-to-participate"],
   ["Resources", "/about#resources"],
   ["About", "/about"],
+  ["Dashboard", "/dashboard"],
 ];
 
 export const footerNavigation = [
@@ -19,6 +20,7 @@ export const footerNavigation = [
   { label: "Roadmap", href: "/roadmap" },
   { label: "How To Participate", href: "/how-to-participate" },
   { label: "About / Resources", href: "/about" },
+  { label: "Purchaser Dashboard", href: "/dashboard" },
 ];
 
 export const footerDocuments = [

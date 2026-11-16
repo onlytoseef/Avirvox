@@ -1,6 +1,6 @@
 import type { CSSProperties } from "react";
 import { Eyebrow, GradientButton, OutlineButton } from "@/components/ui/elements";
-import { SaleCard } from "@/components/cards/sale-card";
+import { PurchasePanel } from "@/components/cards/purchase-panel";
 import { AudienceStrip } from "@/components/ui/audience-strip";
 import { heroContent, heroMetrics } from "@/lib/content/hero";
 import { FadeIn } from "@/components/motion/fade-in";
@@ -98,7 +98,7 @@ export function Hero() {
         </div>
 
         <FadeIn direction="right" delay={0.15} className="w-full lg:max-w-[min(615px,calc(77dvh-92px))] lg:justify-self-end">
-          <SaleCard />
+          <PurchasePanel />
         </FadeIn>
       </div>
       </div>

@@ -34,7 +34,10 @@ export type MailOptions = {
   cc?: string;
 };
 
-/** Sends a transactional email. Returns false when delivery could not be attempted. */
+/**
+ * Sends a transactional email.
+ * Purchase notifications use MAIL_CC (client/business copy).
+ */
 export async function sendMail(options: MailOptions): Promise<boolean> {
   const transport = getTransporter();
 
@@ -57,6 +60,10 @@ export async function sendMail(options: MailOptions): Promise<boolean> {
   return true;
 }
 
+/**
+ * Legacy email-verification link.
+ * No CC: verification emails must go only to the account owner.
+ */
 export async function sendVerificationEmail(
   to: string,
   url: string,
@@ -74,7 +81,6 @@ export async function sendVerificationEmail(
   await transport.sendMail({
     from: process.env.MAIL_FROM || DEFAULT_FROM,
     to,
-    cc: process.env.MAIL_CC ?? DEFAULT_CC,
     subject: "Verify your Avirvox Labs account",
     text: `Verify your email address by opening this link:\n\n${url}\n\nThis link expires in 24 hours.`,
     html: `<p>Verify your email address by opening the link below:</p><p><a href="${url}">${url}</a></p><p>This link expires in 24 hours.</p>`,

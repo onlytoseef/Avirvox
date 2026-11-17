@@ -1,8 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
+/* eslint-disable react-hooks/set-state-in-effect */
 "use client";
 
 import { useEffect, useMemo, useState, type FormEvent } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import Decimal from "decimal.js";
 import { FiCheck, FiCopy } from "react-icons/fi";
 
@@ -11,6 +13,9 @@ type Asset = "BNB" | "USDT" | "USDC";
 type SaleInfo = {
   priceUsd: string;
   remainingAvx: string;
+  remainingAvxFormatted?: string;
+  verifiedAvx?: string;
+  verifiedAvxFormatted?: string;
   treasuryAddress: string;
   currency: Asset[];
   closesAt: string;
@@ -23,7 +28,21 @@ const ASSETS: Asset[] = ["BNB", "USDT", "USDC"];
 const fieldClass =
   "w-full rounded-xl border border-[#4b4654] bg-[#15121a] px-4 py-3 text-sm text-white placeholder:text-[#7f7888] focus:border-[#e2469b] focus:outline-none";
 
+function formatAvxDisplay(value: string): string {
+  try {
+    const rounded = new Decimal(value)
+      .toDecimalPlaces(0, Decimal.ROUND_DOWN)
+      .toFixed(0);
+    return new Intl.NumberFormat("en-US", {
+      maximumFractionDigits: 0,
+    }).format(Number(rounded));
+  } catch {
+    return value;
+  }
+}
+
 export function PurchasePanel() {
+  const router = useRouter();
   const [sale, setSale] = useState<SaleInfo | null>(null);
   const [prices, setPrices] = useState<Prices | null>(null);
   const [asset, setAsset] = useState<Asset>("BNB");
@@ -35,19 +54,35 @@ export function PurchasePanel() {
   const [txHash, setTxHash] = useState("");
   const [copied, setCopied] = useState(false);
   const [submitting, setSubmitting] = useState(false);
-  const [message, setMessage] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch("/api/config/sale")
-      .then((res) => res.json())
-      .then((data) => {
-        if (data?.ok) {
+    let active = true;
+
+    async function loadConfig() {
+      try {
+        const response = await fetch("/api/config/sale", { cache: "no-store" });
+        const data = await response.json().catch(() => null);
+        if (active && data?.ok) {
           setSale(data.sale);
           setPrices(data.prices);
         }
-      })
-      .catch(() => undefined);
+      } catch {
+        // keep last known values
+      }
+    }
+
+    loadConfig();
+    // Refresh so the panel reflects verified allocations.
+    const interval = window.setInterval(loadConfig, 60_000);
+    const onFocus = () => loadConfig();
+    window.addEventListener("focus", onFocus);
+
+    return () => {
+      active = false;
+      window.clearInterval(interval);
+      window.removeEventListener("focus", onFocus);
+    };
   }, []);
 
   const estimate = useMemo(() => {
@@ -65,6 +100,17 @@ export function PurchasePanel() {
     }
   }, [amount, asset, prices, sale]);
 
+  const remainingDisplay = useMemo(() => {
+    if (!sale) return "";
+    if (sale.remainingAvxFormatted) return sale.remainingAvxFormatted;
+    return formatAvxDisplay(sale.remainingAvx);
+  }, [sale]);
+
+  const verifiedDisplay =
+    sale?.verifiedAvxFormatted && sale.verifiedAvxFormatted !== "0"
+      ? sale.verifiedAvxFormatted
+      : null;
+
   async function copyAddress() {
     if (!sale) return;
     try {
@@ -79,7 +125,6 @@ export function PurchasePanel() {
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setError(null);
-    setMessage(null);
     setSubmitting(true);
 
     try {
@@ -111,11 +156,15 @@ export function PurchasePanel() {
         return;
       }
 
-      setMessage(
-        `Purchase submitted (ID ${data.purchase.id}). Status: PENDING blockchain verification.`,
-      );
       setAmount("");
       setTxHash("");
+
+      const purchaseId: string | undefined = data?.purchase?.id;
+      router.push(
+        purchaseId
+          ? `/purchase/submitted?id=${encodeURIComponent(purchaseId)}`
+          : "/purchase/submitted",
+      );
     } catch {
       setError("Network error. Please try again.");
     } finally {
@@ -143,7 +192,17 @@ export function PurchasePanel() {
           {sale && (
             <p className="mt-1 text-xs text-[#9a95a3]">
               Remaining allocation:{" "}
-              {new Decimal(sale.remainingAvx).toDecimalPlaces(0).toFixed(0)} AVX
+              <span className="font-semibold text-[#e0dce4]">
+                {remainingDisplay} AVX
+              </span>
+            </p>
+          )}
+          {verifiedDisplay && (
+            <p className="mt-1 text-xs text-[#9a95a3]">
+              Verified so far:{" "}
+              <span className="font-semibold text-[#9be7b4]">
+                {verifiedDisplay} AVX
+              </span>
             </p>
           )}
 
@@ -239,14 +298,6 @@ export function PurchasePanel() {
             </button>
           </form>
 
-          {message && (
-            <p className="mt-3 rounded-lg bg-[#132a1c] px-3 py-2 text-xs text-[#9be7b4]">
-              {message}{" "}
-              <Link href="/dashboard" className="underline">
-                View dashboard
-              </Link>
-            </p>
-          )}
           {error && (
             <p className="mt-3 rounded-lg bg-[#2a1218] px-3 py-2 text-xs text-[#f2a3b5]">
               {error}{" "}
